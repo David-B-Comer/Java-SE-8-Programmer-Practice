@@ -103,6 +103,8 @@ What is the result of the following class? (Choose all that apply)
  E. 13
  F. The code will not compile because of line 7.
 
+ Answer C
+
  **/
 
 public class Solutions {
