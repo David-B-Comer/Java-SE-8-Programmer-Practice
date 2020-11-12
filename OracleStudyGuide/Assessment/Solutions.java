@@ -254,6 +254,9 @@ What is the result of the following class? (Choose all that apply)
  E. Immediately after line 11, only one grasshopper object is eligible for garbage collection.
  F. The code compiles.
  G. The code does not compile
+
+
+ Answer C, D, F
  **/
 
 public class Solutions {
