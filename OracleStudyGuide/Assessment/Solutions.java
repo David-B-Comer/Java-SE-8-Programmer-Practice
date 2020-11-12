@@ -285,6 +285,8 @@ What is the result of the following class? (Choose all that apply)
  F. The code will not compile because of line 6.
 
 
+ Answer B
+
  **/
 
 public class Solutions {
