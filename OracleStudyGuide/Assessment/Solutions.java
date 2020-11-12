@@ -224,6 +224,9 @@ What is the result of the following class? (Choose all that apply)
  E. Runtime exceptions are intended to be thrown by the JVM (and not the programmer).
  F. Runtime exceptions are required to be caught or declared.
 
+
+ Answer B, C
+
  **/
 
 public class Solutions {
