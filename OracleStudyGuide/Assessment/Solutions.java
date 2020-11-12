@@ -411,6 +411,8 @@ What is the result of the following class? (Choose all that apply)
  E. Change the return value on line 1 from null to "Animal".
  F. Override the getName() method with an abstract method in the Otter class.
  G. Override the getName() method with a concrete method in the Otter class.
+
+ Answer D, F, G
  **/
 
 public class Solutions {
