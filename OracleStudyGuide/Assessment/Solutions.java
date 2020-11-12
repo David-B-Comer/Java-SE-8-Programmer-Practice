@@ -18,6 +18,8 @@ What is the result of the following class? (Choose all that apply)
         E. Compiler error on line 6.
         F. 0null
         G. nullnull
+
+ Answer E
  **/
 
 public class Solutions {
