@@ -153,6 +153,9 @@ What is the result of the following class? (Choose all that apply)
  D. Compiler error on line 3.
  E. Compiler error on line 8.
  F. None of the above.
+
+
+ Answer B
  **/
 
 public class Solutions {
