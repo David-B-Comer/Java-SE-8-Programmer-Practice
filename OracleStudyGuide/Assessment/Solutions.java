@@ -164,8 +164,6 @@ What is the result of the following class? (Choose all that apply)
  What is the result of the following code?
  int[] array = {6,9,8};
  List<Integer> list = new ArrayList<>();
- xxxiv Introduction
- fl ast.indd 1½ 4/2014 Page xxxiv
  list.add(array[0]);
  list.add(array[2]);
  list.set(1, array[1]);
@@ -178,6 +176,9 @@ What is the result of the following class? (Choose all that apply)
  C. Something like [Ljava.lang.String;@160bc7c0
  D. An exception is thrown.
  E. The code does not compile.
+
+
+ Answer B
 
  **/
 
