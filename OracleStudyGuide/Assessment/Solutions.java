@@ -209,6 +209,8 @@ What is the result of the following class? (Choose all that apply)
  G. The code will not compile because of line 7.
  H. The code will not compile because of line 12.
 
+
+ Answer A
  **/
 
 public class Solutions {
