@@ -55,8 +55,6 @@ What is the result of the following class? (Choose all that apply)
  3: protected int getTailLength() {return 4;}
  4: }
  5: public class Cougar extends Puma {
- xxxii Introduction
- fl ast.indd 1½ 4/2014 Page xxxii
  6: public static void main(String[] args) {
  7: Puma puma = new Puma();
  8: System.out.println(puma.getTailLength());
@@ -74,6 +72,7 @@ What is the result of the following class? (Choose all that apply)
  F. The code will not compile because of line 11.
  G. The output cannot be determined from the code provided.
 
+ Answer C, D, E
  **/
 
 public class Solutions {
