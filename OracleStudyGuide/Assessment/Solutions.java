@@ -390,6 +390,8 @@ What is the result of the following class? (Choose all that apply)
  C. Amphibian
  D. Tadpole
  E. Object
+
+ Answer A, C, E
  **/
 
 public class Solutions {
