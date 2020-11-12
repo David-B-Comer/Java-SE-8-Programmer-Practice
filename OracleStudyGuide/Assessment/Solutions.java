@@ -364,6 +364,9 @@ What is the result of the following class? (Choose all that apply)
  D. The application will output Cluck exactly once.
  E. The application will output Cluck more than once.
  F. The application will compile but produce an exception at runtime.
+
+
+ Answer D, E, F
  **/
 
 public class Solutions {
