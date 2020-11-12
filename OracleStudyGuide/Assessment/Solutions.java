@@ -313,6 +313,9 @@ What is the result of the following class? (Choose all that apply)
  D. Compiler error on line 4.
  E. Compiler error on line 10.
  F. Compiler error on line 11.
+
+ Answer B
+
  **/
 
 public class Solutions {
