@@ -336,6 +336,8 @@ What is the result of the following class? (Choose all that apply)
  D. The code will not compile because of line 4.
  E. The code will not compile because of line 6.
  F. The code compiles without issue but does not produce any output.
+
+ Answer C
  **/
 
 public class Solutions {
