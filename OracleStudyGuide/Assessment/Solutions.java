@@ -466,6 +466,8 @@ What is the result of the following class? (Choose all that apply)
  E. .javac
  F. .java
 
+ Answer C
+
  **/
 
 public class Solutions {
