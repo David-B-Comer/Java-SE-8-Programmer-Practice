@@ -451,6 +451,9 @@ What is the result of the following class? (Choose all that apply)
  E. System.out.println(new LocalDate(2015, 3, 1));
  F. System.out.println(new LocalDate(2015, 4, 1));
 
+
+ Answer B, D
+
  **/
 
 public class Solutions {
