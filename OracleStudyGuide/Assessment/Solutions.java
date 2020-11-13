@@ -454,6 +454,18 @@ What is the result of the following class? (Choose all that apply)
 
  Answer B, D
 
+
+
+ Question 19
+
+ Bytecode is in a file with which extension?
+ A. .bytecode
+ B. .bytes
+ C. .class
+ D. .exe
+ E. .javac
+ F. .java
+
  **/
 
 public class Solutions {
