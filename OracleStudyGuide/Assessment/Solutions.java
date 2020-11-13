@@ -435,7 +435,9 @@ What is the result of the following class? (Choose all that apply)
  E. System.out.println(test((int i) -> {return i == 5;}));
  F. System.out.println(test((i) -> {return i == 5;}));
 
- 
+
+ Answer A, C, F
+
  **/
 
 public class Solutions {
