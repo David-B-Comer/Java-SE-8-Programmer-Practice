@@ -468,6 +468,19 @@ What is the result of the following class? (Choose all that apply)
 
  Answer C
 
+
+
+
+ Question 20
+
+ Which of the following are checked exceptions? (Choose all that apply)
+ A. Exception
+ B. IllegalArgumentException
+ C. IOException
+ D. NullPointerException
+ E. NumberFormatException
+ F. StackOverflowError
+
  **/
 
 public class Solutions {
