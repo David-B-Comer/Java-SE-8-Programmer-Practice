@@ -8,4 +8,7 @@ public class Egg {
         Egg egg = new Egg();
         System.out.println(egg.number);
     }
+
+    private int number = 3;
+    { number = 4; }
 }
