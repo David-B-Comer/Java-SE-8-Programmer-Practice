@@ -9,4 +9,17 @@ public class ElementsOfAClass {
      Method declarations        void method()           No                  Anywhere inside a class
 
      **/
+
+    /**
+
+    package structure; // package must be first non-comment
+    import java.util.*; // import must come after package
+    public class Meerkat { // then comes the class
+        double weight; // fields and methods can go in either order
+        public double getWeight() {
+            return weight; }
+        double height; // another field – they don't need to be together
+    }
+
+     */
 }
