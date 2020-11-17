@@ -133,5 +133,39 @@ public class Chapter1ReviewQuestions {
 
 
     Answer E
+
+
+
+     7. Given the following classes, which of the following snippets can be inserted in place of
+     INSERT IMPORTS HERE and have the code compile? (Choose all that apply)
+
+     package aquarium;
+     public class Water {
+     boolean salty = false;
+     }
+     package aquarium.jellies;
+     public class Water {
+     boolean salty = true;
+     }
+     package employee;
+     INSERT IMPORTS HERE
+     public class WaterFiller {
+     Water water;
+     }
+
+     A. import aquarium.*;
+     B. import aquarium.Water;
+     import aquarium.jellies.*;
+     C. import aquarium.*;
+     import aquarium.jellies.Water;
+     Review Questions 45
+     c01.indd 1½ 4/2014 Page 45
+     D. import aquarium.*;
+     import aquarium.jellies.*;
+     E. import aquarium.Water;
+     import aquarium.jellies.Water;
+     F. None of these imports can make the code compile
+
+
      **/
 }
