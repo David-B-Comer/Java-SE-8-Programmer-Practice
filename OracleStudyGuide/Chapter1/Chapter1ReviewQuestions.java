@@ -13,5 +13,7 @@ public class Chapter1ReviewQuestions {
     E. Public
     F. 1980_s
 
+
+     Answer A, B, E
      **/
 }
