@@ -346,12 +346,12 @@ What is the result of the following class? (Choose all that apply)
  Assuming we have a valid, non-null HenHouse object whose value is initialized by the
  blank line shown here, which of the following are possible outputs of this application?
  (Choose all that apply)
- 1: class Chicken {}
- 2: interface HenHouse { public java.util.List<Chicken> getChickens(); }
+ 1: class Chapter1.Chicken {}
+ 2: interface HenHouse { public java.util.List<Chapter1.Chicken> getChickens(); }
  3: public class ChickenSong {
  4: public static void main(String[] args) {
  5: HenHouse house = ______________
- 6: Chicken chicken = house.getChickens().get(0);
+ 6: Chapter1.Chicken chicken = house.getChickens().get(0);
  7: for(int i=0; i<house.getChickens().size();
  8: chicken = house.getChickens().get(i++)) {
  9: System.out.println("Cluck");
@@ -399,16 +399,16 @@ What is the result of the following class? (Choose all that apply)
 
  What individual changes, if any, would allow the following code to compile? (Choose all
  that apply)
- 1: public interface Animal { public default String getName() { return null; } }
+ 1: public interface Chapter1.Animal { public default String getName() { return null; } }
  2: interface Mammal { public default String getName() { return null; } }
- 3: abstract class Otter implements Mammal, Animal {}
+ 3: abstract class Otter implements Mammal, Chapter1.Animal {}
 
 
  A. The code compiles without issue.
  B. Remove the default method modifier and method implementation on line 1.
  C. Remove the default method modifier and method implementation on line 2.
  D. Remove the default method modifier and method implementation on lines 1 and 2.
- E. Change the return value on line 1 from null to "Animal".
+ E. Change the return value on line 1 from null to "Chapter1.Animal".
  F. Override the getName() method with an abstract method in the Otter class.
  G. Override the getName() method with a concrete method in the Otter class.
 

@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Chick {
 
     private String name = "Fluffy";

@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Swan {
     int numberEggs;// instance variable
 

@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class DefaultInitializationValues {
 /**
     Variable type                               Default initialization value

@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class ElementsOfAClass {
     /**
 
@@ -21,5 +23,5 @@ public class ElementsOfAClass {
         double height; // another field – they don't need to be together
     }
 
-     */
+     **/
 }

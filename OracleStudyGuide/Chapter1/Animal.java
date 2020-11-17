@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Animal {
     String name;
 
@@ -7,5 +9,8 @@ public class Animal {
 
     public void setName(String newName) {
         name = newName;
+    }
+
+    public static class Chapter1ReviewQuestions {
     }
 }
