@@ -188,5 +188,22 @@ public class Chapter1ReviewQuestions {
 
      Answer B
 
+
+
+     9. Which of the following legally fill in the blank so you can run the main() method from the
+     command line? (Choose all that apply)
+
+     public static void main( )
+
+     A. String[] _names
+     B. String[] 123
+     C. String abc[]
+     D. String _Names[]
+     E. String... $n
+     F. String names
+     G. None of the above
+
+
+
      **/
 }
