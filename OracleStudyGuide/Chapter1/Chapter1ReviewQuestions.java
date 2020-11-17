@@ -165,5 +165,24 @@ public class Chapter1ReviewQuestions {
      F. None of these imports can make the code compile
 
     Answer A, B, C
+
+
+
+
+     8. Given the following class, which of the following calls print out Blue Jay? (Choose all that
+     apply)
+
+     public class BirdDisplay {
+     public static void main(String[] name) {
+     System.out.println(name[1]);
+     } }
+
+     A. java BirdDisplay Sparrow Blue Jay
+     B. java BirdDisplay Sparrow "Blue Jay"
+     C. java BirdDisplay Blue Jay Sparrow
+     D. java BirdDisplay "Blue Jay" Sparrow
+     E. java BirdDisplay.class Sparrow "Blue Jay"
+     F. java BirdDisplay.class "Blue Jay" Sparrow
+     G. Does not compile.
      **/
 }
