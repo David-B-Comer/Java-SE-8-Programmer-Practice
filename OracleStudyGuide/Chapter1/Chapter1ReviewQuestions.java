@@ -36,6 +36,6 @@ public class Chapter1ReviewQuestions {
      E. Empty = false, Brand =
      F. Empty = null, Brand = null
 
-
+     Answer D
      **/
 }
