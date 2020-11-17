@@ -158,14 +158,12 @@ public class Chapter1ReviewQuestions {
      import aquarium.jellies.*;
      C. import aquarium.*;
      import aquarium.jellies.Water;
-     Review Questions 45
-     c01.indd 1½ 4/2014 Page 45
      D. import aquarium.*;
      import aquarium.jellies.*;
      E. import aquarium.Water;
      import aquarium.jellies.Water;
      F. None of these imports can make the code compile
 
-
+    Answer A, B, C
      **/
 }
