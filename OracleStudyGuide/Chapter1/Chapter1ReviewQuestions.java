@@ -56,5 +56,8 @@ public class Chapter1ReviewQuestions {
      E. Line 8 generates a compiler error.
      F. Line 9 generates a compiler error.
      G. The code compiles as is.
+
+
+     Answer B, D, E
      **/
 }
