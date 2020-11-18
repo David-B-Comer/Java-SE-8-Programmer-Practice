@@ -233,5 +233,8 @@ public class Chapter1ReviewQuestions {
      F. An instance variable of type String defaults to 0.0.
      G. None of the above
 
+
+     Answer C, D
+
      **/
 }
