@@ -420,5 +420,26 @@ public class Chapter1ReviewQuestions {
 
      Answer B, E
 
+
+
+     21. What does the following code output?
+
+     1: public class Salmon {
+     2: int count;
+     3: public void Salmon() {
+     4: count = 4;
+     5: }
+     6: public static void main(String[] args) {
+     7: Salmon s = new Salmon();
+     8: System.out.println(s.count);
+     9: } }
+
+     A. 0
+     B. 4
+     C. Compilation fails on line 3.
+     D. Compilation fails on line 4.
+     E. Compilation fails on line 7.
+     F. Compilation fails on line 8.
+
      **/
 }
