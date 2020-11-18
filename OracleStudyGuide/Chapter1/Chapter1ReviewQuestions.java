@@ -468,5 +468,8 @@ public class Chapter1ReviewQuestions {
      E. Java takes the name of the .bytecode file as a parameter.
      F. Java takes the name of the .class file as a parameter.
 
+
+     Answer C, D
+
      **/
 }
