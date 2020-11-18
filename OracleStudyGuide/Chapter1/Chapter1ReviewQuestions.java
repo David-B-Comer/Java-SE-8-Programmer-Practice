@@ -444,5 +444,15 @@ public class Chapter1ReviewQuestions {
 
      Answer A
 
+
+     22. Which of the following are true statements? (Choose all that apply)
+
+     A. Java allows operator overloading.
+     B. Java code compiled on Windows can run on Linux.
+     C. Java has pointers to specific locations in memory.
+     D. Java is a procedural language.
+     E. Java is an object-oriented language.
+     F. Java is a functional programming language.
+
      **/
 }
