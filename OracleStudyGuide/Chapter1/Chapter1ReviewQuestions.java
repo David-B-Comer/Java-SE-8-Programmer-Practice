@@ -263,5 +263,7 @@ public class Chapter1ReviewQuestions {
      F. An instance variable of type int defaults to null.
      G. None of the above.
 
+
+     Answer A, D
      **/
 }
