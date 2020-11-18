@@ -339,5 +339,8 @@ public class Chapter1ReviewQuestions {
      F. main is a reference to an object.
      G. None of the above.
 
+
+     Answer A, E
+
      **/
 }
