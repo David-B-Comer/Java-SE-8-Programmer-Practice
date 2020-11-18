@@ -297,5 +297,8 @@ public class Chapter1ReviewQuestions {
      E. double d4 = 1_234.0;
      F. None of the above
 
+
+     Answer A, E
+
      **/
 }
