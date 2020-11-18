@@ -282,5 +282,8 @@ public class Chapter1ReviewQuestions {
      E. package a;
      F. package A;
      G. Does not compile
+
+
+     Answer D
      **/
 }
