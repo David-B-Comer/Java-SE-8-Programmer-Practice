@@ -416,5 +416,9 @@ public class Chapter1ReviewQuestions {
      E. Garbage collection might or might not run.
      F. Garbage collection is guaranteed not to run.
      G. The code does not compile.
+
+
+     Answer B, E
+
      **/
 }
