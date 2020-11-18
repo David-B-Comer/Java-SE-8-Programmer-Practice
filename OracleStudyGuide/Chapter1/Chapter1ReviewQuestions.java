@@ -248,5 +248,8 @@ public class Chapter1ReviewQuestions {
      F. A local variable of type float defaults to 0.0.
      G. None of the above
 
+
+     Answer G
+
      **/
 }
