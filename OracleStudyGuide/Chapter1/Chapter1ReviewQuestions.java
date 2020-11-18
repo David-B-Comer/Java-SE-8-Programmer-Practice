@@ -454,5 +454,8 @@ public class Chapter1ReviewQuestions {
      E. Java is an object-oriented language.
      F. Java is a functional programming language.
 
+
+     Answer B, E
+
      **/
 }
