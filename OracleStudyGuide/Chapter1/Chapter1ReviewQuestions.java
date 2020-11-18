@@ -358,5 +358,8 @@ public class Chapter1ReviewQuestions {
      F. A, C
      G. A, B
 
+
+     Answer C, D, E
+
      **/
 }
