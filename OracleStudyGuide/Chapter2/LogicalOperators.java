@@ -24,4 +24,27 @@ public class LogicalOperators {
      result = false
 
      **/
+
+    /**
+
+     x | y
+     (INCLUSIVE OR)
+
+     x = true
+     y = true
+     result = true
+
+     x = true
+     y = false
+     result = true
+
+     x = false
+     y = true
+     result = true
+
+     x = false
+     y = false
+     result = false
+
+     **/
 }
