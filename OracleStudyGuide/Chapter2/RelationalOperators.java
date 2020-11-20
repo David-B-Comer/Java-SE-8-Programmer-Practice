@@ -16,5 +16,7 @@ public class RelationalOperators {
 
      Relational instanceof operator
 
+     a instanceof b       True if the reference that a points to is an instance of a class, subclass, or class that implements a particular interface, as named in b
+
      **/
 }
