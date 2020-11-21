@@ -47,4 +47,28 @@ public class LogicalOperators {
      result = false
 
      **/
+
+
+    /**
+
+     x ^ y
+     (EXCLUSIVE OR)
+
+     x = true
+     y = true
+     result = false
+
+     x = true
+     y = false
+     result = true
+
+     x = false
+     y = true
+     result = true
+
+     x = false
+     y = false
+     result = false
+
+     **/
 }
