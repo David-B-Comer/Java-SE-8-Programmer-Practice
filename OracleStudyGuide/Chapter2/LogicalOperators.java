@@ -80,4 +80,14 @@ public class LogicalOperators {
      ■ Exclusive OR is only true if the operands are different
 
      **/
+
+
+    /**
+
+     Short-circuit operators
+
+     || (this OR that)
+     && (this AND that)
+
+     **/
 }
