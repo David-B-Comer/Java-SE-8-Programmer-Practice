@@ -71,4 +71,13 @@ public class LogicalOperators {
      result = false
 
      **/
+
+
+    /**
+
+     ■ AND is only true if both operands are true.
+     ■ Inclusive OR is only false if both operands are false.
+     ■ Exclusive OR is only true if the operands are different
+
+     **/
 }
