@@ -69,5 +69,15 @@ public class ForStatement {
      must all be of the same type. In the fi rst example, y and z were both long, so the code compiled without issue,
      but in this example they have differing types, so the code will not compile.
 
+
+
+
+
+     5. Using Loop Variables Outside the Loop
+     for(long y = 0, x = 4; x < 5 && y < 10; x++, y++) {
+     System.out.print(y + " ");
+     }
+     System.out.print(x); // DOES NOT COMPILE
+
      **/
 }
