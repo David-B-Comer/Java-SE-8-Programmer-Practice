@@ -43,7 +43,8 @@ public class ForStatement {
      }
 
 
-     This example looks similar to the previous one, but it does not compile because of the initialization block. The difference is that x is repeated in the initialization block after already
+     This example looks similar to the previous one, but it does not compile because of the initialization block.
+     The difference is that x is repeated in the initialization block after already
      being declared before the loop, resulting in the compiler stopping because of a duplicate
      variable declaration. We can fi x this loop by changing the declaration of x and y as follows:
      int x = 0;
@@ -61,6 +62,12 @@ public class ForStatement {
      for(long y = 0, int x = 4; x < 5 && y<10; x++, y++) { // DOES NOT COMPILE
      System.out.print(x + " ");
      }
+
+
+     This example also looks a lot like our second example, but like the third example will not
+     compile, although this time for a different reason. The variables in the initialization block
+     must all be of the same type. In the fi rst example, y and z were both long, so the code compiled without issue,
+     but in this example they have differing types, so the code will not compile.
 
      **/
 }
