@@ -33,5 +33,16 @@ public class ForStatement {
      the initialization block and is never used. Finally, the update statement can modify multiple
      variables.
 
+
+
+
+     3. Redeclaring a Variable in the Initialization Block
+     int x = 0;
+     for(long y = 0, x = 4; x < 5 && y < 10; x++, y++) { // DOES NOT COMPILE
+     System.out.print(x + " ");
+     }
+
+
+
      **/
 }
