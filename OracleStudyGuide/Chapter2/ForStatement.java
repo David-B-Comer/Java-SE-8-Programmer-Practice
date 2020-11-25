@@ -55,5 +55,12 @@ public class ForStatement {
      value to x and does not declare it.
 
 
+
+
+     4. Using Incompatible Data Types in the Initialization Block
+     for(long y = 0, int x = 4; x < 5 && y<10; x++, y++) { // DOES NOT COMPILE
+     System.out.print(x + " ");
+     }
+
      **/
 }
