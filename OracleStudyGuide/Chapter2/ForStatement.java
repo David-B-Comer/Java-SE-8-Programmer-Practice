@@ -12,5 +12,12 @@ public class ForStatement {
      Alternatively, variables declared before the for loop and assigned a value in the initialization block may be used outside the for loop because their scope precedes the for loop
      creation.
 
+
+     1. Creating an Infinite Loop
+     for( ; ; ) {
+     System.out.println("Hello World");
+     }
+
+
      **/
 }
