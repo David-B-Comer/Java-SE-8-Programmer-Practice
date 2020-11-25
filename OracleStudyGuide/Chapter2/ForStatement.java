@@ -26,5 +26,12 @@ public class ForStatement {
      }
      System.out.print(x);
 
+     This code demonstrates three variations of the for loop you may not have seen. First, you
+     can declare a variable, such as x in this example, before the loop begins and use it after it
+     completes. Second, your initialization block, boolean expression, and update statements
+     can include extra variables that may not reference each other. For example, z is defi ned in
+     the initialization block and is never used. Finally, the update statement can modify multiple
+     variables.
+
      **/
 }
