@@ -79,5 +79,12 @@ public class ForStatement {
      }
      System.out.print(x); // DOES NOT COMPILE
 
+
+
+     The final variation on the second example will not compile for a different reason than the
+     previous examples. If you notice, x is defined in the initialization block of the loop, and
+     then used after the loop terminates. Since x was only scoped for the loop, using it outside
+     the loop will throw a compiler error.
+
      **/
 }
