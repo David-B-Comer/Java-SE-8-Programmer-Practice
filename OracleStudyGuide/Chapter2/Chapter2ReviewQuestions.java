@@ -307,5 +307,8 @@ public class Chapter2ReviewQuestions {
      C. 1 2 3 4 5 6 7 8 9 10 11
      D. The code will not compile because of line 6.
      E. The code contains an infinite loop and does not terminate.
+
+
+     Answer D
      **/
 }
