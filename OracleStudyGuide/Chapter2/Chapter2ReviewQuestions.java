@@ -139,5 +139,8 @@ public class Chapter2ReviewQuestions {
      D. 8
      E. 7
      F. The code will not compile because of line 4.
+
+
+     Answer D
      **/
 }
