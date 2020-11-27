@@ -101,5 +101,8 @@ public class Chapter2ReviewQuestions {
      E. The code will not compile because of line 8.
      F. The code contains an infinite loop and does not terminate.
 
+
+     Answer C
+
      **/
 }
