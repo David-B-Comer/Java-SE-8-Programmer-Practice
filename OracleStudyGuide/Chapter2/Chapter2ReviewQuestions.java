@@ -158,5 +158,8 @@ public class Chapter2ReviewQuestions {
      D. false, 20, false
      E. false, 20, true
      F. The code will not compile because of line 5.
+
+
+     Answer B
      **/
 }
