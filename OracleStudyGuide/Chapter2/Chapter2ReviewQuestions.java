@@ -78,5 +78,8 @@ public class Chapter2ReviewQuestions {
      E. Change the data type of y on line 4 to short.
      F. Change the data type of y on line 4 to long.
 
+
+     Answer B, C, D, F
+
      **/
 }
