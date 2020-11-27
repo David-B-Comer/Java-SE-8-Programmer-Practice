@@ -398,5 +398,8 @@ public class Chapter2ReviewQuestions {
      C. The code will not compile because of line 3.
      D. The code will not compile because of line 6.
      E. The code will not compile because of lines 6 and 9.
+
+
+     Answer B
      **/
 }
