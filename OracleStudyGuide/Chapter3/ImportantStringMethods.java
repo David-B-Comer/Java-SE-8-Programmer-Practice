@@ -128,5 +128,23 @@ public class ImportantStringMethods {
      uppercase in the returned string. toLowerCase() converts any uppercase characters to lowercase in the returned string. These methods leave alone any characters other than letters.
      Also, remember that strings are immutable, so the original string stays the same.
 
+
+
+
+     equals() and equalsIgnoreCase()
+     The equals() method checks whether two String objects contain exactly the same characters in the same order. The equalsIgnoreCase() method checks whether two String
+     objects contain the same characters with the exception that it will convert the characters’
+     case if needed. The method signatures are as follows:
+     boolean equals(String str)
+     boolean equalsIgnoreCase(String str)
+     The following code shows how to use these methods:
+     System.out.println("abc".equals("ABC")); // false
+     System.out.println("ABC".equals("ABC")); // true
+     System.out.println("abc".equalsIgnoreCase("ABC")); // true
+     This example should be fairly intuitive. In the fi rst example, the values aren’t exactly the
+     same. In the second, they are exactly the same. In the third, they differ only by case, but it
+     is okay because we called the method that ignores differences in case.
+
+
      **/
 }
