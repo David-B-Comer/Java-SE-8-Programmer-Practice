@@ -111,5 +111,22 @@ public class ImportantStringMethods {
      string starting from the requested index. If an end index is requested, it stops right before
      that index. Otherwise, it goes to the end of the string.
 
+
+
+
+     toLowerCase() and toUpperCase()
+     Whew. After that mental exercise, it is nice to have methods that do exactly what they
+     sound like! These methods make it easy to convert your data. The method signatures are as
+     follows:
+     String toLowerCase(String str)
+     String toUpperCase(String str)
+     The following code shows how to use these methods:
+     String string = "animals";
+     System.out.println(string.toUpperCase()); // ANIMALS
+     System.out.println("Abc123".toLowerCase()); // abc123
+     These methods do what they say. toUpperCase() converts any lowercase characters to
+     uppercase in the returned string. toLowerCase() converts any uppercase characters to lowercase in the returned string. These methods leave alone any characters other than letters.
+     Also, remember that strings are immutable, so the original string stays the same.
+
      **/
 }
