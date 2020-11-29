@@ -38,5 +38,30 @@ public class ImportantStringMethods {
      java.lang.StringIndexOutOfBoundsException: String index out of range: 7
 
 
+
+
+     indexOf()
+     The method indexOf()looks at the characters in the string and fi nds the fi rst index that
+     matches the desired value. indexOf can work with an individual character or a whole String
+     as input. It can also start from a requested position. The method signatures are as follows:
+     int indexOf(char ch)
+     int indexOf(char ch, index fromIndex)
+     int indexOf(String str)
+     int indexOf(String str, index fromIndex)
+     The following code shows how to use indexOf():
+     String string = "animals";
+     System.out.println(string.indexOf('a')); // 0
+     System.out.println(string.indexOf("al")); // 4
+     System.out.println(string.indexOf('a', 4)); // 4
+     System.out.println(string.indexOf("al", 5)); // -1
+     Since indexes begin with 0, the fi rst 'a' matches at that position. The second statement
+     looks for a more specifi c string and so matches later on. The third statement says Java
+     shouldn’t even look at the characters until it gets to index 4. The fi nal statement doesn’t
+     fi nd anything because it starts looking after the match occurred. Unlike charAt(), the
+     indexOf() method doesn’t throw an exception if it can’t fi nd a match. indexOf() returns
+     –1 when no match is found. Because indexes start with 0, the caller knows that –1 couldn’t
+     be a valid index. This makes it a common value for a method to signify to the caller that no
+     match is found.
+
      **/
 }
