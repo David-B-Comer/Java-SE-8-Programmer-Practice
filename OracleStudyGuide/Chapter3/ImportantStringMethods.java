@@ -146,5 +146,21 @@ public class ImportantStringMethods {
      is okay because we called the method that ignores differences in case.
 
 
+
+     startsWith() and endsWith()
+     The startsWith() and endsWith() methods look at whether the provided value matches
+     part of the String. The method signatures are as follows:
+     boolean startsWith(String prefix)
+     boolean endsWith(String suffix)
+     The following code shows how to use these methods:
+     System.out.println("abc".startsWith("a")); // true
+     System.out.println("abc".startsWith("A")); // false
+     System.out.println("abc".endsWith("c")); // true
+     System.out.println("abc".endsWith("a")); // false
+     Again, nothing surprising here. Java is doing a case-sensitive check on the values provided.
+
+
+
+
      **/
 }
