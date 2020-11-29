@@ -162,5 +162,17 @@ public class ImportantStringMethods {
 
 
 
+
+     contains()
+     The contains() method also looks for matches in the String. It isn’t as particular as
+     startsWith() and endsWith()—the match can be anywhere in the String. The method
+     signature is as follows:
+     boolean contains(String str)
+     The following code shows how to use these methods:
+     System.out.println("abc".contains("b")); // true
+     System.out.println("abc".contains("B")); // false
+     Again, we have a case-sensitive search in the String.
+     The contains() method is a convenience method so you don’t have to write str.indexOf(otherString) != -1.
+
      **/
 }
