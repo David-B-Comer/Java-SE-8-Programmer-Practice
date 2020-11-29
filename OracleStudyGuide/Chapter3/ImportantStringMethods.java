@@ -41,7 +41,7 @@ public class ImportantStringMethods {
 
 
      indexOf()
-     The method indexOf()looks at the characters in the string and fi nds the fi rst index that
+     The method indexOf()looks at the characters in the string and finds the first index that
      matches the desired value. indexOf can work with an individual character or a whole String
      as input. It can also start from a requested position. The method signatures are as follows:
      int indexOf(char ch)
@@ -54,14 +54,62 @@ public class ImportantStringMethods {
      System.out.println(string.indexOf("al")); // 4
      System.out.println(string.indexOf('a', 4)); // 4
      System.out.println(string.indexOf("al", 5)); // -1
-     Since indexes begin with 0, the fi rst 'a' matches at that position. The second statement
-     looks for a more specifi c string and so matches later on. The third statement says Java
-     shouldn’t even look at the characters until it gets to index 4. The fi nal statement doesn’t
-     fi nd anything because it starts looking after the match occurred. Unlike charAt(), the
-     indexOf() method doesn’t throw an exception if it can’t fi nd a match. indexOf() returns
+     Since indexes begin with 0, the first 'a' matches at that position. The second statement
+     looks for a more specific string and so matches later on. The third statement says Java
+     shouldn’t even look at the characters until it gets to index 4. The final statement doesn’t
+     find anything because it starts looking after the match occurred. Unlike charAt(), the
+     indexOf() method doesn’t throw an exception if it can’t find a match. indexOf() returns
      –1 when no match is found. Because indexes start with 0, the caller knows that –1 couldn’t
      be a valid index. This makes it a common value for a method to signify to the caller that no
      match is found.
+
+
+
+
+
+
+     substring()
+     The method substring() also looks for characters in a string. It returns parts of the string.
+     The first parameter is the index to start with for the returned string. As usual, this is a
+     zero-based index. There is an optional second parameter, which is the end index you want
+     to stop at.
+     Notice we said “stop at” rather than “include.” This means the endIndex parameter is
+     allowed to be 1 past the end of the sequence if you want to stop at the end of the sequence.
+     That would be redundant, though, since you could omit the second parameter entirely in
+     that case. In your own code, you want to avoid this redundancy. Don’t be surprised if the
+     exam uses it though. The method signatures are as follows:
+     int substring(int beginIndex)
+     int substring(int beginIndex, int endIndex)
+     The following code shows how to use substring():
+     String string = "animals";
+     System.out.println(string.substring(3)); // mals
+     System.out.println(string.substring(string.indexOf('m'))); // mals
+     System.out.println(string.substring(3, 4)); // m
+     System.out.println(string.substring(3, 7)); // mals
+     The substring() method is the trickiest String method on the exam. The first example
+     says to take the characters starting with index 3 through the end, which gives us "mals".
+     The second example does the same thing: it calls indexOf() to get the index rather than
+     hard-coding it. This is a common practice when coding because you may not know the
+     index in advance.
+     The third example says to take the characters starting with index 3 until, but not including,
+     the character at index 4—which is a complicated way of saying we want a String with
+     one character: the one at index 3. This results in "m". The final example says to take the
+     characters starting with index 3 until we get to index 7. Since index 7 is the same as the end
+     of the string, it is equivalent to the first example.
+     We hope that wasn’t too confusing. The next examples are less obvious:
+     System.out.println(string.substring(3, 3)); // empty string
+     System.out.println(string.substring(3, 2)); // throws exception
+     System.out.println(string.substring(3, 8)); // throws exception
+     The first example in this set prints an empty string. The request is for the characters starting with
+     index 3 until you get to index 3. Since we start and end with the same index, there
+     are no characters in between. The second example in this set throws an exception because
+     the indexes can be backward. Java knows perfectly well that it will never get to index 2 if
+     it starts with index 3. The third example says to continue until the eighth character. There
+     is no eighth position, so Java throws an exception. Granted, there is no seventh character
+     either, but at least there is the “end of string” invisible position.
+     Let’s review this one more time since substring() is so tricky. The method returns the
+     string starting from the requested index. If an end index is requested, it stops right before
+     that index. Otherwise, it goes to the end of the string.
 
      **/
 }
