@@ -20,6 +20,23 @@ public class ImportantStringMethods {
      determining the total size or length, Java uses normal counting again.
 
 
+     charAt()
+     The method charAt() lets you query the string to fi nd out what character is at a specifi c
+     index. The method signature is as follows:
+     char charAt(int index)
+     The following code shows how to use charAt():
+     String string = "animals";
+     System.out.println(string.charAt(0)); // a
+     System.out.println(string.charAt(6)); // s
+     System.out.println(string.charAt(7)); // throws exception
+     Since indexes start counting with 0, charAt(0) returns the “fi rst” character in the
+     sequence. Similarly, charAt(6) returns the “seventh” character in the sequence. charAt(7)
+     is a problem. It asks for the “eighth” character in the sequence, but there are only seven
+     characters present. When something goes wrong that Java doesn’t know how to deal with,
+     it throws an exception, as shown here. You’ll learn more about exceptions in Chapter 6,
+     “Exceptions.”
+     java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+
 
      **/
 }
