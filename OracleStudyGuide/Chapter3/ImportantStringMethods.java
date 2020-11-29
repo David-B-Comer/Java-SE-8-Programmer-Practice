@@ -174,5 +174,24 @@ public class ImportantStringMethods {
      Again, we have a case-sensitive search in the String.
      The contains() method is a convenience method so you don’t have to write str.indexOf(otherString) != -1.
 
+
+
+
+     replace()
+     The replace() method does a simple search and replace on the string. There’s a version that takes char parameters
+     as well as a version that takes CharSequence parameters.
+     A CharSequence is a general way of representing several classes, including String and
+     StringBuilder. It’s called an interface, which we’ll cover in Chapter 5, “Class Design.”
+     The method signatures are as follows:
+     String replace(char oldChar, char newChar)
+     String replace(CharSequence oldChar, CharSequence newChar)
+     The following code shows how to use these methods:
+     System.out.println("abcabc".replace('a', 'A')); // AbcAbc
+     System.out.println("abcabc".replace("a", "A")); // AbcAbc
+     The first example uses the first method signature, passing in char parameters. The
+     second example uses the second method signature, passing in String parameters.
+
+
+
      **/
 }
