@@ -193,5 +193,21 @@ public class ImportantStringMethods {
 
 
 
+
+     trim()
+     You’ve made it through the all the String methods you need to know except one. We left
+     the easy one for last. The trim() method removes whitespace from the beginning and end
+     of a String. In terms of the exam, whitespace consists of spaces along with the \t (tab) and
+     \n (newline) characters. Other characters, such as \r (carriage return), are also included in
+     what gets trimmed. The method signature is as follows:
+     public String trim()
+     The following code shows how to use this method:
+     System.out.println("abc".trim()); // abc
+     System.out.println("\t a b c\n".trim()); // a b c
+     The fi rst example prints the original string because there are no whitespace characters
+     at the beginning or end. The second example gets rid of the leading tab, subsequent spaces,
+     and the trailing newline. It leaves the spaces that are in the middle of the string.
+
+
      **/
 }
