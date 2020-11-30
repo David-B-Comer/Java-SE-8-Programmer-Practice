@@ -42,5 +42,21 @@ public class ImportantStringBuilderMethods {
 
 
 
+
+     delete() and deleteCharAt()
+     The delete() method is the opposite of the insert() method. It removes characters from
+     the sequence and returns a reference to the current StringBuilder. The deleteCharAt()
+     method is convenient when you want to delete only one character. The method signatures
+     are as follows:
+     StringBuilder delete(int start, int end)
+     StringBuilder deleteCharAt(int index)
+     The following code shows how to use these methods:
+     StringBuilder sb = new StringBuilder("abcdef");
+     sb.delete(1, 3); // sb = adef
+     sb.deleteCharAt(5); // throws an exception
+     First, we delete the characters starting with index 1 and ending right before index 3. This
+     gives us adef. Next, we ask Java to delete the character at position 5. However, the remaining value is only four
+     characters long, so it throws a StringIndexOutOfBoundsException.
+
      **/
 }
