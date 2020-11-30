@@ -58,5 +58,20 @@ public class ImportantStringBuilderMethods {
      gives us adef. Next, we ask Java to delete the character at position 5. However, the remaining value is only four
      characters long, so it throws a StringIndexOutOfBoundsException.
 
+
+
+
+     reverse()
+     After all that, it’s time for a nice, easy method. The reverse() method does just what it
+     sounds like: it reverses the characters in the sequences and returns a reference to the current
+     StringBuilder. The method signature is as follows:
+     StringBuilder reverse()
+     The following code shows how to use this method:
+     StringBuilder sb = new StringBuilder("ABC");
+     sb.reverse();
+     System.out.println(sb);
+     As expected, this prints CBA. This method isn’t that interesting. Maybe the exam creators
+     like to include it to encourage you to write down the value rather than relying on memory
+     for indexes.
      **/
 }
