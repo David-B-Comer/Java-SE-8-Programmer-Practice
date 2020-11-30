@@ -22,5 +22,25 @@ public class ImportantStringBuilderMethods {
      Nice method chaining, isn’t it? append() is called directly after the constructor. By having all these method
      signatures, you can just call append() without having to convert your parameter to a String first.
 
+
+
+     insert()
+     The insert() method adds characters to the StringBuilder at the requested index and
+     returns a reference to the current StringBuilder. Just like append(), there are lots of
+     method signatures for different types. Here’s one:
+     StringBuilder insert(int offset, String str)
+     Pay attention to the offset in these examples. It is the index where we want to insert the
+     requested parameter.
+     3: StringBuilder sb = new StringBuilder("animals");
+     4: sb.insert(7, "-"); // sb = animals5: sb.insert(0, "-"); // sb = -animals6: sb.insert(4, "-"); // sb = -ani-mals
+     7: System.out.println(sb);
+     Line 4 says to insert a dash at index 7, which happens to be the end of sequence of characters. Line 5 says to
+     insert a dash at index 0, which happens to be the very beginning.
+     Finally, line 6 says to insert a dash right before index 4. The exam creators will try to trip
+     you up on this. As we add and remove characters, their indexes change. When you see a
+     question dealing with such operations, draw what is going on so you won’t be confused.
+
+
+
      **/
 }
