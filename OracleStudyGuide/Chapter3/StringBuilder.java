@@ -26,5 +26,22 @@ public class StringBuilder {
 
 
 
+
+     Size vs. Capacity
+     The behind-the-scenes process of how objects are stored isn’t on the exam, but some
+     knowledge of this process may help you better understand and remember StringBuilder.
+     Size is the number of characters currently in the sequence, and capacity is the number
+     of characters the sequence can currently hold. Since a String is immutable, the size and
+     capacity are the same. The number of characters appearing in the String is both the size
+     and capacity.
+     For StringBuilder, Java knows the size is likely to change as the object is used. When
+     StringBuilder is constructed, it may start at the default capacity (which happens to be
+     16) or one of the programmer’s choosing. In the example, we request a capacity of 5. At
+     this point, the size is 0 since no characters have been added yet, but we have space for 5.
+     Next we add four characters. At this point, the size is 4 since four slots are taken. The
+     capacity is still 5. Then we add three more characters. The size is now 7 since we have
+     used up seven slots. Because the capacity wasn’t large enough to store seven characters,
+     Java automatically increased it for us.
+
      **/
 }
