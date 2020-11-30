@@ -73,5 +73,19 @@ public class ImportantStringBuilderMethods {
      As expected, this prints CBA. This method isn’t that interesting. Maybe the exam creators
      like to include it to encourage you to write down the value rather than relying on memory
      for indexes.
+
+
+
+
+     toString()
+     The last method converts a StringBuilder into a String. The method signature is as
+     follows:
+     String toString()
+     The following code shows how to use this method:
+     String s = sb.toString();
+     Often StringBuilder is used internally for performance purposes but the end result
+     needs to be a String. For example, maybe it needs to be passed to another method that is
+     expecting a String.
+
      **/
 }
