@@ -20,5 +20,21 @@ public class Arrays {
      we’ll look at creating an array of primitives and objects, sorting, searching, varargs, and
      multidimensional arrays.
 
+
+
+     Multiple “Arrays” in Declarations
+     What types of reference variables do you think the following code creates?
+     int[] ids, types;
+     The correct answer is two variables of type int[]. This seems logical enough. After all,
+     int a, b; created two int variables. What about this example?
+     int ids[], types;
+     All we did was move the brackets, but it changed the behavior. This time we get one variable of type int[] and
+     one variable of type int. Java sees this line of code and thinks
+     something like this: “They want two variables of type int. The fi rst one is called ids[].
+     This one is a int[] called ids. The second one is just called types. No brackets, so it is a
+     regular integer.”
+     Needless to say, you shouldn’t write code that looks like this. But you do still need to
+     understand it for the exam.
+
      **/
 }
