@@ -50,5 +50,16 @@ public class Arrays {
      This should be familiar from String and StringBuilder, which also start counting with 0.
      Those classes also counted length as the number of elements.
 
+
+
+
+     Java makes it easy to sort an array by providing a sort method—or rather, a bunch of sort
+     methods. Just like StringBuilder allowed you to pass almost anything to append(), you
+     can pass almost any array to Arrays.sort().
+     There is one exception, although it doesn’t come up often on the exam. You can write
+     java.util.Arrays every time it is used in the class instead of specifying it as an import.
+     Remember that if you are shown a code snippet with a line number that doesn’t begin
+     with 1, you can assume the necessary imports are there. Similarly, you can assume the
+     imports are present if you are shown a snippet of a method.
      **/
 }
