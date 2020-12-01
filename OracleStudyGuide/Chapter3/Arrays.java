@@ -36,5 +36,19 @@ public class Arrays {
      Needless to say, you shouldn’t write code that looks like this. But you do still need to
      understand it for the exam.
 
+
+
+     Using an Array
+     Now that we know how to create an array, let’s try accessing one:
+     4: String[] mammals = {"monkey", "chimp", "donkey"};
+     5: System.out.println(mammals.length); // 3
+     6: System.out.println(mammals[0]); // monkey
+     7: System.out.println(mammals[1]); // chimp
+     8: System.out.println(mammals[2]); // donkey
+     Line 4 declares and initializes the array. Line 5 tells us how many elements the array
+     can hold. The rest of the code prints the array. Notice elements are indexed starting with 0.
+     This should be familiar from String and StringBuilder, which also start counting with 0.
+     Those classes also counted length as the number of elements.
+
      **/
 }
