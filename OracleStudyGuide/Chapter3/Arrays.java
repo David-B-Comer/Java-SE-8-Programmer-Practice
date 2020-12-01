@@ -61,5 +61,17 @@ public class Arrays {
      Remember that if you are shown a code snippet with a line number that doesn’t begin
      with 1, you can assume the necessary imports are there. Similarly, you can assume the
      imports are present if you are shown a snippet of a method.
+
+
+
+     Binary search rules
+     Scenario                                               Result
+
+     Target element found in sorted array                   Index of match
+
+     Target element not found in sorted array               Negative value showing one smaller than the negative of index,
+                                                            where a match needs to be inserted to preserve sorted order
+
+     Unsorted array                                         A surprise—this result isn’t predictable
      **/
 }
