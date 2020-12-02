@@ -81,5 +81,56 @@ public class WorkingWithDatesAndTimes {
      Month is a special type of class called an enum. You don’t need to know about enums on
      the OCA exam and can just treat them as constants.
 
+
+
+
+
+     Up to now, we’ve been like a broken record telling you that Java counts
+     starting with 0. Well, months are an exception. For months in the new date
+     and time methods, Java counts starting from 1 like we human beings do.
+     When creating a time, you can choose how detailed you want to be. You can specify just
+     the hour and minute, or you can add the number of seconds. You can even add nanoseconds if you want to be very precise. (A nanosecond is a billionth of a second—you probably
+     won’t need to be that specifi c.)
+     LocalTime time1 = LocalTime.of(6, 15); // hour and minute
+     LocalTime time2 = LocalTime.of(6, 15, 30); // + seconds
+     LocalTime time3 = LocalTime.of(6, 15, 30, 200); // + nanoseconds
+     These three times are all different but within a minute of each other. The method signatures are as follows:
+     public static LocalTime of(int hour, int minute)
+     public static LocalTime of(int hour, int minute, int second)
+     public static LocalTime of(int hour, int minute, int second, int nanos)
+     Finally, we can combine dates and times:
+     LocalDateTime dateTime1 = LocalDateTime.of(2015, Month.JANUARY, 20, 6, 15, 30);
+     LocalDateTime dateTime2 = LocalDateTime.of(date1, time1);
+     The fi rst line of code shows how you can specify all the information about the
+     LocalDateTime right in the same line. There are many method signatures allowing you
+     to specify different things. Having that many numbers in a row gets to be hard to read,
+     though. The second line of code shows how you can create LocalDate and LocalTime
+     objects separately fi rst and then combine them to create a LocalDateTime object.
+     This time there are a lot of method signatures since there are more combinations. The
+     method signatures are as follows:
+     public static LocalDateTime of(int year, int month,
+     int dayOfMonth, int hour, int minute)
+     public static LocalDateTime of(int year, int month,
+     int dayOfMonth, int hour, int minute, int second)
+     public static LocalDateTime of(int year, int month,
+     int dayOfMonth, int hour, int minute, int second, int nanos)
+     public static LocalDateTime of(int year, Month month,
+     int dayOfMonth, int hour, int minute)
+     public static LocalDateTime of(int year, Month month,
+     int dayOfMonth, int hour, int minute, int second)
+     public static LocalDateTime of(int year, Month month,
+     int dayOfMonth, int hour, int minute, int second, int nanos)
+     public static LocalDateTime of(LocalDate date, LocalTime)
+     Did you notice that we did not use a constructor in any of the examples? The date and
+     time classes have private constructors to force you to use the static methods. The exam
+     creators may try to throw something like this at you:
+     LocalDate d = new LocalDate(); // DOES NOT COMPILE
+     Don’t fall for this. You are not allowed to construct a date or time object directly.
+     Another trick is to see what happens when you pass invalid numbers to of(). For example:
+     LocalDate.of(2015, Month.JANUARY, 32) // throws DateTimeException
+     You don’t need to know the exact exception that’s thrown, but it’s a clear one:
+     java.time.DateTimeException: Invalid value for DayOfMonth
+     (valid values 1 - 28/31): 32
+
      **/
 }
