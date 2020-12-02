@@ -63,5 +63,45 @@ public class Arraylist {
      You should also know that ArrayList implements toString() so you can easily see the
      contents just by printing it. Arrays do not do produce such pretty output.
 
+
+
+
+     add()
+     The add() methods insert a new value in the ArrayList. The method signatures are as
+     follows:
+     boolean add(E element)
+     void add(int index, E element)
+     Don’t worry about the boolean return value. It always returns true. It is there because
+     other classes in the collections family need a return value in the signature when adding an
+     element.
+     Since add() is the most critical ArrayList method you need to know for the exam, we are
+     going to show a few sets of examples for it. Let’s start with the most straightforward case:
+     ArrayList list = new ArrayList();
+     list.add("hawk"); // [hawk]
+     list.add(Boolean.TRUE); // [hawk, true]
+     System.out.println(list); // [hawk, true]
+     add() does exactly what we expect: it stores the String in the no longer empty
+     ArrayList. It then does the same thing for the boolean. This is okay because we didn’t
+     specify a type for ArrayList; therefore, the type is Object, which includes everything
+     except primitives. It may not have been what we intended, but the compiler doesn’t know
+     that. Now, let’s use generics to tell the compiler we only want to allow String objects in
+     our ArrayList:
+     ArrayList<String> safer = new ArrayList<>();
+     safer.add("sparrow");
+     safer.add(Boolean.TRUE); // DOES NOT COMPILE
+     This time the compiler knows that only String objects are allowed in and prevents the
+     attempt to add a boolean. Now let’s try adding multiple values to different positions.
+     4: List<String> birds = new ArrayList<>();
+     5: birds.add("hawk"); // [hawk]
+     6: birds.add(1, "robin"); // [hawk, robin]
+     7: birds.add(0, "blue jay"); // [blue jay, hawk, robin]
+     8: birds.add(1, "cardinal"); // [blue jay, cardinal, hawk, robin]
+     9: System.out.println(birds); // [blue jay, cardinal, hawk, robin]
+     When a question has code that adds objects at indexed positions, draw it so that you
+     won’t lose track of which value is at which index. In this example, line 5 adds "hawk" to the
+     end of birds. Then line 6 adds "robin" to index 1 of birds, which happens to be the end.
+     Line 7 adds "blue jay" to index 0, which happens to be the beginning of birds. Finally,
+     line 8 adds "cardinal” to index 1, which is now near the middle of birds.
+
      **/
 }
