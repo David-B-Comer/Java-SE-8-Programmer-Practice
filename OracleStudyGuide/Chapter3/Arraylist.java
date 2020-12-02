@@ -188,5 +188,20 @@ public class Arraylist {
      System.out.println(birds.size()); // 0
      After we call clear(), birds is back to being an empty ArrayList of size 0.
 
+
+
+
+     contains()
+     The contains() method checks whether a certain value is in the ArrayList. The method
+     signature is as follows:
+     boolean contains(Object object)
+     The following shows how to use this method:
+     List<String> birds = new ArrayList<>();
+     birds.add("hawk"); // [hawk]
+     System.out.println(birds.contains("hawk")); // true
+     System.out.println(birds.contains("robin")); // false
+     This method calls equals() on each element of the ArrayList to see whether there are
+     any matches. Since String implements equals(), this works out well.
+
      **/
 }
