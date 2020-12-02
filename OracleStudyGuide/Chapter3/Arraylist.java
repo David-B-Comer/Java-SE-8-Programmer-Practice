@@ -51,5 +51,17 @@ public class Arraylist {
      List<String> list6 = new ArrayList<>();
      ArrayList<String> list7 = new List<>(); // DOES NOT COMPILE
 
+
+
+     Using an ArrayList
+     ArrayList has many methods, but you only need to know a handful of them—even fewer
+     than you did for String and StringBuilder.
+     Before reading any further, you are going to see something new in the method signatures:
+     a “class” named E. Don’t worry—it isn’t really a class. E is used by convention in generics
+     to mean “any class that this array can hold.” If you didn’t specify a type when creating the
+     ArrayList, E means Object. Otherwise, it means the class you put between < and >.
+     You should also know that ArrayList implements toString() so you can easily see the
+     contents just by printing it. Arrays do not do produce such pretty output.
+
      **/
 }
