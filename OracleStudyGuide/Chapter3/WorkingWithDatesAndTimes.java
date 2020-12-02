@@ -64,5 +64,22 @@ public class WorkingWithDatesAndTimes {
      the date. Also, Java tends to use a 24-hour clock even though the United States uses a
      12-hour clock with a.m./p.m.
 
+
+
+     Now that you know how to create the current date and time, let’s look at other specific
+     dates and times. To begin, let’s create just a date with no time. Both of these examples
+     create the same date:
+     LocalDate date1 = LocalDate.of(2015, Month.JANUARY, 20);
+     LocalDate date2 = LocalDate.of(2015, 1, 20);
+     Both pass in the year, month, and date. Although it is good to use the Month constants
+     (to make the code easier to read), you can pass the int number of the month directly.
+     Just use the number of the month the same way you would if you were writing the date
+     in real life.
+     The method signatures are as follows:
+     public static LocalDate of(int year, int month, int dayOfMonth)
+     public static LocalDate of(int year, Month month, int dayOfMonth)
+     Month is a special type of class called an enum. You don’t need to know about enums on
+     the OCA exam and can just treat them as constants.
+
      **/
 }
