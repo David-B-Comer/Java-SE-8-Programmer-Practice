@@ -132,5 +132,15 @@ public class WrapperClasses {
      changed to new test. Line 26 throws an exception because we are not allowed to change
      the size of the list.
 
+
+
+
+     A Cool Trick with Varargs
+     This topic isn’t on the exam, but merging varargs with ArrayList conversion allows you
+     to create an ArrayList in a cool way:
+     List<String> list = Arrays.asList("one", "two");
+     asList() takes varargs, which let you pass in an array or just type out the String values.
+     This is handy when testing because you can easily create and populate a List on one line.
+
      **/
 }
