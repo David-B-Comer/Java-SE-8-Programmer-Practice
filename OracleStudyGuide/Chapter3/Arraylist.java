@@ -170,5 +170,23 @@ public class Arraylist {
      than 0. However, as with StringBuilder, we don’t use the capacity in determining size or
      length. After adding elements, the size becomes positive and it is no longer empty.
 
+
+
+
+     clear()
+     The clear() method provides an easy way to discard all elements of the ArrayList. The
+     method signature is as follows:
+     void clear()
+     The following shows how to use this method:
+     List<String> birds = new ArrayList<>();
+     birds.add("hawk"); // [hawk]
+     birds.add("hawk"); // [hawk, hawk]
+     System.out.println(birds.isEmpty()); // false
+     System.out.println(birds.size()); // 2
+     birds.clear(); // []
+     System.out.println(birds.isEmpty()); // true
+     System.out.println(birds.size()); // 0
+     After we call clear(), birds is back to being an empty ArrayList of size 0.
+
      **/
 }
