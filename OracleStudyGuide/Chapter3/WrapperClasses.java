@@ -18,5 +18,30 @@ public class WrapperClasses {
      double                                 Double                          new Double(1.0)
      char                                   Character                       new Character('c')
 
+
+
+
+     The wrapper classes also have a method that converts back to a primitive. You don’t
+     need to know much about the constructors or intValue() type methods for the exam
+     because autoboxing has removed the need for them (see the next section). You might
+     encounter this syntax on questions that have been on the exam for many years. However,
+     you just need to be able to read the code and not look for tricks in it.
+     There are also methods for converting a String to a primitive or wrapper class. You do
+     need to know these methods. The parse methods, such as parseInt(), return a primitive,
+     and the valueOf() method returns a wrapper class. This is easy to remember because the
+     name of the returned primitive is in the method name. For example:
+     int primitive = Integer.parseInt("123");
+     Integer wrapper = Integer.valueOf("123");
+     The fi rst line converts a String to an int primitive. The second converts a String to an
+     Integer wrapper class. If the String passed in is not valid for the given type, Java throws
+     an exception. In these examples, letters and dots are not valid for an integer value:
+     int bad1 = Integer.parseInt("a"); // throws NumberFormatException
+     Integer bad2 = Integer.valueOf("123.45"); // throws NumberFormatException
+     Before you worry, the exam won’t make you recognize that the method parseInt()
+     is used rather than parseInteger(). You simply need to be able to recognize the methods when put in front of you.
+     Also, the Character class doesn’t participate in the parse/
+     valueOf methods. Since a String is made up of characters, you can just call charAt()
+     normally.
+
      **/
 }
