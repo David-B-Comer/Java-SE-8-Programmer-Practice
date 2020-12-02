@@ -240,5 +240,21 @@ public class WorkingWithDatesAndTimes {
      tricky in a chained sequence of additions/subtraction operations, so make sure you know
      which methods can be called on which of the three objects.
 
+
+
+
+     Methods in LocalDate, LocalTime, and LocalDateTime
+
+                                Can call on LocalDate?          Can call on LocalTime?              Can call on LocalDateTime?
+
+     plusYears/minusYears       Yes                             No                                  Yes
+     plusMonths/minusMonths     Yes                             No                                  Yes
+     plusWeeks/minusWeeks       Yes                             No                                  Yes
+     plusDays/minusDays         Yes                             No                                  Yes
+     plusHours/minusHours       No                              Yes                                 Yes
+     plusMinutes/minusMinutes   No                              Yes                                 Yes
+     plusSeconds/minusSeconds   No                              Yes                                 Yes
+     plusNanos/minusNanos       No                              Yes                                 Yes
+
      **/
 }
