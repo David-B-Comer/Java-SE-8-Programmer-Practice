@@ -131,5 +131,24 @@ public class Arraylist {
      There is also a removeIf() method. We’ll cover it in the next chapter because it uses
      lambda expressions (a topic in that chapter).
 
+
+
+
+     set()
+     The set() method changes one of the elements of the ArrayList without changing the size.
+     The method signature is as follows:
+     E set(int index, E newElement)
+     The E return type is the element that got replaced. The following shows how to use this
+     method:
+     15: List<String> birds = new ArrayList<>();
+     16: birds.add("hawk"); // [hawk]
+     17: System.out.println(birds.size()); // 1
+     18: birds.set(0, "robin"); // [robin]
+     19: System.out.println(birds.size()); // 1
+     20: birds.set(1, "robin"); // IndexOutOfBoundsException
+     Line 16 adds one element to the array, making the size 1. Line 18 replaces that one element and the size stays at 1. Line 20 tries to replace an element that isn’t in the ArrayList.
+     Since the size is 1, the only valid index is 0. Java throws an exception because this isn’t
+     allowed.
+
      **/
 }
