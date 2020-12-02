@@ -31,5 +31,18 @@ public class MultidimensionalArrays {
      refers to an array of two elements. You can think of the addressable range as [0][0] through
      [2][1], but don’t think of it as a structure of addresses like [0,0] or [2,1].
 
+
+
+
+     Using a Multidimensional Array
+     The most common operation on a multidimensional array is to loop through it. This example
+     prints out a 2D array:
+     int[][] twoD = new int[3][2];
+     for (int i = 0; i < twoD.length; i++) {
+     for (int j = 0; j < twoD[i].length; j++)
+     System.out.print(twoD[i][j] + " "); // print element
+     System.out.println(); // time for a new row
+     }
+
      **/
 }
