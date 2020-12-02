@@ -43,5 +43,18 @@ public class WrapperClasses {
      valueOf methods. Since a String is made up of characters, you can just call charAt()
      normally.
 
+
+
+     Converting from a String
+     Wrapper class                  Converting String to primitive                    Converting String to wrapper class
+     Boolean                        Boolean.parseBoolean("true");                     Boolean.valueOf("TRUE");
+     Byte                           Byte.parseByte("1");                              Byte.valueOf("2");
+     Short                          Short.parseShort("1");                            Short.valueOf("2");
+     Integer                        Integer.parseInt("1");                            Integer.valueOf("2");
+     Long                           Long.parseLong("1");                              Long.valueOf("2");
+     Float                          Float.parseFloat("1");                            Float.valueOf("2.2");
+     Double                         Double.parseDouble("1");                          Double.valueOf("2.2");
+     Character                      None                                              None
+
      **/
 }
