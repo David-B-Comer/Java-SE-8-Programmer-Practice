@@ -132,5 +132,45 @@ public class WorkingWithDatesAndTimes {
      java.time.DateTimeException: Invalid value for DayOfMonth
      (valid values 1 - 28/31): 32
 
+
+
+
+
+
+     Creating Dates in Java 7 and Earlier
+     You can see some of the problems with the “old way” in the following table. There
+     wasn’t a way to specify just a date without the time. The Date class represented both the
+     date and time whether you wanted it to or not. Trying to create a specifi c date required
+     more code than it should have. Month indexes were 0 based instead of 1 based, which
+     was confusing.There’s an old way to create a date. In Java 1.1, you created a specifi c Date with this: Date
+     jan = new Date(2015, Calendar.JANUARY, 1);. You could use the Calendar class
+     beginning with Java 1.2. Date exists mainly for backward compatibility and so that
+     Calendar can work with code—making the “new way” the third way. The “new way” is
+     much better so it looks like this is a case of the third time is the charm!
+
+                                                                    Old way                                             New way (Java 8 and later)
+
+     Importing                                                      import java.util.*;                                 import java.time.*;
+
+     Creating an object with the current date                       Date d = new Date();                                LocalDate d = LocalDate.now();
+
+
+     Creating an object with the current date and time Date         d = new Date();                                     LocalDateTime dt = LocalDateTime.now();
+
+
+     Creating an object representing January 1, 2015                Calendar c = Calendar.getInstance();                LocalDate jan = LocalDate.of(2015, Month.JANUARY, 1);
+                                                                    c.set(2015, Calendar. JANUARY, 1);
+                                                                    Date jan = c.getTime();
+                                                                    or
+                                                                    Calendar c = new GregorianCalendar(2015,
+                                                                    Calendar. JANUARY, 1);
+                                                                    Date jan = c.getTime();
+
+
+     Creating January 1, 2015 without the constant                  Calendar c = Calendar.getInstance();                LocalDate jan = LocalDate.of(2015, 1, 1)
+                                                                    c.set(2015, 0, 1);
+                                                                    Date jan = c.getTime();
+
+
      **/
 }
