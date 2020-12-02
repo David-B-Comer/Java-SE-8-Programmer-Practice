@@ -203,5 +203,29 @@ public class Arraylist {
      This method calls equals() on each element of the ArrayList to see whether there are
      any matches. Since String implements equals(), this works out well.
 
+
+
+
+     equals()
+     Finally, ArrayList has a custom implementation of equals() so you can compare two lists
+     to see if they contain the same elements in the same order.
+     boolean equals(Object object)
+     The following shows an example:
+     31: List<String> one = new ArrayList<>();
+     32: List<String> two = new ArrayList<>();
+     33: System.out.println(one.equals(two)); // true
+     34: one.add("a"); // [a]
+     35: System.out.println(one.equals(two)); // false
+     36: two.add("a"); // [a]
+     37: System.out.println(one.equals(two)); // true
+     38: one.add("b"); // [a,b]
+     39: two.add(0, "b"); // [b,a]
+     40: System.out.println(one.equals(two)); // false
+     On line 33, the two ArrayList objects are equal. An empty list is certainly the same
+     elements in the same order. On line 35, the ArrayList objects are not equal because the size
+     is different. On line 37, they are equal again because the same one element is in each. On
+     line 40, they are not equal. The size is the same and the values are the same, but they are
+     not in the same order.
+
      **/
 }
