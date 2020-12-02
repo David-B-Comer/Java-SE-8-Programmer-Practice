@@ -172,5 +172,73 @@ public class WorkingWithDatesAndTimes {
                                                                     Date jan = c.getTime();
 
 
+
+
+
+
+
+
+
+     Manipulating Dates and Times
+     Adding to a date is easy. The date and time classes are immutable, just like String was.
+     This means that we need to remember to assign the results of these methods to a reference
+     variable so they are not lost.
+     12: LocalDate date = LocalDate.of(2014, Month.JANUARY, 20);
+     13: System.out.println(date); // 2014-01-20
+     14: date = date.plusDays(2);
+     15: System.out.println(date); // 2014-01-22
+     16: date = date.plusWeeks(1);
+     17: System.out.println(date); // 2014-01-29
+     18: date = date.plusMonths(1);
+     19: System.out.println(date); // 2014-02-28
+     20: date = date.plusYears(5);
+     21: System.out.println(date); // 2019-02-28
+     This code is nice because it does just what it sounds like. We start out with January 20,
+     2014. On line 14, we add two days to it and reassign it to our reference variable. On line 16,
+     we add a week. This method allows us to write clearer code than plusDays(7). Now date is
+     January 29, 2014. On line 18, we add a month. This would bring us to February 29, 2014.
+     However, 2014 is not a leap year. (2012 and 2016 are leap years.) Java is smart enough to
+     realize February 29, 2014 does not exist and gives us February 28, 2014 instead. Finally, line
+     20 adds fi ve years.
+     There are also nice easy methods to go backward in time. This time, let’s work with
+     LocalDateTime.
+     22: LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+     23: LocalTime time = LocalTime.of(5, 15);
+     24: LocalDateTime dateTime = LocalDateTime.of(date, time);
+     25: System.out.println(dateTime); // 2020-01-20T05:15
+     26: dateTime = dateTime.minusDays(1);
+     27: System.out.println(dateTime); // 2020-01-19T05:15
+     28: dateTime = dateTime.minusHours(10);
+     29: System.out.println(dateTime); // 2020-01-18T19:15
+     30: dateTime = dateTime.minusSeconds(30);
+     31: System.out.println(dateTime); // 2020-01-18T19:14:30
+     Line 25 prints the original date of January 20, 2020 at 5:15 a.m. Line 26 subtracts a
+     full day, bringing us to January 19, 2020 at 5:15 a.m. Line 28 subtracts 10 hours, showing
+     that the date will change if the hours cause it to and brings us to January 18, 2020 at 19:15
+     (7:15 p.m.). Finally, line 30 subtracts 30 seconds. We see that all of a sudden the display
+     value starts displaying seconds. Java is smart enough to hide the seconds and nanoseconds
+     when we aren’t using them.
+     It is common for date and time methods to be chained. For example, without the print
+     statements, the previous example could be rewritten as follows:
+     LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+     LocalTime time = LocalTime.of(5, 15);
+     LocalDateTime dateTime = LocalDateTime.of(date2, time)
+     .minusDays(1).minusHours(10).minusSeconds(30);
+     When you have a lot of manipulations to make, this chaining comes in handy. There are
+     two ways the exam creators can try to trick you. What do you think this prints?
+     LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+     date.plusDays(10);
+     System.out.println(date);
+     It prints January 20, 2020. Adding 10 days was useless because we ignored the result.
+     Whenever you see immutable types, pay attention to make sure the return value of a
+     method call isn’t ignored.
+     The exam also may test to see if you remember what each of the date and time objects
+     includes. Do you see what is wrong here?
+     LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+     date = date.plusMinutes(1); // DOES NOT COMPILE
+     LocalDate does not contain time. This means you cannot add minutes to it. This can be
+     tricky in a chained sequence of additions/subtraction operations, so make sure you know
+     which methods can be called on which of the three objects.
+
      **/
 }
