@@ -256,5 +256,32 @@ public class WorkingWithDatesAndTimes {
      plusSeconds/minusSeconds   No                              Yes                                 Yes
      plusNanos/minusNanos       No                              Yes                                 Yes
 
+
+
+
+
+
+
+     Manipulating Dates in Java 7 and Earlier
+     As you look at all the code in the following table to do time calculations in the “old way,”
+     you can see why Java needed to revamp the date and time APIs! The “old way” took a lot
+     of code to do something simple.
+
+
+                                Old way                                     New way (Java 8 and later)
+     Adding a day               public Date addDay(Date date) {             public LocalDate addDay(LocalDate date) {
+                                Calendar cal = Calendar                     return date.plusDays(1); }
+                                .getInstance();
+                                cal.setTime(date);
+                                cal.add(Calendar.DATE, 1);
+                                return cal.getTime(); }
+
+     Subtracting a day          public Date subtractDay(Date date) {        public LocalDate subtractDay(LocalDate date) {
+                                Calendar cal = Calendar                     return date.minusDays(1); }
+                                .getInstance();
+                                cal.setTime(date);
+                                cal.add(Calendar.DATE, -1);
+                                return cal.getTime(); }
+
      **/
 }
