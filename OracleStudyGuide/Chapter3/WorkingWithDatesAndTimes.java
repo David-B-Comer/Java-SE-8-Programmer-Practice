@@ -51,5 +51,18 @@ public class WorkingWithDatesAndTimes {
      minutes, seconds, and nanoseconds. The third contains both date and time. Java uses T to
      separate the date and time when converting LocalDateTime to a String.
 
+
+
+     Wait—I Don’t Live in the United States
+     The exam recognizes that exam takers live all over the world and will not ask you about
+     the details of United States date and time formats.
+     In the United States, the month is written before the date. The exam won’t ask you about
+     the difference between 02/03/2015 and 03/02/2015. That would be mean and not internationally friendly,
+     and it would be testing your knowledge of United States dates rather
+     than your knowledge of Java. That said, our examples do use United States date and time
+     formats as will the questions on the exam. Just remember that the month comes before
+     the date. Also, Java tends to use a 24-hour clock even though the United States uses a
+     12-hour clock with a.m./p.m.
+
      **/
 }
