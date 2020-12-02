@@ -103,5 +103,33 @@ public class Arraylist {
      Line 7 adds "blue jay" to index 0, which happens to be the beginning of birds. Finally,
      line 8 adds "cardinal” to index 1, which is now near the middle of birds.
 
+
+
+
+
+     remove()
+     The remove() methods remove the fi rst matching value in the ArrayList or remove the
+     element at a specifi ed index. The method signatures are as follows:
+     boolean remove(Object object)
+     E remove(int index)
+     This time the boolean return value tells us whether a match was removed. The E return
+     type is the element that actually got removed. The following shows how to use these
+     methods:
+     3: List<String> birds = new ArrayList<>();
+     4: birds.add("hawk"); // [hawk]
+     5: birds.add("hawk"); // [hawk, hawk]
+     6: System.out.println(birds.remove("cardinal")); // prints false
+     7: System.out.println(birds.remove("hawk")); // prints true
+     8: System.out.println(birds.remove(0)); // prints hawk
+     9: System.out.println(birds); // []
+     Line 6 tries to remove an element that is not in birds. It returns false because no such
+     element is found. Line 7 tries to remove an element that is in birds and so returns true.
+     Notice that it removes only one match. Line 8 removes the element at index 0, which is the
+     last remaining element in the ArrayList.
+     Since calling remove() with an int uses the index, an index that doesn’t exist will throw
+     an exception. For example, birds.remove(100) throws an IndexOutOfBoundsException.
+     There is also a removeIf() method. We’ll cover it in the next chapter because it uses
+     lambda expressions (a topic in that chapter).
+
      **/
 }
