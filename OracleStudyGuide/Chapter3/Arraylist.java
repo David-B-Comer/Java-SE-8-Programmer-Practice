@@ -150,5 +150,25 @@ public class Arraylist {
      Since the size is 1, the only valid index is 0. Java throws an exception because this isn’t
      allowed.
 
+
+
+
+
+     isEmpty() and size()
+     The isEmpty() and size() methods look at how many of the slots are in use. The method
+     signatures are as follows:
+     boolean isEmpty()
+     int size()
+     The following shows how to use these methods:
+     System.out.println(birds.isEmpty()); // true
+     System.out.println(birds.size()); // 0
+     birds.add("hawk"); // [hawk]
+     birds.add("hawk"); // [hawk, hawk]
+     System.out.println(birds.isEmpty()); // false
+     System.out.println(birds.size()); // 2
+     At the beginning, birds has a size of 0 and is empty. It has a capacity that is greater
+     than 0. However, as with StringBuilder, we don’t use the capacity in determining size or
+     length. After adding elements, the size becomes positive and it is no longer empty.
+
      **/
 }
