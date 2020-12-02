@@ -142,5 +142,17 @@ public class WrapperClasses {
      asList() takes varargs, which let you pass in an array or just type out the String values.
      This is handy when testing because you can easily create and populate a List on one line.
 
+
+
+
+     Sorting an ArrayList is very similar to sorting an array. You just use a different helper class:
+     List<Integer> numbers = new ArrayList<>();
+     numbers.add(99);
+     numbers.add(5);
+     numbers.add(81);
+     Collections.sort(numbers);
+     System.out.println(numbers); [5, 81, 99]
+     As you can see, the numbers got sorted, just like you’d expect. Isn’t it nice to have something that works just like you think it will?
+
      **/
 }
