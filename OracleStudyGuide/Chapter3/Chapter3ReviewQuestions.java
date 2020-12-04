@@ -366,5 +366,8 @@ public class Chapter3ReviewQuestions {
      F. An array is immutable.
      G. An ArrayList is immutable.
 
+
+     Answer A, C, D, E
+
      **/
 }
