@@ -580,5 +580,8 @@ public class Chapter3ReviewQuestions {
      E. LocalDate.of(2014, Calendar.JUNE, 21);
      F. LocalDate.of(2014, Month.JUNE, 21);
 
+
+     Answer D, F
+
      **/
 }
