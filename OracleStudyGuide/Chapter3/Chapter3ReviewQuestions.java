@@ -217,5 +217,8 @@ public class Chapter3ReviewQuestions {
      F. equals
      G. An exception is thrown.
 
+
+     Answer F
+
      **/
 }
