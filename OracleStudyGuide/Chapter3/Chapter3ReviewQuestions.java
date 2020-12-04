@@ -296,5 +296,8 @@ public class Chapter3ReviewQuestions {
      D. puzzle.append("vaJ$").delete(0, 3).deleteCharAt(puzzle.length());
      E. None of the above.
 
+
+     Answer A, C
+
      **/
 }
