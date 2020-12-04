@@ -281,5 +281,20 @@ public class Chapter3ReviewQuestions {
 
      Answer F
 
+
+
+
+     14. Which of the following can replace line 4 to print "avaJ"? (Choose all that apply)
+
+     3: StringBuilder puzzle = new StringBuilder("Java");
+     4: // INSERT CODE HERE
+     5: System.out.println(puzzle);
+
+     A. puzzle.reverse();
+     B. puzzle.append("vaJ$").substring(0, 4);
+     C. puzzle.append("vaJ$").delete(0, 3).deleteCharAt(puzzle.length() - 1);
+     D. puzzle.append("vaJ$").delete(0, 3).deleteCharAt(puzzle.length());
+     E. None of the above.
+
      **/
 }
