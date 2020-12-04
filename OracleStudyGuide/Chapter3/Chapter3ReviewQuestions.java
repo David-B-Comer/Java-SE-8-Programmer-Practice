@@ -84,5 +84,24 @@ public class Chapter3ReviewQuestions {
 
      Answer B
 
+
+
+
+     5. What is the result of the following code?
+
+     2: String s1 = "java";
+     3: StringBuilder s2 = new StringBuilder("java");
+     4: if (s1 == s2)
+     5: System.out.print("1");
+     6: if (s1.equals(s2))
+     7: System.out.print("2");
+
+     A. 1
+     B. 2
+     C. 12
+     D. No output is printed.
+     E. An exception is thrown.
+     F. The code does not compile.
+
      **/
 }
