@@ -299,5 +299,17 @@ public class Chapter3ReviewQuestions {
 
      Answer A, C
 
+
+
+
+     15. Which of these array declarations is not legal? (Choose all that apply)
+
+     A. int[][] scores = new int[5][];
+     B. Object[][][] cubbies = new Object[3][0][5];
+     C. String beans[] = new beans[6];
+     D. java.util.Date[] dates[] = new java.util.Date[2][];
+     E. int[][] types = new int[];
+     F. int[][] java = new int[][];
+
      **/
 }
