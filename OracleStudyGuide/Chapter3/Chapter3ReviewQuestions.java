@@ -645,5 +645,8 @@ public class Chapter3ReviewQuestions {
      F. 2021 MAY 2
      G. A runtime exception is thrown.
 
+
+     Answer B
+
      **/
 }
