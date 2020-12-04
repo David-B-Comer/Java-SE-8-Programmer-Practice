@@ -350,5 +350,8 @@ public class Chapter3ReviewQuestions {
      F. int length = l.size();
      G. None of the above.
 
+
+     Answer F
+
      **/
 }
