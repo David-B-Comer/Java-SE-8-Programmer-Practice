@@ -62,5 +62,7 @@ public class Chapter3ReviewQuestions {
      G. StringBuilder is immutable.
 
 
+     Answer B, C, E
+
      **/
 }
