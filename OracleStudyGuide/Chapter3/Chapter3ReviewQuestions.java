@@ -48,5 +48,19 @@ public class Chapter3ReviewQuestions {
 
      Answer A, C, D
 
+
+
+
+     3. Which are true statements? (Choose all that apply)
+
+     A. An immutable object can be modified.
+     B. An immutable object cannot be modified.
+     C. An immutable object can be garbage collected.
+     D. An immutable object cannot be garbage collected.
+     E. String is immutable.
+     F. StringBuffer is immutable.
+     G. StringBuilder is immutable.
+
+
      **/
 }
