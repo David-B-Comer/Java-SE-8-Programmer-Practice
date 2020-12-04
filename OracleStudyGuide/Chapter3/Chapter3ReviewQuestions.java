@@ -4,6 +4,7 @@ public class Chapter3ReviewQuestions {
     /**
 
      1. What is output by the following code? (Choose all that apply)
+
      1: public class Fish {
      2: public static void main(String[] args) {
      3: int numFish = 4;
@@ -20,6 +21,9 @@ public class Chapter3ReviewQuestions {
      E. 5tuna
      F. 51tuna
      G. The code does not compile.
+
+
+     Answer G
 
      **/
 }
