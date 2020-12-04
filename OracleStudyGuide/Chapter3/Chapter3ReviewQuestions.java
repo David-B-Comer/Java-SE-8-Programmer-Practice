@@ -45,5 +45,8 @@ public class Chapter3ReviewQuestions {
      E. five
      F. The code does not compile
 
+
+     Answer A, C, D
+
      **/
 }
