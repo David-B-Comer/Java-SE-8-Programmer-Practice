@@ -369,5 +369,16 @@ public class Chapter3ReviewQuestions {
 
      Answer A, C, D, E
 
+
+
+
+     19. Which of the following are true? (Choose all that apply)
+
+     A. Two arrays with the same content are equal.
+     B. Two ArrayLists with the same content are equal.
+     C. If you call remove(0) using an empty ArrayList object, it will compile successfully.
+     D. If you call remove(0) using an empty ArrayList object, it will run successfully.
+     E. None of the above.
+
      **/
 }
