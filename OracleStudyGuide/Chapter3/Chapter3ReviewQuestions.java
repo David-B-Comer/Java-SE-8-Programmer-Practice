@@ -380,5 +380,8 @@ public class Chapter3ReviewQuestions {
      D. If you call remove(0) using an empty ArrayList object, it will run successfully.
      E. None of the above.
 
+
+     Answer B, C
+
      **/
 }
