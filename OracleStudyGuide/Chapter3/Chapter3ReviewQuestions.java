@@ -196,5 +196,26 @@ public class Chapter3ReviewQuestions {
 
      Answer C
 
+
+
+
+
+     10. What is the result of the following code? (Choose all that apply)
+
+     13: String a = "";
+     14: a += 2;
+     15: a += 'c';
+     16: a += false;
+     17: if ( a == "2cfalse") System.out.println("==");
+     18: if ( a.equals("2cfalse")) System.out.println("equals");
+
+     A. Compile error on line 14.
+     B. Compile error on line 15.
+     C. Compile error on line 16.
+     D. Compile error on another line.
+     E. ==
+     F. equals
+     G. An exception is thrown.
+
      **/
 }
