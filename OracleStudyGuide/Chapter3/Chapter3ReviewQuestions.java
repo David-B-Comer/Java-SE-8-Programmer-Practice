@@ -220,5 +220,24 @@ public class Chapter3ReviewQuestions {
 
      Answer F
 
+
+
+
+     11. What is the result of the following code?
+
+     4: int total = 0;
+     5: StringBuilder letters = new StringBuilder("abcdefg");
+     6: total += letters.substring(1, 2).length();
+     7: total += letters.substring(6, 6).length();
+     8: total += letters.substring(6, 5).length();
+     9: System.out.println(total);
+
+     A. 1
+     B. 2
+     C. 3
+     D. 7
+     E. An exception is thrown.
+     F. The code does not compile.
+
      **/
 }
