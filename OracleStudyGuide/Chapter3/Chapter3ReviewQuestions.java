@@ -530,5 +530,8 @@ public class Chapter3ReviewQuestions {
      D. Exactly two of the add statements use autoboxing.
      E. Exactly three of the add statements use autoboxing.
 
+
+     Answer A, B, D
+
      **/
 }
