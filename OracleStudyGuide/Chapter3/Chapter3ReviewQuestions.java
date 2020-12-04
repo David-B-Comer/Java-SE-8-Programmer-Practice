@@ -311,5 +311,8 @@ public class Chapter3ReviewQuestions {
      E. int[][] types = new int[];
      F. int[][] java = new int[][];
 
+
+     Answer C, E, F
+
      **/
 }
