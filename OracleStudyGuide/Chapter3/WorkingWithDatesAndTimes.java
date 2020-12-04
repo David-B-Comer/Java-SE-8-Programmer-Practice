@@ -283,5 +283,53 @@ public class WorkingWithDatesAndTimes {
                                 cal.add(Calendar.DATE, -1);
                                 return cal.getTime(); }
 
+
+
+
+
+
+
+     Formatting Dates and Times
+     The date and time classes support many methods to get data out of them:
+     LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+     System.out.println(date.getDayOfWeek()); // MONDAY
+     System.out.println(date.getMonth()); // JANUARY
+     System.out.println(date.getYear()); // 2020
+     System.out.println(date.getDayOfYear()); // 20
+     We could use this information to display information about the date. However, it would
+     be more work than necessary. Java provides a class called DateTimeFormatter to help us
+     out. Unlike the LocalDateTime class, DateTimeFormatter can be used to format any type of
+     date and/or time object. What changes is the format. DateTimeFormatter is in the package
+     java.time.format.
+     LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+     LocalTime time = LocalTime.of(11, 12, 34);
+     LocalDateTime dateTime = LocalDateTime.of(date, time);System.out.println(date
+     .format(DateTimeFormatter.ISO_LOCAL_DATE));
+     System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME));
+     System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
+     ISO is a standard for dates. The output of the previous code looks like this:
+     2020-01-20
+     11:12:34
+     2020-01-20T11:12:34
+     This is a reasonable way for computers to communicate, but probably not how you want
+     to output the date and time in your program. Luckily there are some predefi ned formats
+     that are more useful:
+     DateTimeFormatter shortDateTime =
+     DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+     System.out.println(shortDateTime.format(dateTime)); // 1/20/20
+     System.out.println(shortDateTime.format(date)); // 1/20/20
+     System.out.println(
+     shortDateTime.format(time)); // UnsupportedTemporalTypeException
+     Here we say we want a localized formatter in the predefi ned short format. The last line
+     throws an exception because a time cannot be formatted as a date. The format() method is
+     declared on both the formatter objects and the date/time objects, allowing you to reference
+     the objects in either order. The following statements print exactly the same thing as the
+     previous code:
+     DateTimeFormatter shortDateTime =
+     DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+     System.out.println(dateTime.format(shortDateTime));
+     System.out.println(date.format(shortDateTime));
+     System.out.println(time.format(shortDateTime));
+
      **/
 }
