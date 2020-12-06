@@ -85,5 +85,14 @@ public class DesigningMethods {
      nap(){}. If you do have multiple parameters, you separate them with a comma. There are
      a couple more rules for the parameter list that you’ll see when we cover varargs shortly.
 
+
+
+
+     Optional Exception List
+     In Java, code can indicate that something went wrong by throwing an exception. We’ll cover
+     this in Chapter 6, “Exceptions.” For now, you just need to know that it is optional and
+     where in the method signature it goes if present. In the example, InterruptedException is a
+     type of Exception. You can list as many types of exceptions as you want in this clause separated by commas.
+
      **/
 }
