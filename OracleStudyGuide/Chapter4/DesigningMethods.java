@@ -112,5 +112,12 @@ public class DesigningMethods {
      must be the last element in a method’s parameter list. This implies you are only allowed to
      have one vararg parameter per method.
 
+
+
+     When calling a method with a vararg parameter, you have a choice. You can pass in an
+     array, or you can list the elements of the array and let Java create it for you. You can even
+     omit the vararg values in the method call and Java will create an array of length zero for
+     you.
+
      **/
 }
