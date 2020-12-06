@@ -37,5 +37,29 @@ public class ApplyingAccessModifiers {
      Public Access
      public means anyone can access the member from anywhere.
 
+
+
+
+
+     Access modifiers
+
+     Can access If that member is private?      If that member has default (package private) access?        If that member is protected?        If that member is public?
+
+     Member in the same class                   Yes                                        Yes                                                         Yes                                 Yes
+
+     Member in another                          No                                         Yes                                                         Yes                                 Yes
+     class in same package
+
+     Member in a superclass in a                No                                         No                                                          Yes                                 Yes
+     different package
+
+     Method/field in a nonsuperclass            No                                         No                                                          No                                  Yes
+     class in a different package
+
+
+
+
+
+
      **/
 }
