@@ -104,5 +104,13 @@ public class DesigningMethods {
      interfaces, but you don’t need to know about either of those until next chapter). A method
      body is simply a code block. It has braces that contain zero or more Java statements.
 
+
+
+
+     Working with Varargs
+     As you saw in the previous chapter, a method may use a vararg parameter (variable argument) as if it is an array. It is a little different than an array, though. A vararg parameter
+     must be the last element in a method’s parameter list. This implies you are only allowed to
+     have one vararg parameter per method.
+
      **/
 }
