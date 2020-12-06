@@ -37,5 +37,28 @@ public class DesigningMethods {
      package. This one is tricky because there is no keyword for default access. You simply omit
      the access modifier
 
+
+
+     Optional Specifiers
+     There are a number of optional specifiers, but most of them aren’t on the exam. Optional
+     specifiers come from the following list. Unlike with access modifiers, you can have multiple
+     specifiers in the same method (although not all combinations are legal). When this happens,
+     you can specify them in any order. And since it is optional, you can’t have any of them at
+     all. This means you can have zero or more specifiers in a method declaration.
+
+     static Covered later in this chapter. Used for class methods.
+
+     abstract Covered in Chapter 5. Used when not providing a method body.
+
+     final Covered in Chapter 5. Used when a method is not allowed to be overridden by a
+     subclass.
+
+     synchronized On the OCP but not the OCA exam.
+
+     native Not on the OCA or OCP exam. Used when interacting with code written in
+     another language such as C++.
+
+     strictfp Not on the OCA or OCP exam. Used for making floating-point calculations portable.
+
      **/
 }
