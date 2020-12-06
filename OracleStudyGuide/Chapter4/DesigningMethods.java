@@ -94,5 +94,15 @@ public class DesigningMethods {
      where in the method signature it goes if present. In the example, InterruptedException is a
      type of Exception. You can list as many types of exceptions as you want in this clause separated by commas.
 
+
+
+
+
+
+     Method Body
+     The final part of a method declaration is the method body (except for abstract methods and
+     interfaces, but you don’t need to know about either of those until next chapter). A method
+     body is simply a code block. It has braces that contain zero or more Java statements.
+
      **/
 }
