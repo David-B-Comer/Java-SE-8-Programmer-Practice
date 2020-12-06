@@ -18,5 +18,13 @@ public class ApplyingAccessModifiers {
      Private access is easy. Only code in the same class can call private methods or access
      private fields.
 
+
+
+     Default (Package Private) Access
+     Luckily, MotherDuck is more accommodating about what her ducklings can do. She allows
+     classes in the same package to access her members. When there is no access modifi er, Java
+     uses the default, which is package private access. This means that the member is “private”
+     to classes in the same package. In other words, only classes in the package may access it.
+
      **/
 }
