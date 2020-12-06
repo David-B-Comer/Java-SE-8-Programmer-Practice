@@ -30,7 +30,12 @@ public class ApplyingAccessModifiers {
 
      Protected Access
      Protected access allows everything that default (package private) access allows and more.
-     The protected access modifi er adds the ability to access members of a parent class.
+     The protected access modifier adds the ability to access members of a parent class.
+
+
+
+     Public Access
+     public means anyone can access the member from anywhere.
 
      **/
 }
