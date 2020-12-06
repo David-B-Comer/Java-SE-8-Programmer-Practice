@@ -70,5 +70,12 @@ public class DesigningMethods {
      Java, we have no type there. Remember that a method must have a return type. If no value is returned,
      the return type is void. You cannot omit the return type.
 
+
+     Method Name
+     Method names follow the same rules as we practiced with variable names in Chapter 1,
+     “Java Building Blocks.” To review, an identifi er may only contain letters, numbers, $, or _.
+     Also, the fi rst character is not allowed to be a number, and reserved words are not allowed.
+     By convention, methods begin with a lowercase letter but are not required to.
+
      **/
 }
