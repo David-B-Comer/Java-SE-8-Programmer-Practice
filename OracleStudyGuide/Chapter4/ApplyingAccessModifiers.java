@@ -11,5 +11,12 @@ public class ApplyingAccessModifiers {
      ■ protected: default access and child classes
      ■ public: protected and classes in the other packages
 
+
+
+
+     Private Access
+     Private access is easy. Only code in the same class can call private methods or access
+     private fields.
+
      **/
 }
