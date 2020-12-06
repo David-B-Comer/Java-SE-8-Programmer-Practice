@@ -26,5 +26,11 @@ public class ApplyingAccessModifiers {
      uses the default, which is package private access. This means that the member is “private”
      to classes in the same package. In other words, only classes in the package may access it.
 
+
+
+     Protected Access
+     Protected access allows everything that default (package private) access allows and more.
+     The protected access modifi er adds the ability to access members of a parent class.
+
      **/
 }
