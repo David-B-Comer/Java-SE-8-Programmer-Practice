@@ -77,5 +77,13 @@ public class DesigningMethods {
      Also, the fi rst character is not allowed to be a number, and reserved words are not allowed.
      By convention, methods begin with a lowercase letter but are not required to.
 
+
+
+     Parameter List
+     Although the parameter list is required, it doesn’t have to contain any parameters. This
+     means you can just have an empty pair of parentheses after the method name, such as void
+     nap(){}. If you do have multiple parameters, you separate them with a comma. There are
+     a couple more rules for the parameter list that you’ll see when we cover varargs shortly.
+
      **/
 }
