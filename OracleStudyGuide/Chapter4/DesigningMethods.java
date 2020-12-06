@@ -60,5 +60,15 @@ public class DesigningMethods {
 
      strictfp Not on the OCA or OCP exam. Used for making floating-point calculations portable.
 
+
+
+
+     Return Type
+     The next item in a method declaration is the return type. The return type might be an
+     actual Java type such as String or int. If there is no return type, the void keyword is used.
+     This special return type comes from the English language: void means without contents. In
+     Java, we have no type there. Remember that a method must have a return type. If no value is returned,
+     the return type is void. You cannot omit the return type.
+
      **/
 }
