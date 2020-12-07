@@ -21,5 +21,13 @@ public class DesigningStaticMethodsAndFields {
      Just remember that only data gets its “own copy.” There is no need to duplicate copies of
      the code itself.
 
+
+     In addition to main() methods, static methods have two main purposes:
+     ■ For utility or helper methods that don’t require any object state. Since there is no need
+     to access instance variables, having static methods eliminates the need for the caller to
+     instantiate the object just to call the method.
+     ■ For state that is shared by all instances of a class, like a counter. All instances must
+     share the same state. Methods that merely use that state should be static as well.
+
      **/
 }
