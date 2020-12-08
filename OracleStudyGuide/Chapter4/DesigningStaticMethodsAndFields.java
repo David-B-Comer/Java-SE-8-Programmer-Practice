@@ -29,5 +29,13 @@ public class DesigningStaticMethodsAndFields {
      ■ For state that is shared by all instances of a class, like a counter. All instances must
      share the same state. Methods that merely use that state should be static as well.
 
+
+
+
+
+     Calling a Static Variable or Method
+     Usually, accessing a static member is easy. You just put the classname before the method or
+     variable and you are done.
+
      **/
 }
