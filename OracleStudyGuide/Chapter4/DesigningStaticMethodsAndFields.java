@@ -62,5 +62,21 @@ public class DesigningStaticMethodsAndFields {
      call another instance method on the same class without using a reference variable, because
      instance methods do require an object. Similar logic applies for the instance and static variables.
 
+
+
+
+     Static vs. instance calls
+     Type                   Calling                                     Legal?              How?
+
+     Static method          Another static method or variable           Yes                  Using the classname
+
+     Static method          An instance method or variable              No
+
+     Instance method        A static method or variable                 Yes                 Using the classname or a reference variable
+
+     Instance method        Another instance method or variable         Yes                 Using a reference variable
+
+
+
      **/
 }
