@@ -44,5 +44,13 @@ public class DesigningStaticMethodsAndFields {
      static method or variable. The exam creators will try to trick you into thinking a NullPointerException is
      thrown because the variable happens to be null. Don’t be fooled!
 
+
+
+     Static vs. Instance
+     There’s another way the exam creators will try to trick you regarding static and instance
+     members. (Remember that “member” means fi eld or method.) A static member cannot call
+     an instance member. This shouldn’t be a surprise since static doesn’t require any instances
+     of the class to be around.
+
      **/
 }
