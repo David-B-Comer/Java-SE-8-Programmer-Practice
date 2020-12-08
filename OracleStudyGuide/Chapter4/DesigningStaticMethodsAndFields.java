@@ -78,5 +78,14 @@ public class DesigningStaticMethodsAndFields {
 
 
 
+
+     Static Variables
+     Some static variables are meant to change as the program runs. Counters are a common
+     example of this. We want the count to increase over time. Just as with instance variables,
+     you can initialize a static variable on the line it is declared:
+     public class Initializers {
+     private static int counter = 0; // initialization
+     }
+
      **/
 }
