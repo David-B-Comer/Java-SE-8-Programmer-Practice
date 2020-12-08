@@ -37,5 +37,12 @@ public class DesigningStaticMethodsAndFields {
      Usually, accessing a static member is easy. You just put the classname before the method or
      variable and you are done.
 
+
+
+
+     Remember to look at the reference type for a variable when you see a
+     static method or variable. The exam creators will try to trick you into thinking a NullPointerException is
+     thrown because the variable happens to be null. Don’t be fooled!
+
      **/
 }
