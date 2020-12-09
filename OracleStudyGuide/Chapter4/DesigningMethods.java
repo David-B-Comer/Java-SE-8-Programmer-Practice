@@ -135,5 +135,17 @@ public class DesigningMethods {
      Watch for this on the exam. Ignored returned values are tricky.
 
 
+     Overloading Methods
+     Now that you are familiar with the rules for declaring methods, it is time to look at creating methods
+     with the same signature in the same class. Method overloading occurs when
+     there are different method signatures with the same name but different type parameters.
+     We’ve been calling overloaded methods for a while. System.out.println and
+     StringBuilder’s append methods provide many overloaded versions so you can pass just
+     about anything to them without having to think about it. In both of these examples, the only change was the
+     type of the parameter. Overloading also allows different numbers
+     of parameters. Everything other than the method signature can vary for overloaded methods. This
+     means there can be different access modifi ers, specifi ers (like static), return types, and
+     exception lists.
+
      **/
 }
