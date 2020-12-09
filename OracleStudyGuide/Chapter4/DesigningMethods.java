@@ -126,5 +126,14 @@ public class DesigningMethods {
      method receives that copy. Assignments made in the method do not affect the caller.
 
 
+     To review, Java uses pass-by-value to get data into a method. Assigning a new primitive
+     or reference to a parameter doesn’t change the caller. Calling methods on a reference to an
+     object does affect the caller.
+     Getting data back from a method is easier. A copy is made of the primitive or reference
+     and returned from the method. Most of the time, this returned value is used. For example,
+     it might be stored in a variable. If the returned value is not used, the result is ignored.
+     Watch for this on the exam. Ignored returned values are tricky.
+
+
      **/
 }
