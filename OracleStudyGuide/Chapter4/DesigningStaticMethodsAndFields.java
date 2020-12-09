@@ -99,5 +99,14 @@ public class DesigningStaticMethodsAndFields {
      } }
      The compiler will make sure that you do not accidentally try to update a final variable.
 
+
+
+
+     Static Initialization
+     In Chapter 1, we covered instance initializers that looked like unnamed methods. Just code
+     inside braces. Static initializers look similar. They add the static keyword to specify they
+     should be run when the class is first used. The static initializer runs when the class is first used.
+     The statements in it run and assign any static variables as needed.
+
      **/
 }
