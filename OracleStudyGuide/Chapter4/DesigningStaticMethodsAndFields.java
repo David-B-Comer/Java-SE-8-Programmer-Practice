@@ -108,5 +108,16 @@ public class DesigningStaticMethodsAndFields {
      should be run when the class is first used. The static initializer runs when the class is first used.
      The statements in it run and assign any static variables as needed.
 
+
+
+     Try to Avoid Static and Instance Initializers
+     Using static and instance initializers can make your code much harder to read.
+     Everything that could be done in an instance initializer could be done in a constructor instead.
+     The constructor approach is easier to read. There is a common case to use a static initializer:
+     when you need to initialize a static field and the code to do so requires more than one line. This often occurs
+     when you want to initialize a collection like an ArrayList. When you do need to
+     use a static initializer, put all the static initialization in the same block. That way,
+     the order is obvious.
+
      **/
 }
