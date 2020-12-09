@@ -119,5 +119,16 @@ public class DesigningStaticMethodsAndFields {
      use a static initializer, put all the static initialization in the same block. That way,
      the order is obvious.
 
+
+
+
+     Imports are convenient because you don’t need to specify where each class comes
+     from each time you use it. There is another type of import called a static import. Regular
+     imports are for importing classes. Static imports are for importing static members of
+     classes. Just like regular imports, you can use a wildcard or import a specifi c member. The
+     idea is that you shouldn’t have to specify where each static method or variable comes from
+     each time you use it. An example of when static interfaces shine are when you are referring
+     to a lot of constants in another class.
+
      **/
 }
