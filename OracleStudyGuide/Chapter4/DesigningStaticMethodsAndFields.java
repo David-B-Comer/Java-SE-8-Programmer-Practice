@@ -130,5 +130,9 @@ public class DesigningStaticMethodsAndFields {
      each time you use it. An example of when static interfaces shine are when you are referring
      to a lot of constants in another class.
 
+
+
+
+
      **/
 }
