@@ -86,5 +86,12 @@ public class Constructors {
      instance variables in it. By  the time the constructor completes, all final instance variables
      must have been set.
 
+
+
+     Encapsulating Data
+     Encapsulation means we set up the class so only methods
+     in the class with the variables can refer to the instance variables. Callers are required to use
+     these methods.
+
      **/
 }
