@@ -64,5 +64,11 @@ public class Constructors {
      Remember that a default constructor is only supplied if there are no constructors
      present.
 
+
+     Constructor Chaining
+     Overloaded constructors often call each other. One common technique is to have each
+     constructor add one parameter until getting to the constructor that does all the work.
+     This approach is called constructor chaining.
+
      **/
 }
