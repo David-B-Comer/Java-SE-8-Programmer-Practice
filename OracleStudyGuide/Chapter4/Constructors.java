@@ -38,5 +38,31 @@ public class Constructors {
      4: this.color = color;
      5: } }
 
+
+
+
+
+     Default Constructor
+     Every class in Java has a constructor whether you code one or not. If you don’t include any
+     constructors in the class, Java will create one for you without any parameters.
+     This Java-created constructor is called the default constructor. Sometimes we call it the
+     default no-arguments constructor for clarity. Here’s an example:
+     public class Rabbit {
+     public static void main(String[] args) {
+     Rabbit rabbit = new Rabbit(); // Calls default constructor
+     }
+     }
+     In the Rabbit class, Java sees no constructor was coded and creates one. This default
+     constructor is equivalent to typing this:
+     public Rabbit() {}
+     The default constructor has an empty parameter list and an empty body. It is fi ne for you
+     to type this in yourself. However, since it doesn't do anything, Java is happy to supply it for
+     you and save you some typing.
+     We keep saying generated. This happens during the compile step. If you look at the fi le
+     with the .java extension, the constructor will still be missing. It is only in the compiled fi le
+     with the.class extension that it makes an appearance.
+     Remember that a default constructor is only supplied if there are no constructors
+     present.
+
      **/
 }
