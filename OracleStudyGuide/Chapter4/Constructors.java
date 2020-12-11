@@ -121,5 +121,34 @@ public class Constructors {
      uppercase, followed by the rest of
      the property name.
 
+
+
+
+     Creating Immutable Classes
+     Encapsulating data is helpful because it prevents callers from making uncontrolled changes
+     to your class. Another common technique is making classes immutable so they cannot be
+     changed at all.
+     Immutable classes are helpful because you know they will always be the same. You can
+     pass them around your application with a guarantee that the caller didn’t change anything.
+     This helps make programs easier to maintain. It also helps with performance by limiting
+     the number of copies, as you saw with String in Chapter 3, “Core Java APIs.”
+     One step in making a class immutable is to omit the setters. But wait: we still want the
+     caller to be able to specify the initial value—we just don’t want it to change after the object
+     is created. Constructors to the rescue!
+     public class ImmutableSwan {
+     private int numberEggs;
+     public ImmutableSwan(int numberEggs) {
+     this.numberEggs = numberEggs;
+     }
+     public int getNumberEggs() {
+     return numberEggs;
+     } }
+     In this example, we don't have a setter. We do have a constructor that allows a value to
+     be set. Remember, immutable is only measured after the object is constructed. Immutable
+     classes are allowed to have values. They just can't change after instantiation.
+     To review, encapsulation refers to preventing callers from changing the instance variables
+     directly. Immutability refers to preventing callers from changing the instance variables at all.
+
+
      **/
 }
