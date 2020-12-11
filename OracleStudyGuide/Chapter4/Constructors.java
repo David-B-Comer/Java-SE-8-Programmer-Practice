@@ -93,5 +93,33 @@ public class Constructors {
      in the class with the variables can refer to the instance variables. Callers are required to use
      these methods.
 
+
+
+
+
+     Rules for JavaBeans naming conventions
+
+     Rule                                       Example
+
+     Properties are private.                    private int numEggs;
+
+     Getter methods begin with is if the        public boolean isHappy() {
+     property is a boolean.                     return happy;
+     }
+
+     Getter methods begin with get if the       public int getNumEggs() {
+     property is not a boolean.                 return numEggs;
+     }
+
+     Setter methods begin with set.             public void setHappy(boolean happy) {
+     this.happy = happy;
+     }
+
+     The method name must have a prefix         public void setNumEggs(int num) {
+     of set/get/is, followed by the             numEggs = num;
+     first letter of the property in            }
+     uppercase, followed by the rest of
+     the property name.
+
      **/
 }
