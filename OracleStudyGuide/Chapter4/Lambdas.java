@@ -135,5 +135,22 @@ public class Lambdas {
      a -> a.canHop()
      (Animal a) -> { return a.canHop(); }
 
+
+
+
+     Let’s look at some examples of valid lambdas. Pretend that there are valid interfaces that
+     can consume a lambda with zero, one, or two String parameters.
+     3: print(() -> true); // 0 parameters
+     4: print(a -> a.startsWith("test")); // 1 parameter
+     5: print((String a) -> a.startsWith("test")); // 1 parameter
+     6: print((a, b) -> a.startsWith("test")); // 2 parameters
+     7: print((String a, String b) -> a.startsWith("test")); // 2 parameters
+     Notice that all of these examples have parentheses around the parameter list except the
+     one that takes only one parameter and doesn’t specify the type. Line 3 takes 0 parameters
+     and always returns the Boolean true. Line 4 takes one parameter and calls a method on
+     it, returning the result. Line 5 does the same except that it explicitly defi nes the type of the
+     variable. Lines 6 and 7 take two parameters and ignore one of them—there isn’t a rule that
+     says you must use all defi ned parameters.
+
      **/
 }
