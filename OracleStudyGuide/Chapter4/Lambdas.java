@@ -113,5 +113,27 @@ public class Lambdas {
      means that code is specified now but will run later. In this case, later is when the print()
      method calls it.
 
+
+
+
+
+     Lambda Syntax
+     One of the simplest lambda expressions you can write is the one you just saw:
+     a -> a.canHop();
+     This means that Java should call a method with an Animal parameter that returns a
+     boolean value that’s the result of a.canHop(). We know all this because we wrote the code.
+     But how does Java know?
+     Java replies on context when fi guring out what lambda expressions mean. We are passing this lambda as the second parameter of the print() method. That method expects a
+     CheckTrait as the second parameter. Since we are passing a lambda instead, Java tries to
+     map our lambda to that interface:
+     boolean test(Animal a);
+     Since that interface’s method takes an Animal, that means the lambda parameter has to
+     be an Animal. And since that interface’s method returns a boolean, we know the lambda
+     returns a boolean.
+     The syntax of lambdas is tricky because many parts are optional. These two lines do the
+     exact same thing:
+     a -> a.canHop()
+     (Animal a) -> { return a.canHop(); }
+
      **/
 }
