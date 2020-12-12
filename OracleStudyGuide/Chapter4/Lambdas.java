@@ -152,5 +152,18 @@ public class Lambdas {
      variable. Lines 6 and 7 take two parameters and ignore one of them—there isn’t a rule that
      says you must use all defi ned parameters.
 
+
+
+
+
+     Now let’s make sure you can identify invalid syntax. Do you see what’s wrong with each
+     of these?
+     print(a, b -> a.startsWith("test")); // DOES NOT COMPILE
+     print(a -> { a.startsWith("test"); }); // DOES NOT COMPILE
+     print(a -> { return a.startsWith("test") }); // DOES NOT COMPILE
+     The fi rst line needs parentheses around the parameter list. Remember that the parentheses are only optional when there is one parameter and it doesn’t have a type declared. The
+     second line is missing the return keyword. The last line is missing the semicolon.
+     You might have noticed all of our lambdas return a boolean. That is because the scope
+     for the OCA exam limits what you need to learn.
      **/
 }
