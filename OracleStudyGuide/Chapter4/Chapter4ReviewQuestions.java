@@ -50,5 +50,8 @@ public class Chapter4ReviewQuestions {
      F. public int methodF() { return;}
      G. public int methodG() { return null;}
 
+
+     Answer A, C, D
+
      **/
 }
