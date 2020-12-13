@@ -343,5 +343,8 @@ public class Chapter4ReviewQuestions {
      E. static import java.util.Collections.*;
      F. static import java.util.Collections.sort(ArrayList<String>);
 
+
+     Answer B
+
      **/
 }
