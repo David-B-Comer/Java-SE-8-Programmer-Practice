@@ -143,5 +143,8 @@ public class Chapter4ReviewQuestions {
      E. Line 8
      F. Line 9
 
+
+     Answer B, C, D, F
+
      **/
 }
