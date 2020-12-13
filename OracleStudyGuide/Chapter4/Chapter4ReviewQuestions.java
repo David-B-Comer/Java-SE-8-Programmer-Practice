@@ -211,5 +211,8 @@ public class Chapter4ReviewQuestions {
      E. Compiler error on line 6 of Chimp.
      F. Compiler error on line 7 of Chimp.
 
+
+     Answer B
+
      **/
 }
