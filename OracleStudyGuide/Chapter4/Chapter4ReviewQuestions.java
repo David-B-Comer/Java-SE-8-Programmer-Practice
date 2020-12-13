@@ -175,5 +175,8 @@ public class Chapter4ReviewQuestions {
      D. public int numWings() { return numberWings;}
      E. public void setCanSwim(boolean b) { canSwim = b;}
 
+
+     Answer C, E
+
      **/
 }
