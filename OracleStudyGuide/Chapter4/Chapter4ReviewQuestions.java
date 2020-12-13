@@ -146,5 +146,18 @@ public class Chapter4ReviewQuestions {
 
      Answer B, C, D, F
 
+
+
+
+
+     8. Which of the following are true? (Choose all that apply)
+
+     A. Encapsulation uses package private instance variables.
+     B. Encapsulation uses private instance variables.
+     C. Encapsulation allows setters.
+     D. Immutability uses package private instance variables.
+     E. Immutability uses private instance variables.
+     F. Immutability allows setters.
+
      **/
 }
