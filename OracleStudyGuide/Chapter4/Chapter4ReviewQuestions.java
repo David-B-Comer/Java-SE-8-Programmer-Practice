@@ -70,5 +70,23 @@ public class Chapter4ReviewQuestions {
 
      Answer A, B, G
 
+
+
+
+
+     5. Given the following method, which of the method calls return 2? (Choose all that apply)
+
+     public int howMany(boolean b, boolean... b2) {
+     return b2.length;
+     }
+
+     A. howMany();
+     B. howMany(true);
+     C. howMany(true, true);
+     D. howMany(true, true, true);
+     E. howMany(true, {true});
+     F. howMany(true, {true, true});
+     G. howMany(true, new boolean[2]);
+
      **/
 }
