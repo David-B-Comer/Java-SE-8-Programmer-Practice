@@ -53,5 +53,19 @@ public class Chapter4ReviewQuestions {
 
      Answer A, C, D
 
+
+
+
+
+     4. Which of the following compile? (Choose all that apply)
+
+     A. public void moreA(int... nums) {}
+     B. public void moreB(String values, int... nums) {}
+     C. public void moreC(int... nums, String values) {}
+     D. public void moreD(String... values, int... nums) {}
+     E. public void moreE(String[] values, ...int nums) {}
+     F. public void moreF(String... values, int[] nums) {}
+     G. public void moreG(String[] values, int[] nums) {}
+
      **/
 }
