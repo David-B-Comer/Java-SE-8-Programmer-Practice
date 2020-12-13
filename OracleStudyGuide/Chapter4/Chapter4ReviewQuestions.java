@@ -88,5 +88,8 @@ public class Chapter4ReviewQuestions {
      F. howMany(true, {true, true});
      G. howMany(true, new boolean[2]);
 
+
+     Answer D, G
+
      **/
 }
