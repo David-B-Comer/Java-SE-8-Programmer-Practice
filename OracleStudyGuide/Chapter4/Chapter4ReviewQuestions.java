@@ -17,5 +17,8 @@ public class Chapter4ReviewQuestions {
      E. String
      F. zzz:
 
+
+     Answer B, C
+
      **/
 }
