@@ -246,5 +246,8 @@ public class Chapter4ReviewQuestions {
      E. If the lines with compiler errors are removed, the output is swing swing.
      F. If the lines with compile errors are removed, the code throws a NullPointerException.
 
+
+     Answer B, E
+
      **/
 }
