@@ -159,5 +159,8 @@ public class Chapter4ReviewQuestions {
      E. Immutability uses private instance variables.
      F. Immutability allows setters.
 
+
+     Answer B, C, E
+
      **/
 }
