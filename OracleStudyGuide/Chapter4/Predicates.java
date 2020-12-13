@@ -39,5 +39,14 @@ public class Predicates {
      Line 8 takes care of everything for us. It defi nes a predicate that takes a String and
      returns a boolean. The removeIf() method does the rest
 
+
+
+     For the OCA exam, you only need to know how to implement lambda expressions that
+     use the Predicate interface. Remember the one method in the interface called test()? It
+     takes any one reference type parameter and returns a boolean. Functional programming
+     is a large topic and just the basics are covered. On the OCP exam, you’ll learn how to get
+     rid of the loop entirely for more than just removeIf(). You’ll also learn the rules for implementing
+     your own functional interfaces as we did with CheckTrait.
+
      **/
 }
