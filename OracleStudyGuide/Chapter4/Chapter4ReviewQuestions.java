@@ -67,5 +67,8 @@ public class Chapter4ReviewQuestions {
      F. public void moreF(String... values, int[] nums) {}
      G. public void moreG(String[] values, int[] nums) {}
 
+
+     Answer A, B, G
+
      **/
 }
