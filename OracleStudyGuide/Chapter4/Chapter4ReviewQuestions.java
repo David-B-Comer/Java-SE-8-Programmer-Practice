@@ -442,5 +442,8 @@ public class Chapter4ReviewQuestions {
      F. s3 = null
      G. The code does not compile.
 
+
+     Answer B, D, E
+
      **/
 }
