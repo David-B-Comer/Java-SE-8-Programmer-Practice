@@ -759,5 +759,8 @@ public class Chapter4ReviewQuestions {
      E. String s -> s.isEmpty()
      F. (String s) -> s.isEmpty()
 
+
+     Answer A, D, F
+
      **/
 }
