@@ -675,5 +675,8 @@ public class Chapter4ReviewQuestions {
      F. The code prints 4 4 if you remove the constructor Create(int num).
      G. The code prints 5 4 if you remove the constructor Create(int num).
 
+
+     Answer A, E
+
      **/
 }
