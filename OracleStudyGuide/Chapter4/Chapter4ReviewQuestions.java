@@ -637,5 +637,8 @@ public class Chapter4ReviewQuestions {
      E. value2 = "h"; instead of // CODE SNIPPET 2
      F. value3 = "i"; instead of // CODE SNIPPET 2
 
+
+     Answer B, C, E
+
      **/
 }
