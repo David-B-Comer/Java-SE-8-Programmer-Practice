@@ -787,5 +787,8 @@ public class Chapter4ReviewQuestions {
      E. caller((e) -> { String e = ""; return "Poof" });
      F. caller((e) -> { String f = ""; return "Poof"; });
 
+
+     Answer A, F
+
      **/
 }
