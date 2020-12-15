@@ -743,5 +743,21 @@ public class Chapter4ReviewQuestions {
 
      Answer C
 
+
+
+
+
+     28. Which of the following lambda expressions can fill in the blank? (Choose all that apply)
+
+     List<String> list = new ArrayList<>();
+     list.removeIf(___________________);
+
+     A. s -> s.isEmpty()
+     B. s -> {s.isEmpty()}
+     C. s -> {s.isEmpty();}
+     D. s -> {return s.isEmpty();}
+     E. String s -> s.isEmpty()
+     F. (String s) -> s.isEmpty()
+
      **/
 }
