@@ -40,5 +40,14 @@ public class ClassDesign {
      will throw an error and not compile. Unless otherwise specified, throughout this chapter
      you can assume the classes we work with are not marked as final.
 
+
+
+     Applying Class Access Modifiers
+     As discussed in Chapter 4, you can apply access modifiers (public, private, protected,
+     default) to both class methods and variables. It probably comes as no surprise that you can
+     also apply access modifiers to class definitions, since we have been adding the public access
+     modifier to nearly every class up to now.
+
+
      **/
 }
