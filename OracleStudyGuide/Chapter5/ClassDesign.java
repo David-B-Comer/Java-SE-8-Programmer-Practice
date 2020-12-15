@@ -7,7 +7,7 @@ public class ClassDesign {
      and standardization. For example, by creating a new class that extends an existing class,
      you may gain access to a slew of inherited primitives, objects, and methods. Alternatively,
      by designing a standard interface for your application, you ensure that any class that implements
-     the interface has certain required methods defi ned. Finally, by creating abstract class
+     the interface has certain required methods defined. Finally, by creating abstract class
      definitions, you’re defining a platform that other developers can extend and build on top of.
 
 
@@ -32,6 +32,13 @@ public class ClassDesign {
      can lead to complex, often difficult-to-maintain code. Java does allow one exception to the
      single inheritance rule: classes may implement multiple interfaces, as you’ll see later in this
      chapter.
+
+
+
+     It is possible in Java to prevent a class from being extended by marking the class with
+     the final modifier. If you try to define a class that inherits from a final class, the compiler
+     will throw an error and not compile. Unless otherwise specified, throughout this chapter
+     you can assume the classes we work with are not marked as final.
 
      **/
 }
