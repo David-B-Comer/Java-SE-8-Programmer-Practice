@@ -477,5 +477,8 @@ public class Chapter4ReviewQuestions {
      F. public class Bird { private Bird(int age) {} }
      G. public class Bird { void Bird() { }
 
+
+     Answer A, G
+
      **/
 }
