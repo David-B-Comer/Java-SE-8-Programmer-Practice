@@ -57,6 +57,12 @@ public class ClassDesign {
      OCA exam.
 
 
+     The public access modifier applied to a class indicates that it can be referenced and used
+     in any class. The default package private modifier, which is the lack of any access modifier,
+     indicates the class can be accessed only by a subclass or class within the same package.
+     As you know, a Java file can have many classes but at most one public class. In fact, it
+     may have no public class at all. One feature of using the default package private modifier
+     is that you can define many classes within the same Java file.
 
      **/
 }
