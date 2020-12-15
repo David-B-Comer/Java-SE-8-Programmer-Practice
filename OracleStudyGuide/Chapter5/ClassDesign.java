@@ -64,5 +64,16 @@ public class ClassDesign {
      may have no public class at all. One feature of using the default package private modifier
      is that you can define many classes within the same Java file.
 
+
+
+     Creating Java Objects
+     Throughout our discussion of Java in this book, we have thrown around the word object
+     numerous times—and with good reason. In Java, all classes inherit from a single class,
+     java.lang.Object. Furthermore, java.lang.Object is the only class that doesn’t have any
+     parent classes.
+     You might be wondering, “None of the classes I’ve written so far extend java.lang
+     .Object, so how do all classes inherit from it?” The answer is that the compiler has been
+     automatically inserting code into any class you write that doesn’t extend a specific class.
+
      **/
 }
