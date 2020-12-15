@@ -49,5 +49,14 @@ public class ClassDesign {
      modifier to nearly every class up to now.
 
 
+     For the OCA exam, you should only be familiar with public and default
+     package-level class access modifiers, because these are the only ones that
+     can be applied to top-level classes within a Java file. The protected and
+     private modifiers can only be applied to inner classes, which are classes
+     that are defined within other classes, but this is well out of scope for the
+     OCA exam.
+
+
+
      **/
 }
