@@ -538,5 +538,8 @@ public class Chapter4ReviewQuestions {
      E. super.numSpots = numSpots;
      F. None of the above.
 
+
+     Answer C
+
      **/
 }
