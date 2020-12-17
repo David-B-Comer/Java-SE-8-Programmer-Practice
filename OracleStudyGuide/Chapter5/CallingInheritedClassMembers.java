@@ -44,5 +44,23 @@ public class CallingInheritedClassMembers {
      using the super keyword. In this manner, the keywords this and super allow you to select
      between the current and parent version of a method, respectively
 
+
+
+     Overriding a method is not without limitations, though. The compiler performs the following checks
+     when you override a non-private method:
+     1. The method in the child class must have the same signature as the method in the parent
+     class.
+     2. The method in the child class must be at least as accessible or more accessible than the
+     method in the parent class.
+     3. The method in the child class may not throw a checked exception that is new or
+     broader than the class of any exception thrown in the parent class method.
+     4. If the method returns a value, it must be the same or a subclass of the method in the
+     parent class, known as covariant return types.
+
+     The first rule of overriding a method is somewhat self-explanatory. If two methods have
+     the same name but different signatures, the methods are overloaded, not overridden. As you
+     may recall from our discussion of overloaded methods in Chapter 4, the methods are unrelated
+     to each other and do not share any properties.
+
      **/
 }
