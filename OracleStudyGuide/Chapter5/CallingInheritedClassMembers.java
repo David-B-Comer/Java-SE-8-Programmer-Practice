@@ -62,5 +62,12 @@ public class CallingInheritedClassMembers {
      may recall from our discussion of overloaded methods in Chapter 4, the methods are unrelated
      to each other and do not share any properties.
 
+
+     Overloading vs. Overriding
+     Overloading a method and overriding a method are similar in that they both involve
+     redefi ning a method using the same name. They differ in that an overloaded method will
+     use a different signature than an overridden method. This distinction allows overloaded
+     methods a great deal more freedom in syntax than an overridden method would have.
+
      **/
 }
