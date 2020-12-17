@@ -11,5 +11,15 @@ public class CallingInheritedClassMembers {
      member age may be accessed indirectly via a public or protected method.
      To reference a member in a parent class, you can just call it directly
 
+
+
+     super() vs. super
+     As discussed in Chapter 4, this() and this are unrelated in Java. Likewise, super() and
+     super are quite different but may be used in the same methods on the exam. The first,
+     super(), is a statement that explicitly calls a parent constructor and may only be used in
+     the first line of a constructor of a child class. The second, super, is a keyword used to reference
+     a member defined in a parent class and may be used throughout the child class.
+     The exam may try to trick you by using both super() and super in a constructor.
+
      **/
 }
