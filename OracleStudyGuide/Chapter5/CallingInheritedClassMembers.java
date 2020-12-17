@@ -29,5 +29,15 @@ public class CallingInheritedClassMembers {
      and the subclass. In this section, we’ll review the rules for method inheritance and how
      Java handles such scenarios.
 
+
+
+     Overriding a Method
+     What if there is a method defined in both the parent and child class? For example, you may
+     want to define a new version of an existing method in a child class that makes use of the
+     definition in the parent class. In this case, you can override a method a method by declaring
+     a new method with the signature and return type as the method in the parent class. As
+     you may recall from Chapter 4, the method signature includes the name and list of input
+     parameters.
+
      **/
 }
