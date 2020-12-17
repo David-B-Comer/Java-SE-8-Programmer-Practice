@@ -39,5 +39,10 @@ public class CallingInheritedClassMembers {
      you may recall from Chapter 4, the method signature includes the name and list of input
      parameters.
 
+
+     When you override a method, you may reference the parent version of the method
+     using the super keyword. In this manner, the keywords this and super allow you to select
+     between the current and parent version of a method, respectively
+
      **/
 }
