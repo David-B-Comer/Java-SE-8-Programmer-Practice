@@ -138,9 +138,29 @@ public class CallingInheritedClassMembers {
      Creating final methods
      We conclude our discussion of method inheritance with a somewhat self-explanatory
      rule: final methods cannot be overridden. If you recall our discussion of modifi ers from
-     Chapter 4, you can create a method with the final keyword. By doing so, though, you forbid a child class from overriding this method. This rule is in place both when you override
+     Chapter 4, you can create a method with the final keyword. By doing so, though, you forbid a child
+     class from overriding this method. This rule is in place both when you override
      a method and when you hide a method. In other words, you cannot hide a static method in
      a parent class if it is marked as final.
+
+
+
+
+     Why Mark a Method as final?
+     Although marking methods as final prevents them from being overridden, it does have
+     advantages in practice. For example, you’d mark a method as final when you’re defining a
+     parent class and want to guarantee certain behavior of a method in the parent class,
+     regardless of which child is invoking the method.
+     For example, in the previous example with Birds, the author of the parent class may want
+     to ensure the method hasFeathers() always returns true, regardless of the child class
+     instance on which it is invoked. The author is confident that there is no example of a Bird in
+     which feathers are not present.
+     The reason methods are not commonly marked as final in practice, though, is that it
+     may be difficult for the author of a parent class method to consider all of the possible
+     ways her child class may be used. For example, although all adult birds have feathers, a
+     baby chick doesn’t; therefore, if you have an instance of a Bird that is a chick, it would
+     not have feathers. In short, the final modifier is only used on methods when the author
+     of the parent method wants to guarantee very precise behavior.
 
      **/
 }
