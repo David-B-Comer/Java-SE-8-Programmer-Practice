@@ -69,5 +69,19 @@ public class CallingInheritedClassMembers {
      use a different signature than an overridden method. This distinction allows overloaded
      methods a great deal more freedom in syntax than an overridden method would have.
 
+
+
+     Redeclaring private Methods
+     The previous section defined the behavior if you override a public or protected method in
+     the class. Now let’s expand our discussion to private methods. In Java, it is not possible to
+     override a private method in a parent class since the parent method is not accessible from
+     the child class. Just because a child class doesn’t have access to the parent method, doesn’t
+     mean the child class can’t define its own version of the method. It just means, strictly speaking,
+     that the new method is not an overridden version of the parent class’s method.
+     Java permits you to redeclare a new method in the child class with the same or modified signature
+     as the method in the parent class. This method in the child class is a separate
+     and independent method, unrelated to the parent version’s method, so none of the rules for
+     overriding methods are invoked.
+
      **/
 }
