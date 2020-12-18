@@ -192,5 +192,25 @@ public class CallingInheritedClassMembers {
      Although Java allows you to hide a variable defi ned in a parent class with one defined in
      a child class, it is considered an extremely poor coding practice.
 
+
+
+
+
+     Creating Abstract Classes
+     Let’s say you want to define a parent class that other developers are going to subclass. Your
+     goal is to provide some reusable variables and methods to developers in the parent class,
+     whereas the developers provide specific implementations or overrides of other methods in
+     the child classes. Furthermore, let’s say you also don’t want an instance of the parent class
+     to be instantiated unless it is an instance of the child class.
+     For example, you might define an Animal parent class that a number of classes extend
+     from and use but for which an instance of Animal itself cannot be instantiated. All subclasses
+     of the Animal class, such as Swan, are required to implement a getName() method,
+     but there is no implementation for the method in the parent Animal class. How do you
+     ensure all classes that extend Animal provide an implementation for this method?
+     In Java, you can accomplish this task by using an abstract class and abstract method. An
+     abstract class is a class that is marked with the abstract keyword and cannot be instantiated.
+     An abstract method is a method marked with the abstract keyword defined in an
+     abstract class, for which no implementation is provided in the class in which it is declared.
+
      **/
 }
