@@ -236,5 +236,11 @@ public class CallingInheritedClassMembers {
      abstract class as final, you’re saying the class can never be instantiated, so the compiler
      refuses to process the code.
 
+
+     Likewise, an abstract method may not be marked as final for the same reason that
+     an abstract class may not be marked as final. Once marked as final, the method can
+     never be overridden in a subclass, making it impossible to create a concrete instance of the
+     abstract class.
+
      **/
 }
