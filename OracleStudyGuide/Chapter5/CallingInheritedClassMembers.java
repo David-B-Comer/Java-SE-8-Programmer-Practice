@@ -245,8 +245,15 @@ public class CallingInheritedClassMembers {
 
 
      Finally, a method may not be marked as both abstract and private. This rule makes
-     sense if you think about it. How would you defi ne a subclass that implements a required
+     sense if you think about it. How would you define a subclass that implements a required
      method if the method is not accessible by the subclass itself? The answer is you can’t.
+
+
+
+     Creating a Concrete Class
+     When working with abstract classes, it is important to remember that by themselves, they
+     cannot be instantiated and therefore do not do much other than define static variables and
+     methods.
 
      **/
 }
