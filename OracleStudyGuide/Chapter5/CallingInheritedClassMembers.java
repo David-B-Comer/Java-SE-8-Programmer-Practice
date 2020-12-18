@@ -186,5 +186,11 @@ public class CallingInheritedClassMembers {
      within a child class, the variable defined in the child class is used. Likewise, you can reference
      the parent value of the variable with an explicit use of the super keyword.
 
+
+
+     Don’t Hide Variables in Practice
+     Although Java allows you to hide a variable defi ned in a parent class with one defined in
+     a child class, it is considered an extremely poor coding practice.
+
      **/
 }
