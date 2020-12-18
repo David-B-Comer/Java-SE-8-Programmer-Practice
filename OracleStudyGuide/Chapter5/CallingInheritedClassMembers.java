@@ -172,5 +172,19 @@ public class CallingInheritedClassMembers {
      variables with the same name in the parent and child classes are a lot simpler, because Java
      doesn’t allow variables to be overridden but instead hidden.
 
+
+
+
+     Hiding Variables
+     When you hide a variable, you define a variable with the same name as a variable in a parent class.
+     This creates two copies of the variable within an instance of the child class: one
+     instance defined for the parent reference and another defined for the child reference.
+     As when hiding a static method, you can’t override a variable; you can only hide it. Also
+     similar to hiding a static method, the rules for accessing the parent and child variables are
+     quite similar. If you’re referencing the variable from within the parent class, the variable
+     defined in the parent class is used. Alternatively, if you’re referencing the variable from
+     within a child class, the variable defined in the child class is used. Likewise, you can reference
+     the parent value of the variable with an explicit use of the super keyword.
+
      **/
 }
