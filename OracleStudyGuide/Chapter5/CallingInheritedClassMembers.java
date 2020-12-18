@@ -108,5 +108,16 @@ public class CallingInheritedClassMembers {
 
      Note that the first four are the same as the rules for overriding a method.
 
+
+
+
+     As you saw in the previous example, hiding static methods is fraught
+     with pitfalls and potential problems and as a practice should be avoided.
+     Though you might see questions on the exam that contain hidden static
+     methods that are syntactically correct, avoid hiding static methods in your
+     own work, since it tends to lead to confusing and difficult-to-read code.
+     You should not reuse the name of a static method in your class if it is
+     already used in the parent class.
+
      **/
 }
