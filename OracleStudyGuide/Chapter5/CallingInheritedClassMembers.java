@@ -212,5 +212,13 @@ public class CallingInheritedClassMembers {
      An abstract method is a method marked with the abstract keyword defined in an
      abstract class, for which no implementation is provided in the class in which it is declared.
 
+
+
+     Defining an Abstract Class
+     The previous sample code illustrates a number of important rules about abstract classes.
+     For example, an abstract class may include non-abstract methods and variables, as you saw
+     with the variable age and the method eat(). In fact, an abstract class is not required to
+     include any abstract methods.
+
      **/
 }
