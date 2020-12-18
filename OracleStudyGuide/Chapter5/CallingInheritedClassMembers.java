@@ -242,5 +242,11 @@ public class CallingInheritedClassMembers {
      never be overridden in a subclass, making it impossible to create a concrete instance of the
      abstract class.
 
+
+
+     Finally, a method may not be marked as both abstract and private. This rule makes
+     sense if you think about it. How would you defi ne a subclass that implements a required
+     method if the method is not accessible by the subclass itself? The answer is you can’t.
+
      **/
 }
