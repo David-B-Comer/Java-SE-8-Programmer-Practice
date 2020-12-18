@@ -162,5 +162,15 @@ public class CallingInheritedClassMembers {
      not have feathers. In short, the final modifier is only used on methods when the author
      of the parent method wants to guarantee very precise behavior.
 
+
+
+
+
+     Inheriting Variables
+     As you saw with method overriding, there were a lot of rules when two methods have the
+     same signature and are defined in both the parent and child classes. Luckily, the rules for
+     variables with the same name in the parent and child classes are a lot simpler, because Java
+     doesn’t allow variables to be overridden but instead hidden.
+
      **/
 }
