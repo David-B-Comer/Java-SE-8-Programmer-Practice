@@ -119,5 +119,18 @@ public class CallingInheritedClassMembers {
      You should not reuse the name of a static method in your class if it is
      already used in the parent class.
 
+
+
+     Overriding vs. Hiding Methods
+     In our description of hiding of static methods, we indicated there was a distinction between
+     overriding and hiding methods. Unlike overriding a method, in which a child method
+     replaces the parent method in calls defined in both the parent and child, hidden methods
+     only replace parent methods in the calls defined in the child class.
+     At runtime the child version of an overridden method is always executed for an instance
+     regardless of whether the method call is defined in a parent or child class method. In this
+     manner, the parent method is never used unless an explicit call to the parent method is
+     referenced, using the syntax ParentClassName.method(). Alternatively, at runtime the parent version
+     of a hidden method is always executed if the call to the method is defined in the parent class.
+
      **/
 }
