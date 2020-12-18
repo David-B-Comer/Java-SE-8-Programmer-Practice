@@ -220,5 +220,14 @@ public class CallingInheritedClassMembers {
      with the variable age and the method eat(). In fact, an abstract class is not required to
      include any abstract methods.
 
+
+
+     Default Method Implementations in Abstract Classes
+     Although you can’t provide a default implementation to an abstract method in an abstract
+     class, you can still defi ne a method with a body—you just can’t mark it as abstract. As
+     long as you do not mark it as final, the subclass still has the option to override it, as
+     explained in the previous section.
+
+
      **/
 }
