@@ -132,5 +132,15 @@ public class CallingInheritedClassMembers {
      referenced, using the syntax ParentClassName.method(). Alternatively, at runtime the parent version
      of a hidden method is always executed if the call to the method is defined in the parent class.
 
+
+
+
+     Creating final methods
+     We conclude our discussion of method inheritance with a somewhat self-explanatory
+     rule: final methods cannot be overridden. If you recall our discussion of modifi ers from
+     Chapter 4, you can create a method with the final keyword. By doing so, though, you forbid a child class from overriding this method. This rule is in place both when you override
+     a method and when you hide a method. In other words, you cannot hide a static method in
+     a parent class if it is marked as final.
+
      **/
 }
