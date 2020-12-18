@@ -65,7 +65,7 @@ public class CallingInheritedClassMembers {
 
      Overloading vs. Overriding
      Overloading a method and overriding a method are similar in that they both involve
-     redefi ning a method using the same name. They differ in that an overloaded method will
+     redefining a method using the same name. They differ in that an overloaded method will
      use a different signature than an overridden method. This distinction allows overloaded
      methods a great deal more freedom in syntax than an overridden method would have.
 
@@ -82,6 +82,31 @@ public class CallingInheritedClassMembers {
      as the method in the parent class. This method in the child class is a separate
      and independent method, unrelated to the parent version’s method, so none of the rules for
      overriding methods are invoked.
+
+
+
+
+     Hiding Static Methods
+     A hidden method occurs when a child class defines a static method with the same name
+     and signature as a static method defined in a parent class. Method hiding is similar but
+     not exactly the same as method overriding. First, the four previous rules for overriding a
+     method must be followed when a method is hidden. In addition, a new rule is added for
+     hiding a method, namely that the usage of the static keyword must be the same between
+     parent and child classes. The following list summarizes the five rules for hiding a method:
+     1. The method in the child class must have the same signature as the method in the parent
+     class.
+     2. The method in the child class must be at least as accessible or more accessible than the
+     method in the parent class.
+     3. The method in the child class may not throw a checked exception that is new or
+     broader than the class of any exception thrown in the parent class method.
+     4. If the method returns a value, it must be the same or a subclass of the method in the
+     parent class, known as covariant return types.
+     5. The method defined in the child class must be marked as static if it is marked as
+     static in the parent class (method hiding). Likewise, the method must not be marked
+     as static in the child class if it is not marked as static in the parent class (method
+     overriding).
+
+     Note that the first four are the same as the rules for overriding a method.
 
      **/
 }
