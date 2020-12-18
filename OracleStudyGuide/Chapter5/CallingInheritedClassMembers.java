@@ -262,5 +262,16 @@ public class CallingInheritedClassMembers {
      implement all inherited abstract methods. When you see a concrete class extending an abstract
      class on the exam, check that it implements all of the required abstract methods.
 
+
+
+
+     Extending an Abstract Class
+     Let’s expand our discussion of abstract classes by introducing the concept of extending an
+     abstract class with another abstract.
+     Here’s one way to think about this: if an intermediate class provides an implementation
+     for an abstract method, that method is inherited by subclasses as a concrete method, not
+     as an abstract one. In other words, the subclasses do not consider it an inherited abstract
+     method because it is no longer abstract by the time it reaches the subclasses.
+
      **/
 }
