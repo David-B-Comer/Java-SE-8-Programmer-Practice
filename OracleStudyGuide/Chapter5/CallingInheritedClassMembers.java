@@ -224,10 +224,17 @@ public class CallingInheritedClassMembers {
 
      Default Method Implementations in Abstract Classes
      Although you can’t provide a default implementation to an abstract method in an abstract
-     class, you can still defi ne a method with a body—you just can’t mark it as abstract. As
+     class, you can still define a method with a body—you just can’t mark it as abstract. As
      long as you do not mark it as final, the subclass still has the option to override it, as
      explained in the previous section.
 
+
+
+     Next, we note that an abstract class cannot be marked as final for a somewhat obvious reason.
+     By definition, an abstract class is one that must be extended by another class to
+     be instantiated, whereas a final class can’t be extended by another class. By marking an
+     abstract class as final, you’re saying the class can never be instantiated, so the compiler
+     refuses to process the code.
 
      **/
 }
