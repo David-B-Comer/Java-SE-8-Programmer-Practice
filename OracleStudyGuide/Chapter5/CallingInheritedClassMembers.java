@@ -255,5 +255,12 @@ public class CallingInheritedClassMembers {
      cannot be instantiated and therefore do not do much other than define static variables and
      methods.
 
+
+
+     An abstract class becomes useful when it is extended by a concrete subclass. A concrete
+     class is the first non-abstract subclass that extends an abstract class and is required to
+     implement all inherited abstract methods. When you see a concrete class extending an abstract
+     class on the exam, check that it implements all of the required abstract methods.
+
      **/
 }
