@@ -347,5 +347,12 @@ public class CallingInheritedClassMembers {
      manner, the new child interface inherits all the abstract methods of the parent interface.
      Unlike an abstract class, though, an interface may extend multiple interfaces.
 
+
+
+     Classes, Interfaces, and Keywords
+     The exam creators are fond of questions that mix class and interface terminology. Although
+     a class can implement an interface, a class cannot extend an interface. Likewise, whereas
+     an interface can extend another interface, an interface cannot implement another interface.
+
      **/
 }
