@@ -444,5 +444,14 @@ public class CallingInheritedClassMembers {
      reference you have for the object in memory, the object itself doesn’t change. For example,
      since all objects inherit java.lang.Object, they can all be reassigned to java.lang.Object
 
+
+     We can summarize this principle with the following two rules:
+     1. The type of the object determines which properties exist within the object in memory.
+     2. The type of the reference to the object determines which methods and variables are
+     accessible to the Java program.
+     It therefore follows that successfully changing a reference of an object to a new reference
+     type may give you access to new properties of the object, but those properties existed before
+     the reference change occurred.
+
      **/
 }
