@@ -435,5 +435,14 @@ public class CallingInheritedClassMembers {
      interface the object implements, either directly or through a superclass. Furthermore, a cast
      is not required if the object is being reassigned to a super type or interface of the object.
 
+
+
+     Object vs. Reference
+     In Java, all objects are accessed by reference, so as a developer you never have direct access
+     to the object itself. Conceptually, though, you should consider the object as the entity that
+     exists in memory, allocated by the Java runtime environment. Regardless of the type of the
+     reference you have for the object in memory, the object itself doesn’t change. For example,
+     since all objects inherit java.lang.Object, they can all be reassigned to java.lang.Object
+
      **/
 }
