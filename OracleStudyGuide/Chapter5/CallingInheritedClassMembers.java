@@ -396,5 +396,21 @@ public class CallingInheritedClassMembers {
      the existing codebase, while still providing those individuals who do want to use the new
      method with the option to override it.
 
+
+
+
+     The following are the default interface method rules you need to be familiar with:
+     1. A default method may only be declared within an interface and not within a class or
+     abstract class.
+     2. A default method must be marked with the default keyword. If a method is marked as
+     default, it must provide a method body.
+     3. A default method is not assumed to be static, final, or abstract, as it may be used
+     or overridden by a class that implements the interface.
+     4. Like all methods in an interface, a default method is assumed to be public and will not
+     compile if marked as private or protected.
+     The first rule should give you some comfort in that you’ll only see default methods in
+     interfaces. If you see them in a class on the exam, assume the code will not compile. The
+     second rule just denotes syntax, as default methods must use the default keyword.
+
      **/
 }
