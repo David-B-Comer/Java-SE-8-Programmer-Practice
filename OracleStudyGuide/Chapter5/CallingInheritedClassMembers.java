@@ -453,5 +453,33 @@ public class CallingInheritedClassMembers {
      type may give you access to new properties of the object, but those properties existed before
      the reference change occurred.
 
+
+
+
+
+
+     Casting Objects
+     In the previous example, we created a single instance of a Lemur object and accessed it
+     via superclass and interface references. Once we changed the reference type, though,
+     we lost access to more specific methods defined in the subclass that still exist within the
+     object. We can reclaim those references by casting the object back to the specific subclass it came from:
+     Primate primate = lemur;
+     Lemur lemur2 = primate; // DOES NOT COMPILE
+     Lemur lemur3 = (Lemur)primate;
+     System.out.println(lemur3.age);
+     In this example, we first try to convert the primate reference back to a lemur reference,
+     lemur2, without an explicit cast. The result is that the code will not compile. In the second
+     example, though, we explicitly cast the object to a subclass of the object Primate and we
+     gain access to all the methods available to the Lemur class.
+     Here are some basic rules to keep in mind when casting variables:
+     1. Casting an object from a subclass to a superclass doesn’t require an explicit cast.
+     2. Casting an object from a superclass to a subclass requires an explicit cast.
+     3. The compiler will not allow casts to unrelated types.
+     4. Even when the code compiles without issue, an exception may be thrown at runtime if
+     the object being cast is not actually an instance of that class.
+     The third rule is important; the exam may try to trick you with a cast that the compiler
+     doesn’t allow. For example, we were able to cast a Primate reference to a Lemur reference,
+     because Lemur is a subclass of Primate and therefore related.
+
      **/
 }
