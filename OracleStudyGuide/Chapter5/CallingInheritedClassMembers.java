@@ -354,5 +354,23 @@ public class CallingInheritedClassMembers {
      a class can implement an interface, a class cannot extend an interface. Likewise, whereas
      an interface can extend another interface, an interface cannot implement another interface.
 
+
+
+
+     Interface Variables
+     Let’s expand our discussion of interfaces to include interface variables, which can be
+     defined within an interface. Like interface methods, interface variables are assumed to
+     be public. Unlike interface methods, though, interface variables are also assumed to be
+     static and final.
+     Here are two interface variables rules:
+     1. Interface variables are assumed to be public, static, and final. Therefore, marking
+     a variable as private or protected will trigger a compiler error, as will marking any
+     variable as abstract.
+     2. The value of an interface variable must be set when it is declared since it is marked as
+     final.
+     In this manner, interface variables are essentially constant variables defined on the
+     interface level. Because they are assumed to be static, they are accessible even without
+     an instance of the interface.
+
      **/
 }
