@@ -372,5 +372,29 @@ public class CallingInheritedClassMembers {
      interface level. Because they are assumed to be static, they are accessible even without
      an instance of the interface.
 
+
+
+
+     Default Interface Methods
+     With the release of Java 8, the authors of Java have introduced a new type of method to an
+     interface, referred to as a default method. A default method is a method defined within an
+     interface with the default keyword in which a method body is provided. Contrast default
+     methods with “regular” methods in an interface, which are assumed to be abstract and
+     may not have a method body.
+     A default method within an interface defines an abstract method with a default implementation.
+     In this manner, classes have the option to override the default method if they
+     need to, but they are not required to do so. If the class doesn’t override the method, the
+     default implementation will be used. In this manner, the method definition is concrete, not
+     abstract.
+     The purpose of adding default methods to the Java language was in part to help with
+     code development and backward compatibility. Imagine you have an interface that is
+     shared among dozens or even hundreds of users that you would like to add a new method
+     to. If you just update the interface with the new method, the implementation would break
+     among all of your subscribers, who would then be forced to update their code. In practice,
+     this might even discourage you from making the change altogether. By providing a default
+     implementation of the method, though, the interface becomes backward compatible with
+     the existing codebase, while still providing those individuals who do want to use the new
+     method with the option to override it.
+
      **/
 }
