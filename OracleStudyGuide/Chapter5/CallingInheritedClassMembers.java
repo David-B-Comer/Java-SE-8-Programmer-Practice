@@ -299,5 +299,16 @@ public class CallingInheritedClassMembers {
      the method in the subclass must be at least as accessible as the method in the parent
      class.
 
+
+
+     Implementing Interfaces
+     Although Java doesn’t allow multiple inheritance, it does allow classes to implement any
+     number of interfaces. An interface is an abstract data type that defines a list of abstract
+     public methods that any class implementing the interface must provide. An interface can
+     also include a list of constant variables and default methods, which we’ll cover in this section.
+     In Java, an interface is defined with the interface keyword, analogous to the class
+     keyword used when defining a class. A class invokes the interface by using the implements
+     keyword in its class definition.
+
      **/
 }
