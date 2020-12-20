@@ -425,5 +425,15 @@ public class CallingInheritedClassMembers {
      compile if marked as private or protected.
      2. To reference the static method, a reference to the name of the interface must be used.
 
+
+
+
+     Understanding Polymorphism
+     Java supports polymorphism, the property of an object to take on many different forms. To
+     put this more precisely, a Java object may be accessed using a reference with the same type
+     as the object, a reference that is a superclass of the object, or a reference that defines an
+     interface the object implements, either directly or through a superclass. Furthermore, a cast
+     is not required if the object is being reassigned to a super type or interface of the object.
+
      **/
 }
