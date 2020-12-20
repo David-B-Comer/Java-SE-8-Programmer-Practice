@@ -412,5 +412,18 @@ public class CallingInheritedClassMembers {
      interfaces. If you see them in a class on the exam, assume the code will not compile. The
      second rule just denotes syntax, as default methods must use the default keyword.
 
+
+
+     Static Interface Methods
+     Java 8 also now includes support for static methods within interfaces. These methods are
+     defined explicitly with the static keyword and function nearly identically to static methods
+     defined in classes, as discussed in Chapter 4. In fact, there is really only one distinction
+     between a static method in a class and an interface. A static method defined in an interface
+     is not inherited in any classes that implement the interface.
+     Here are the static interface method rules you need to be familiar with:
+     1. Like all methods in an interface, a static method is assumed to be public and will not
+     compile if marked as private or protected.
+     2. To reference the static method, a reference to the name of the interface must be used.
+
      **/
 }
