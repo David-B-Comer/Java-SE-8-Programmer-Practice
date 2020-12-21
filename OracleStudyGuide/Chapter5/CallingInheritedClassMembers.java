@@ -493,5 +493,16 @@ public class CallingInheritedClassMembers {
      method on an object that overrides a method, you get the overridden method, even if the
      call to the method is on a parent reference or within the parent class.
 
+
+
+
+     Polymorphic Parameters
+     One of the most useful applications of polymorphism is the ability to pass instances of
+     a subclass or interface to a method. For example, you can define a method that takes an
+     instance of an interface as a parameter. In this manner, any class that implements the interface
+     can be passed to the method. Since you’re casting from a subtype to a supertype, an
+     explicit cast is not required. This property is referred to as polymorphic parameters of a
+     method
+
      **/
 }
