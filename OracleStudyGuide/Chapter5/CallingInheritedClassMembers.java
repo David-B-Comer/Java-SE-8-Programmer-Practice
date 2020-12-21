@@ -481,5 +481,17 @@ public class CallingInheritedClassMembers {
      doesn’t allow. For example, we were able to cast a Primate reference to a Lemur reference,
      because Lemur is a subclass of Primate and therefore related.
 
+
+
+
+     Virtual Methods
+     The most important feature of polymorphism—and one of the primary reasons we have
+     class structure at all—is to support virtual methods. A virtual method is a method in which
+     the specific implementation is not determined until runtime. In fact, all non-final, non-static,
+     and non-private Java methods are considered virtual methods, since any of them can
+     be overridden at runtime. What makes a virtual method special in Java is that if you call a
+     method on an object that overrides a method, you get the overridden method, even if the
+     call to the method is on a parent reference or within the parent class.
+
      **/
 }
