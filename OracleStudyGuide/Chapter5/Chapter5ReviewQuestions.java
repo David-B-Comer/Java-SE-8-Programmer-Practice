@@ -58,7 +58,7 @@ public class Chapter5ReviewQuestions {
     public interface CanHop {}
     public class Frog implements CanHop {
     public static void main(String[] args) {
-    frog = new TurtleFrog();
+    _________ frog = new TurtleFrog();
     }
     }
     public class BrazilianHornedFrog extends Frog {}
@@ -72,7 +72,7 @@ public class Chapter5ReviewQuestions {
     F. Long
 
 
-
+    Answer A, B, D, E
 
 
  **/
