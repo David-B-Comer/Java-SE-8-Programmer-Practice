@@ -103,6 +103,8 @@ public class Chapter5ReviewQuestions {
     E. It fails to compile because of a static modifier mismatch between the two methods.
 
 
+    Answer C, E
+
 
  **/
 }
