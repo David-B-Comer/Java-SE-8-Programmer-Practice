@@ -106,5 +106,17 @@ public class Chapter5ReviewQuestions {
     Answer C, E
 
 
+
+
+
+    5. Which of the following may only be hidden and not overridden? (Choose all that apply)
+
+    A. private instance methods
+    B. protected instance methods
+    C. public instance methods
+    D. static methods
+    E. public variables
+    F. private variables
+
  **/
 }
