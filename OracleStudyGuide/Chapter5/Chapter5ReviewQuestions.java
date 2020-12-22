@@ -118,5 +118,8 @@ public class Chapter5ReviewQuestions {
     E. public variables
     F. private variables
 
+
+    Answer A, D, E, F
+
  **/
 }
