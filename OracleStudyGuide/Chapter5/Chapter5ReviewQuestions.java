@@ -214,5 +214,18 @@ public class Chapter5ReviewQuestions {
 
     Answer A
 
+
+
+
+    10. Which statements are true for both abstract classes and interfaces? (Choose all that apply)
+
+    A. All methods within them are assumed to be abstract.
+    B. Both can contain public static final variables.
+    C. Both can be extended using the extend keyword.
+    D. Both can contain default methods.
+    E. Both can contain static methods.
+    F. Neither can be instantiated directly.
+    G. Both inherit java.lang.Object.
+
  **/
 }
