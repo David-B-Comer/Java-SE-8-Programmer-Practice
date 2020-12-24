@@ -161,5 +161,8 @@ public class Chapter5ReviewQuestions {
     E. By defining a public instance method in the superclass, you guarantee that the specific
     method will be called in the parent class at runtime.
 
+
+    Answer B, C
+
  **/
 }
