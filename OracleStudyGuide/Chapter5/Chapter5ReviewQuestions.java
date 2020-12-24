@@ -186,5 +186,8 @@ public class Chapter5ReviewQuestions {
     E. The code will not compile because of lines 2 and 3.
     F. The code will not compile because of lines 3 and 4.
 
+
+    Answer F
+
  **/
 }
