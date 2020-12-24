@@ -147,5 +147,19 @@ public class Chapter5ReviewQuestions {
 
     Answer D
 
+
+
+
+
+    7. Which of the following statements about polymorphism are true? (Choose all that apply)
+
+    A. A reference to an object may be cast to a subclass of the object without an explicit cast.
+    B. If a method takes a superclass of three objects, then any of those classes may be passed
+    as a parameter to the method.
+    C. A method that takes a parameter with type java.lang.Object will take any reference.
+    D. All cast exceptions can be detected at compile-time.
+    E. By defining a public instance method in the superclass, you guarantee that the specific
+    method will be called in the parent class at runtime.
+
  **/
 }
