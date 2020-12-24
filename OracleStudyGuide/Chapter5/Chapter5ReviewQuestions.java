@@ -211,5 +211,8 @@ public class Chapter5ReviewQuestions {
     E. The code will not compile because of lines 2 and 5.
     F. The code will not compile because the class Falcon doesn’t implement the interface methods.
 
+
+    Answer A
+
  **/
 }
