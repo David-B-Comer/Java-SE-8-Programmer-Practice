@@ -164,5 +164,27 @@ public class Chapter5ReviewQuestions {
 
     Answer B, C
 
+
+
+
+
+
+    8. Choose the correct statement about the following code:
+
+    1: public interface Herbivore {
+    2: int amount = 10;
+    3: public static void eatGrass();
+    4: public int chew() {
+    5: return 13;
+    6: }
+    7: }
+
+    A. It compiles and runs without issue.
+    B. The code will not compile because of line 2.
+    C. The code will not compile because of line 3.
+    D. The code will not compile because of line 4.
+    E. The code will not compile because of lines 2 and 3.
+    F. The code will not compile because of lines 3 and 4.
+
  **/
 }
