@@ -227,5 +227,8 @@ public class Chapter5ReviewQuestions {
     F. Neither can be instantiated directly.
     G. Both inherit java.lang.Object.
 
+
+    Answer B, C, E, F
+
  **/
 }
