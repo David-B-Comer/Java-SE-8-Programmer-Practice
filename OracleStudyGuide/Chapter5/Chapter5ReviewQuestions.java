@@ -121,5 +121,30 @@ public class Chapter5ReviewQuestions {
 
     Answer A, D, E, F
 
+
+
+
+
+
+    6. Choose the correct statement about the following code:
+
+    1: interface HasExoskeleton {
+    2: abstract int getNumberOfSections();
+    3: }
+    4: abstract class Insect implements HasExoskeleton {
+    5: abstract int getNumberOfLegs();
+    6: }
+    7: public class Beetle extends Insect {
+    8: int getNumberOfLegs() { return 6; }
+    9: }
+
+    A. It compiles and runs without issue.
+    B. The code will not compile because of line 2.
+    C. The code will not compile because of line 4.
+    D. The code will not compile because of line 7.
+    E. It compiles but throws an exception at runtime.
+
+
+
  **/
 }
