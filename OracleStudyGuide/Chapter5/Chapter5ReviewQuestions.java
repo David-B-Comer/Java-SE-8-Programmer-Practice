@@ -300,5 +300,23 @@ public class Chapter5ReviewQuestions {
 
     Answer A
 
+
+
+
+    14. Which statements are true about the following code? (Choose all that apply)
+
+    1: interface HasVocalCords {
+    2: public abstract void makeSound();
+    3: }
+    4: public interface CanBark extends HasVocalCords {
+    5: public void bark();
+    6: }
+
+    A. The CanBark interface doesn’t compile.
+    B. A class that implements HasVocalCords must override the makeSound() method.
+    C. A class that implements CanBark inherits both the makeSound() and bark() methods.
+    D. A class that implements CanBark only inherits the bark() method.
+    E. An interface cannot extend another interface.
+
  **/
 }
