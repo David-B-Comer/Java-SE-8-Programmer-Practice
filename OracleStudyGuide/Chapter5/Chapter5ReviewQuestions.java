@@ -318,5 +318,8 @@ public class Chapter5ReviewQuestions {
     D. A class that implements CanBark only inherits the bark() method.
     E. An interface cannot extend another interface.
 
+
+    Answer C
+
  **/
 }
