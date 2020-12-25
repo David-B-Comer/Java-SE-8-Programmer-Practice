@@ -243,5 +243,8 @@ public class Chapter5ReviewQuestions {
     E. final
     F. abstract
 
+
+    Answer A, D, E
+
  **/
 }
