@@ -230,5 +230,18 @@ public class Chapter5ReviewQuestions {
 
     Answer B, C, E, F
 
+
+
+
+
+    11. What modifiers are assumed for all interface variables? (Choose all that apply)
+
+    A. public
+    B. protected
+    C. private
+    D. static
+    E. final
+    F. abstract
+
  **/
 }
