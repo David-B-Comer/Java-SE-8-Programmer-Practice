@@ -246,5 +246,29 @@ public class Chapter5ReviewQuestions {
 
     Answer A, D, E
 
+
+
+
+
+    12. What is the output of the following code?
+
+    1: interface Nocturnal {
+    2: default boolean isBlind() { return true; }
+    3: }
+    4: public class Owl implements Nocturnal {
+    5: public boolean isBlind() { return false; }
+    6: public static void main(String[] args) {
+    7: Nocturnal nocturnal = (Nocturnal)new Owl();
+    8: System.out.println(nocturnal.isBlind());
+    9: }
+    10: }
+
+    A. true
+    B. false
+    C. The code will not compile because of line 2.
+    D. The code will not compile because of line 5.
+    E. The code will not compile because of line 7.
+    F. The code will not compile because of line 8.
+
  **/
 }
