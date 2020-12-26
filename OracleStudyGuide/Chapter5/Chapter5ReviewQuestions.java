@@ -390,5 +390,30 @@ public class Chapter5ReviewQuestions {
 
     Answer B
 
+
+
+
+
+
+    18. What is the output of the following code? (Choose all that apply)
+
+    1: interface Aquatic {
+    2: public default int getNumberOfGills(int input) { return 2; }
+    3: }
+    4: public class ClownFish implements Aquatic {
+    5: public String getNumberOfGills() { return "4"; }
+    6: public String getNumberOfGills(int input) { return "6"; }
+    7: public static void main(String[] args) {
+    8: System.out.println(new ClownFish().getNumberOfGills(-1));
+    9: }
+    10: }
+
+    A. 2
+    B. 4
+    C. 6
+    D. The code will not compile because of line 5.
+    E. The code will not compile because of line 6.
+    F. The code will not compile because of line 8.
+
  **/
 }
