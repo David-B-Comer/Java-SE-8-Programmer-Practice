@@ -432,7 +432,7 @@ public class Chapter5ReviewQuestions {
     private Snake snake;
     public void setSnake(Snake snake) { this.snake = snake; }
     public static void main(String[] args) {
-    new SnakeHandler().setSnake( );
+    new SnakeHandler().setSnake(__________ );
     }
     }
 
@@ -442,6 +442,9 @@ public class Chapter5ReviewQuestions {
     D. new Object()
     E. new String("Snake")
     F. null
+
+
+    Answer A, C, F
 
  **/
 }
