@@ -419,5 +419,29 @@ public class Chapter5ReviewQuestions {
     Answer E
 
 
+
+
+
+    19. Which of the following statements can be inserted in the blank so that the code will
+    compile successfully? (Choose all that apply)
+
+    public class Snake {}
+    public class Cobra extends Snake {}
+    public class GardenSnake {}
+    public class SnakeHandler {
+    private Snake snake;
+    public void setSnake(Snake snake) { this.snake = snake; }
+    public static void main(String[] args) {
+    new SnakeHandler().setSnake( );
+    }
+    }
+
+    A. new Cobra()
+    B. new GardenSnake()
+    C. new Snake()
+    D. new Object()
+    E. new String("Snake")
+    F. null
+
  **/
 }
