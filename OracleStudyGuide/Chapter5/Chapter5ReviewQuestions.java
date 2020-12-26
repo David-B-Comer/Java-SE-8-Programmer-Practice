@@ -388,7 +388,7 @@ public class Chapter5ReviewQuestions {
     E. The output cannot be determined from the code provided.
 
 
-
+    Answer B
 
  **/
 }
