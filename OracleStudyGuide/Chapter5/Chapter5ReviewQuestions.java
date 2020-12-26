@@ -446,5 +446,27 @@ public class Chapter5ReviewQuestions {
 
     Answer A, C, F
 
+
+
+
+    20. What is the result of the following code?
+
+    1: public abstract class Bird {
+    2: private void fly() { System.out.println("Bird is flying"); }
+    3: public static void main(String[] args) {
+    4: Bird bird = new Pelican();
+    5: bird.fly();
+    6: }
+    7: }
+    8: class Pelican extends Bird {
+    9: protected void fly() { System.out.println("Pelican is flying"); }
+    10: }
+
+    A. Bird is flying
+    B. Pelican is flying
+    C. The code will not compile because of line 4.
+    D. The code will not compile because of line 5.
+    E. The code will not compile because of line 9.
+
  **/
 }
