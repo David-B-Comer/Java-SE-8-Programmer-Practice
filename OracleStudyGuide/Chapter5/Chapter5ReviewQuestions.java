@@ -321,5 +321,17 @@ public class Chapter5ReviewQuestions {
 
     Answer C
 
+
+
+
+
+    15. Which of the following is true about a concrete subclass? (Choose all that apply)
+
+    A. A concrete subclass can be declared as abstract.
+    B. A concrete subclass must implement all inherited abstract methods.
+    C. A concrete subclass must implement all methods defined in an inherited interface.
+    D. A concrete subclass cannot be marked as final.
+    E. Abstract methods cannot be overridden by a concrete subclass.
+
  **/
 }
