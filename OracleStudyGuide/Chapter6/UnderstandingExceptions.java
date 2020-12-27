@@ -39,5 +39,30 @@ public class UnderstandingExceptions {
      access an invalid position in an array. The key point to remember is that exceptions alter
      the program flow.
 
+
+
+
+
+
+     Return Codes vs. Exceptions
+     Exceptions are used when “something goes wrong.” However, the word “wrong” is
+     subjective. The following code returns –1 instead of throwing an exception if no match is
+     found:
+     public int indexOf(String[] names, String name) {
+     for (int i = 0; i < names.length; i++) {
+     if (names[i].equals(name)) { return i; }
+     }
+     return -1;
+     }
+     This approach is common when writing a method that does a search. For example,
+     imagine being asked to find the name Joe in the array. It is perfectly reasonable that
+     Joe might not appear in the array. When this happens, a special value is returned. An
+     exception should be reserved for exceptional conditions like names being null.
+     In general, try to avoid return codes. Return codes are commonly used in searches, so
+     programmers are expecting them. In other methods, you will take your callers by surprise
+     by returning a special value. An exception forces the program to deal with them or end
+     with the exception if left unhandled, whereas a return code could be accidentally ignored
+     and cause problems later in the program. An exception is like shouting, “Deal with me!”
+
      **/
 }
