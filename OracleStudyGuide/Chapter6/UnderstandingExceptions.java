@@ -103,5 +103,15 @@ public class UnderstandingExceptions {
      rule. For checked exceptions, Java requires the code to either handle them or declare them
      in the method signature.
 
+
+
+
+
+     Runtime vs. at the Time the Program is Run
+     A runtime (unchecked) exception is a specific type of exception. All exceptions occur at the
+     time that the program is run. (The alternative is compile time, which would be a compiler
+     error.) People don’t refer to them as run time exceptions because that would be too easy to
+     confuse with runtime! When you see runtime, it means unchecked.
+
      **/
 }
