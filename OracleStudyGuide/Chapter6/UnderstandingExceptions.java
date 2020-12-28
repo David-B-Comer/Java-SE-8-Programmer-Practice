@@ -73,5 +73,20 @@ public class UnderstandingExceptions {
      superclass for all objects that represent these events. Not all of them have the word exception
      in their classname, which can be confusing.
 
+
+
+
+                    Categories of exception
+
+                    java.lang.Object
+                            ^
+                    java.lang.Throwable
+            ^                              ^
+     java.lang.Exception            java.lang.Error
+                            ^
+                    java.lang.RuntimeException
+
+
+
      **/
 }
