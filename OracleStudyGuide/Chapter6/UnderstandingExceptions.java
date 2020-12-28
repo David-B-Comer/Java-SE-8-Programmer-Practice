@@ -64,5 +64,14 @@ public class UnderstandingExceptions {
      with the exception if left unhandled, whereas a return code could be accidentally ignored
      and cause problems later in the program. An exception is like shouting, “Deal with me!”
 
+
+
+
+
+     Understanding Exception Types
+     As we’ve explained, an exception is an event that alters program fl ow. Java has a Throwable
+     superclass for all objects that represent these events. Not all of them have the word exception
+     in their classname, which can be confusing.
+
      **/
 }
