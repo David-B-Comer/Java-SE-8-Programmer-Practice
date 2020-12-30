@@ -140,5 +140,40 @@ public class UnderstandingExceptions {
      exceptions function. You don’t have to decide philosophically whether an exception
      should be checked or unchecked.
 
+
+
+
+
+
+     Throwing an Exception
+     Any Java code can throw an exception; this includes code you write. For the OCP exam,
+     you’ll learn how to create your own exception classes. The OCA exam is limited to
+     exceptions that someone else has created. Most likely, they will be exceptions that are
+     provided with Java. You might encounter an exception that was made up for the exam.
+     This is fine. The question will make it obvious that these are exceptions by having the
+     classname end with exception. For example, “MyMadeUpException” is clearly an
+     exception.
+     On the exam, you will see two types of code that result in an exception. The first is code
+     that’s wrong. For example:
+     String[] animals = new String[0];
+     System.out.println(animals[0]);
+     This code throws an ArrayIndexOutOfBoundsException. That means questions about
+     exceptions can be hidden in questions that appear to be about something else.
+     The second way for code to result in an exception is to explicitly request Java to throw
+     one. Java lets you write statements like these:
+     throw new Exception();
+     throw new Exception("Ow! I fell.");
+     throw new RuntimeException();
+     throw new RuntimeException("Ow! I fell.");
+     The throw keyword tells Java you want some other part of the code to deal with the
+     exception. This is the same as the young girl crying for her daddy. Someone else needs to
+     figure out what to do about the exception.
+     When creating an exception, you can usually pass a String parameter with a message or
+     you can pass no parameters and use the defaults. We say usually because this is a convention.
+     Someone could create an exception class that does not have a constructor that takes
+     a message. The first two examples create a new object of type Exception and throw it.
+     The last two show that the code looks the same regardless of which type of exception you
+     throw.
+
      **/
 }
