@@ -201,5 +201,16 @@ public class UnderstandingExceptions {
      exception.
 
 
+
+     The code in the try block is run normally. If any of the statements throw an exception
+     that can be caught by the exception type listed in the catch block, the try block stops running and execution goes to the catch statement. If none of the statements in the try block
+     throw an exception that can be caught, the catch clause is not run.
+     You probably noticed the words “block” and “clause” used interchangeably. The
+     exam does this as well, so we are getting you used to it. Both are correct. “Block” is
+     correct because there are braces present. “Clause” is correct because they are part of a
+     try statement.
+     There aren’t a ton of syntax rules here. The curly braces are required for the try and
+     catch blocks.
+
      **/
 }
