@@ -113,5 +113,18 @@ public class UnderstandingExceptions {
      error.) People don’t refer to them as run time exceptions because that would be too easy to
      confuse with runtime! When you see runtime, it means unchecked.
 
+
+
+
+     Notice that you’re using two different keywords here. throw tells Java that you want to
+     throw an Exception. throws simply declares that the method might throw an Exception. It
+     also might not. You will see the throws keyword more later in the chapter.
+     Because checked exceptions tend to be anticipated, Java enforces that the programmer do
+     something to show the exception was thought about. Maybe it was handled in the method.
+     Or maybe the method declares that it can’t handle the exception and someone else should.
+     An example of a runtime exception is a NullPointerException, which happens when
+     you try to call a member on a null reference. This can occur in any method. If you had to
+     declare runtime exceptions everywhere, every single method would have that clutter!
+
      **/
 }
