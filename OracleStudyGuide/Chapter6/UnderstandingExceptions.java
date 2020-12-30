@@ -126,5 +126,19 @@ public class UnderstandingExceptions {
      you try to call a member on a null reference. This can occur in any method. If you had to
      declare runtime exceptions everywhere, every single method would have that clutter!
 
+
+
+
+     Checked vs. Unchecked (Runtime) Exceptions
+     In the past, developers used checked exceptions more often than they do now. According to Oracle,
+     they are intended for issues a programmer “might reasonably be expected
+     to recover from.” Then developers started writing code where a chain of methods kept
+     declaring the same exception and nobody actually handled it. Some libraries started
+     using runtime exceptions for issues a programmer might reasonably be expected to
+     recover from. Many programmers can hold a debate with you on which approach is better.
+     For the OCA exam, you need to know the rules for how checked versus unchecked
+     exceptions function. You don’t have to decide philosophically whether an exception
+     should be checked or unchecked.
+
      **/
 }
