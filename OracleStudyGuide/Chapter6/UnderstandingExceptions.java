@@ -193,5 +193,13 @@ public class UnderstandingExceptions {
 
 
 
+
+
+     Using a try Statement
+     Now that you know what exceptions are, let’s explore how to handle them. Java uses a try
+     statement to separate the logic that might throw an exception from the logic to handle that
+     exception.
+
+
      **/
 }
