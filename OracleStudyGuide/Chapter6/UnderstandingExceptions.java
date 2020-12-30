@@ -175,5 +175,23 @@ public class UnderstandingExceptions {
      The last two show that the code looks the same regardless of which type of exception you
      throw.
 
+
+
+
+
+
+     Types of exceptions
+
+     Type                   How to recognize                    Okay for program to catch?      Is program required to handle or declare?
+
+     Runtime exception      Subclass of RuntimeException        Yes                             No
+
+     Checked exception      Subclass of Exception but           Yes                             Yes
+                            not subclass of RuntimeException
+
+     Error                  Subclass of Error                   No                              No
+
+
+
      **/
 }
