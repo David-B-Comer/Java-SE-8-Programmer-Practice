@@ -255,5 +255,19 @@ public class UnderstandingExceptions {
      }
      }
 
+
+
+
+
+     Recognizing Common Exception Types
+     You need to recognize three types of exceptions for the OCA exam: runtime exceptions,
+     checked exceptions, and errors. We’ll look at common examples of each type. For the
+     exam, you’ll need to recognize which type of an exception it is and whether it’s thrown by
+     the JVM or a programmer. So you can recognize them, we’ll show you some code examples
+     for those exceptions.
+
+
+
+
      **/
 }
