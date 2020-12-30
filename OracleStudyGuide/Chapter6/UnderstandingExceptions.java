@@ -221,5 +221,12 @@ public class UnderstandingExceptions {
      is thrown, the finally block is run after the catch block. If no exception is thrown, the
      finally block is run after the try block completes.
 
+
+     On the OCA exam, a try statement must have catch and/or finally.
+     Having both is fine. Having neither is a problem. On the OCP exam, you’ll
+     learn about a special syntax for a try statement called try-with-resources
+     that allows neither a catch nor a finally block. On the OCA exam, you get
+     to assume a try statement is just a regular try statement and not a try-with-resources statement.
+
      **/
 }
