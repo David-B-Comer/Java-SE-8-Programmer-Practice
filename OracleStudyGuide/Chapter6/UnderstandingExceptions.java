@@ -228,5 +228,32 @@ public class UnderstandingExceptions {
      that allows neither a catch nor a finally block. On the OCA exam, you get
      to assume a try statement is just a regular try statement and not a try-with-resources statement.
 
+
+
+
+     Catching Various Types of Exceptions
+     So far, you have been catching only one type of exception. Now let’s see what happens
+     when different types of exceptions can be thrown from the same method.
+     Creating your own exceptions is not on the OCA exam, but it is on the OCP exam.
+     However, the OCA exam can defi ne basic exceptions to show you the hierarchy. You only
+     need to do two things with this information. First, you must be able to recognize if the
+     exception is a checked or an unchecked exception. Second, you need to determine if any of
+     the exceptions are subclasses of the others.
+     class AnimalsOutForAWalk extends RuntimeException { }
+     class ExhibitClosed extends RuntimeException { }
+     class ExhibitClosedForLunch extends ExhibitClosed { }
+     In this example, there are three custom exceptions. All are unchecked exceptions
+     because they directly or indirectly extend RuntimeException. Now we catch both types of
+     exceptions and handle them by printing out the appropriate message:
+     public void visitPorcupine() {
+     try {
+     seeAnimal();
+     } catch (AnimalsOutForAWalk e) {// first catch block
+     System.out.print("try back later");
+     } catch (ExhibitClosed e) {// second catch block
+     System.out.print("not today");
+     }
+     }
+
      **/
 }
