@@ -212,5 +212,14 @@ public class UnderstandingExceptions {
      There aren’t a ton of syntax rules here. The curly braces are required for the try and
      catch blocks.
 
+
+
+     Adding a finally Block
+     The try statement also lets you run code at the end with a fi nally clause regardless of
+     whether an exception is thrown.
+     There are two paths through code with both a catch and a finally. If an exception
+     is thrown, the finally block is run after the catch block. If no exception is thrown, the
+     finally block is run after the try block completes.
+
      **/
 }
