@@ -291,5 +291,20 @@ public class UnderstandingExceptions {
 
 
 
+
+
+     ArithmeticException
+
+     Trying to divide an int by zero gives an undefined result. When this occurs, the JVM will
+     throw an ArithmeticException:
+     int answer = 11 / 0;
+     Running this code results in the following output:
+     Exception in thread "main" java.lang.ArithmeticException: / by zero
+     Java doesn’t spell out the word “divide.” That’s okay, though, because we know that / is
+     the division operator and that Java is trying to tell us division by zero occurred.
+     The thread "main" is telling us the code was called directly or indirectly from a program
+     with a main method. On the OCA exam, this is all the output we will see. Next comes the
+     name of the exception, followed by extra information (if any) that goes with the exception.
+
      **/
 }
