@@ -328,5 +328,26 @@ public class UnderstandingExceptions {
      Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
 
 
+
+
+     ClassCastException
+
+     Java tries to protect you from impossible casts. This code doesn’t compile because Integer
+     is not a subclass of String:
+     String type = "moose";
+     Integer number = (Integer) type; // DOES NOT COMPILE
+     More complicated code thwarts Java’s attempts to protect you. When the cast fails at
+     runtime, Java will throw a ClassCastException:
+     String type = "moose";
+     Object obj = type;
+     Integer number = (Integer) obj;
+     The compiler sees a cast from Object to Integer. This could be okay. The compiler
+     doesn’t realize there’s a String in that Object. When the code runs, it yields the following
+     output:
+     Exception in thread "main" java.lang.ClassCastException: java.lang.String
+     cannot be cast to java.lang.Integer
+     Java tells us both types that were involved in the problem, making it apparent what’s
+     wrong.
+
      **/
 }
