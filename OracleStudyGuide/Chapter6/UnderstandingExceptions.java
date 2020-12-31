@@ -381,5 +381,19 @@ public class UnderstandingExceptions {
 
 
 
+
+     NullPointerException
+
+     Instance variables and methods must be called on a non-null reference. If the reference is
+     null, the JVM will throw a NullPointerException. It’s usually subtle, such as this example,
+     which checks whether you remember instance variable references default to null.
+     String name;
+     public void printLength() throws NullPointerException {
+     System.out.println(name.length());
+     }
+     Running this code results in this output:
+     Exception in thread "main" java.lang.NullPointerException
+
+
      **/
 }
