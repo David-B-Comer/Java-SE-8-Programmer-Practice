@@ -349,5 +349,37 @@ public class UnderstandingExceptions {
      Java tells us both types that were involved in the problem, making it apparent what’s
      wrong.
 
+
+
+
+
+     IllegalArgumentException
+
+     IllegalArgumentException is a way for your program to protect itself. We first saw the
+     following setter method in the Swan class in Chapter 4, “Methods and Encapsulation.”
+     6: public void setNumberEggs(int numberEggs) {// setter
+     7: if (numberEggs >= 0) // guard condition
+     8: this.numberEggs = numberEggs;
+     9: }
+     This code works, but we don’t really want to ignore the caller’s request when they tell
+     us a Swan has –2 eggs. We want to tell the caller that something is wrong—preferably in a
+     very obvious way that the caller can’t ignore so that the programmer will fix the problem.
+     Exceptions are an efficient way to do this. Seeing the code end with an exception is a great
+     reminder that something is wrong:
+     public static void setNumberEggs(int numberEggs) {
+     if (numberEggs < 0)
+     throw new IllegalArgumentException(
+     "# eggs must not be negative");
+     this.numberEggs = numberEggs;
+     }
+     The program throws an exception when it’s not happy with the parameter values. The
+     output looks like this:
+     Exception in thread "main" java.lang.IllegalArgumentException: # eggs must not
+     be negative
+     Clearly this is a problem that must be fixed if the programmer wants the program to do
+     anything useful.
+
+
+
      **/
 }
