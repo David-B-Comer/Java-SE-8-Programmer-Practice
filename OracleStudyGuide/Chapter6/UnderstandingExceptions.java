@@ -395,5 +395,22 @@ public class UnderstandingExceptions {
      Exception in thread "main" java.lang.NullPointerException
 
 
+
+
+
+     NumberFormatException
+
+     Java provides methods to convert strings to numbers. When these are passed
+     an invalid value, they throw a NumberFormatException. The idea is similar to
+     IllegalArgumentException. Since this is a common problem, Java gives it a separate class.
+     In fact, NumberFormatException is a subclass of IllegalArgumentException. Here’s an
+     example of trying to convert something non-numeric into an int:
+     Integer.parseInt("abc");
+     The output looks like this:
+     Exception in thread "main" java.lang.NumberFormatException: For input string:
+     "abc"
+
+
+
      **/
 }
