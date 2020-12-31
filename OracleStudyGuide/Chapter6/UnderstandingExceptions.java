@@ -306,5 +306,27 @@ public class UnderstandingExceptions {
      with a main method. On the OCA exam, this is all the output we will see. Next comes the
      name of the exception, followed by extra information (if any) that goes with the exception.
 
+
+
+     ArrayIndexOutOfBoundsException
+
+     You know by now that array indexes start with 0 and go up to 1 less than the length of the
+     array—which means this code will throw an ArrayIndexOutOfBoundsException:
+     int[] countsOfMoose = new int[3];
+     System.out.println(countsOfMoose[-1]);
+     This is a problem because there’s no such thing as a negative array index. Running this
+     code yields the following output:
+     Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+     At least Java tells us what index was invalid. Can you see what’s wrong with this one?
+     int total = 0;
+     int[] countsOfMoose = new int[3];
+     for (int i = 0; i <= countsOfMoose.length; i++)
+     total += countsOfMoose[i];
+     The problem is that the for loop should have < instead of <=. On the fi nal iteration of
+     the loop, Java tries to call countsOfMoose[3], which is invalid. The array includes only
+     three elements, making 2 the largest possible index. The output looks like this:
+     Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+
+
      **/
 }
