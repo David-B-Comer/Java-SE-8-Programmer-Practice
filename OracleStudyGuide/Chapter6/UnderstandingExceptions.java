@@ -489,5 +489,16 @@ public class UnderstandingExceptions {
      because at least Java will catch it and throw the error. With an infinite loop, Java just uses
      all your CPU until you can kill it.
 
+
+
+
+
+
+
+     NoClassDefFoundError
+
+     This error won’t show up in code on the exam—you just need to know that it is an error.
+     NoClassDefFoundError occurs when Java can’t find the class at runtime.
+
      **/
 }
