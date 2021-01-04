@@ -50,5 +50,21 @@ public class Chapter6ReviewQuestions {
 
      Answer C
 
+
+
+
+
+     4. Which exception will the following throw?
+
+     Object obj = new Integer(3);
+     String str = (String) obj;
+     System.out.println(str);
+     A. ArrayIndexOutOfBoundsException
+     B. ClassCastException
+     C. IllegalArgumentException
+     D. NumberFormatException
+     E. None of the above.
+
+
      **/
 }
