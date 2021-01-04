@@ -48,6 +48,7 @@ public class Chapter6ReviewQuestions {
      E. When there are two or more catch blocks in a try statement.
 
 
+     Answer C
 
      **/
 }
