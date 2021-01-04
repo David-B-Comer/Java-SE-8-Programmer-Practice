@@ -83,5 +83,17 @@ public class Chapter6ReviewQuestions {
 
      Answer A, B, D
 
+
+
+
+     6. What will happen if you add the statement System.out.println(5 / 0); to a working
+     main() method?
+
+     A. It will not compile.
+     B. It will not run.
+     C. It will run and throw an ArithmeticException.
+     D. It will run and throw an IllegalArgumentException.
+     E. None of the above.
+
      **/
 }
