@@ -14,5 +14,25 @@ public class Chapter6ReviewQuestions {
 
      Answer B
 
+
+
+
+     2. Which of the following pairs fill in the blanks to make this code compile? (Choose all that
+     apply)
+
+     7: public void ohNo() _____ Exception {
+     8: _____________ Exception();
+     9: }
+
+     A. On line 7, fill in throw
+     B. On line 7, fill in throws
+     C. On line 8, fill in throw
+     D. On line 8, fill in throw new
+     E. On line 8, fill in throws
+     F. On line 8, fill in throws new
+
+
+
+
      **/
 }
