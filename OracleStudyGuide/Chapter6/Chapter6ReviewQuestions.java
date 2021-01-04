@@ -12,5 +12,7 @@ public class Chapter6ReviewQuestions {
     E. You can handle only Exception subclasses.
 
 
+     Answer B
+
      **/
 }
