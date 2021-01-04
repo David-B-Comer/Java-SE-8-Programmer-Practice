@@ -32,7 +32,7 @@ public class Chapter6ReviewQuestions {
      F. On line 8, fill in throws new
 
 
-
+    Answer B, D
 
      **/
 }
