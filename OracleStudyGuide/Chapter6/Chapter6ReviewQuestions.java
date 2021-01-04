@@ -69,5 +69,16 @@ public class Chapter6ReviewQuestions {
 
      Answer B
 
+
+
+
+     5. Which of the following exceptions are thrown by the JVM? (Choose all that apply)
+
+     A. ArrayIndexOutOfBoundsException
+     B. ExceptionInInitializerError
+     C. java.io.IOException
+     D. NullPointerException
+     E. NumberFormatException
+
      **/
 }
