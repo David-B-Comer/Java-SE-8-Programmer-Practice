@@ -163,5 +163,35 @@ public class Chapter6ReviewQuestions {
      Answer E
 
 
+
+
+
+
+     9. What is the output of the following program?
+
+     1: public class Laptop {
+     2: public void start() {
+     3: try {
+     4: System.out.print("Starting up ");
+     5: throw new Exception();
+     6: } catch (Exception e) {
+     7: System.out.print("Problem ");
+     8: System.exit(0);
+     9: } finally {
+     10: System.out.print("Shutting down ");
+     11: }
+     12: }
+     13: public static void main(String[] args) {
+     14: new Laptop().start();
+     15: } }
+
+     A. Starting up
+     B. Starting up Problem
+     C. Starting up Problem Shutting down
+     D. Starting up Shutting down
+     E. The code does not compile.
+     F. An uncaught exception is thrown.
+
+
      **/
 }
