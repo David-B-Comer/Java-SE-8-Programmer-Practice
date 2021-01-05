@@ -193,5 +193,7 @@ public class Chapter6ReviewQuestions {
      F. An uncaught exception is thrown.
 
 
+     Answer B
+
      **/
 }
