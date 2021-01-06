@@ -268,5 +268,41 @@ public class Chapter6ReviewQuestions {
 
      Answer A
 
+
+
+
+
+
+     12. What is printed by the following? (Choose all that apply)
+
+     1: public class Mouse {
+     2: public String name;
+     3: public void run() {
+     4: System.out.print("1");
+     5: try {
+     6: System.out.print("2");
+     7: name.toString();
+     8: System.out.print("3");
+     9: } catch (NullPointerException e) {
+     10: System.out.print("4");
+     11: throw e;
+     12: }
+     13: System.out.print("5");
+     14: }
+     15: public static void main(String[] args) {
+     16: Mouse jerry = new Mouse();
+     17: jerry.run();
+     18: System.out.print("6");
+     19: } }
+
+
+     A. 1
+     B. 2
+     C. 3
+     D. 4
+     E. 5
+     F. 6
+     G. The stack trace for a NullPointerException
+
      **/
 }
