@@ -265,5 +265,8 @@ public class Chapter6ReviewQuestions {
      F. The code does not compile.
      G. An uncaught exception is thrown.
 
+
+     Answer A
+
      **/
 }
