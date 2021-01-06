@@ -195,5 +195,38 @@ public class Chapter6ReviewQuestions {
 
      Answer B
 
+
+
+
+
+     10. What is the output of the following program?
+
+     1: public class Dog {
+     2: public String name;
+     3: public void parseName() {
+     4: System.out.print("1");
+     5: try {
+     6: System.out.print("2");
+     7: int x = Integer.parseInt(name);
+     8: System.out.print("3");
+     9: } catch (NumberFormatException e) {
+     10: System.out.print("4");
+     11: }
+     12: }
+     13: public static void main(String[] args) {
+     14: Dog leroy = new Dog();
+     15: leroy.name = "Leroy";
+     16: leroy.parseName();
+     17: System.out.print("5");
+     18: } }
+
+     A. 12
+     B. 1234
+     C. 1235
+     D. 124
+     E. 1245
+     F. The code does not compile.
+     G. An uncaught exception is thrown.
+
      **/
 }
