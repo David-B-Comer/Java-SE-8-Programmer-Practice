@@ -321,5 +321,8 @@ public class Chapter6ReviewQuestions {
      E. You can declare any subclass of RuntimeException in the throws part of a method
      declaration.
 
+
+     Answer A, B, C, E
+
      **/
 }
