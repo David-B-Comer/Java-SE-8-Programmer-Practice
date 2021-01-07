@@ -304,5 +304,8 @@ public class Chapter6ReviewQuestions {
      F. 6
      G. The stack trace for a NullPointerException
 
+
+     Answer A, B, D, G
+
      **/
 }
