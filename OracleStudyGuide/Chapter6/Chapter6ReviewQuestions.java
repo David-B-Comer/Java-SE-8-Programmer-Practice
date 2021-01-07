@@ -343,5 +343,17 @@ public class Chapter6ReviewQuestions {
 
      Answer A, C, D, E
 
+
+
+
+     15. Which of the following are unchecked exceptions? (Choose all that apply)
+
+     A. ArrayIndexOutOfBoundsException
+     B. IllegalArgumentException
+     C. IOException
+     D. NumberFormatException
+     E. Any exception that extends RuntimeException
+     F. Any exception that extends Exception
+
      **/
 }
