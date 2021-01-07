@@ -340,5 +340,8 @@ public class Chapter6ReviewQuestions {
      D. throw new java.io.IOException();
      E. throw new RuntimeException();
 
+
+     Answer A, C, D, E
+
      **/
 }
