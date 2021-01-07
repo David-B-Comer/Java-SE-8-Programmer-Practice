@@ -355,5 +355,8 @@ public class Chapter6ReviewQuestions {
      E. Any exception that extends RuntimeException
      F. Any exception that extends Exception
 
+
+     Answer A, B, D, E
+
      **/
 }
