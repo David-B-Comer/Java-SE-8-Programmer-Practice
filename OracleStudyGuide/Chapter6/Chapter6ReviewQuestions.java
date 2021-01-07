@@ -307,5 +307,19 @@ public class Chapter6ReviewQuestions {
 
      Answer A, B, D, G
 
+
+
+
+
+     13. Which of the following statements are true? (Choose all that apply)
+
+     A. You can declare a method with Exception as the return type.
+     B. You can declare any subclass of Error in the throws part of a method declaration.
+     C. You can declare any subclass of Exception in the throws part of a method
+     declaration.
+     D. You can declare any subclass of Object in the throws part of a method declaration.
+     E. You can declare any subclass of RuntimeException in the throws part of a method
+     declaration.
+
      **/
 }
