@@ -373,5 +373,25 @@ public class Chapter6ReviewQuestions {
 
      Answer B
 
+
+
+
+     17. Which of the following can be inserted into Lion to make this code compile? (Choose all
+     that apply)
+
+     class HasSoreThroatException extends Exception {}
+     class TiredException extends RuntimeException {}
+     interface Roar {
+     void roar() throws HasSoreThroatException;
+     }
+     class Lion implements Roar {// INSERT CODE HERE
+     }
+
+     A. public void roar(){}
+     B. public void roar() throws Exception{}
+     C. public void roar() throws HasSoreThroatException{}
+     D. public void roar() throws IllegalArgumentException{}
+     E. public void roar() throws TiredException{}
+
      **/
 }
