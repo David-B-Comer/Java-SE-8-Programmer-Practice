@@ -396,5 +396,18 @@ public class Chapter6ReviewQuestions {
 
      Answer A, C, D, E
 
+
+
+
+
+     18. Which of the following are true? (Choose all that apply)
+
+     A. Checked exceptions are allowed to be handled or declared.
+     B. Checked exceptions are required to be handled or declared.
+     C. Errors are allowed to be handled or declared.
+     D. Errors are required to be handled or declared.
+     E. Runtime exceptions are allowed to be handled or declared.
+     F. Runtime exceptions are required to be handled or declared.
+
      **/
 }
