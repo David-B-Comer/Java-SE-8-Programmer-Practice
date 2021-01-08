@@ -409,5 +409,9 @@ public class Chapter6ReviewQuestions {
      E. Runtime exceptions are allowed to be handled or declared.
      F. Runtime exceptions are required to be handled or declared.
 
+
+     Answer A, B, C, E
+
+
      **/
 }
