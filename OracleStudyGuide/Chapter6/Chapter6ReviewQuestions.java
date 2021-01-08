@@ -393,5 +393,8 @@ public class Chapter6ReviewQuestions {
      D. public void roar() throws IllegalArgumentException{}
      E. public void roar() throws TiredException{}
 
+
+     Answer A, C, D, E
+
      **/
 }
