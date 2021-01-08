@@ -371,5 +371,7 @@ public class Chapter6ReviewQuestions {
      E. You don’t know how to code a method.
 
 
+     Answer B
+
      **/
 }
