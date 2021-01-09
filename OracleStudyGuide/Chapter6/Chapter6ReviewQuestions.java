@@ -413,5 +413,28 @@ public class Chapter6ReviewQuestions {
      Answer A, B, C, E
 
 
+
+
+
+
+     19. Which of the following can be inserted in the blank to make the code compile? (Choose all
+     that apply)
+
+     public static void main(String[] args) {
+     try {
+     System.out.println("work real hard");
+     } catch ( e) {
+     } catch (RuntimeException e) {
+     }
+     }
+
+     A. Exception
+     B. IOException
+     C. IllegalArgumentException
+     D. RuntimeException
+     E. StackOverflowError
+     F. None of the above.
+
+
      **/
 }
