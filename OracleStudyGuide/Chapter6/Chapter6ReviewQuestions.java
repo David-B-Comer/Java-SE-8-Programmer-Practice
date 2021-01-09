@@ -423,7 +423,7 @@ public class Chapter6ReviewQuestions {
      public static void main(String[] args) {
      try {
      System.out.println("work real hard");
-     } catch ( e) {
+     } catch (_________ e) {
      } catch (RuntimeException e) {
      }
      }
@@ -435,6 +435,8 @@ public class Chapter6ReviewQuestions {
      E. StackOverflowError
      F. None of the above.
 
+
+     Answer C, E
 
      **/
 }
