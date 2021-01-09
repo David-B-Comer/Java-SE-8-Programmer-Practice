@@ -469,5 +469,8 @@ public class Chapter6ReviewQuestions {
      E. An exception with the message set to "3"
      F. Nothing; the code does not compile.
 
+
+     Answer A, E
+
      **/
 }
