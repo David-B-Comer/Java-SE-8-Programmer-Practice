@@ -14,5 +14,16 @@ public class questions {
      654321
      123456
 
+
+
+     2. Given the following:
+
+     What is the result?
+     0
+     Compilation fails.
+     Error
+     No output
+     An uncaught exception is thrown at runtime.
+
      **/
 }
