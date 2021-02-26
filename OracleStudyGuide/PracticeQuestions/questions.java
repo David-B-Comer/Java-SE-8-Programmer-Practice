@@ -25,5 +25,21 @@ public class questions {
      No output
      An uncaught exception is thrown at runtime.
 
+
+
+
+     3. Given the following:
+
+     A and E are classes
+     B and D are interfaces
+     C is an abstract class
+
+     Which statements are true? (Choose three)
+     class F implements B,C{ }
+     class F implements B,D{ }
+     class F extends E{ }
+     class F extends A,E{ }
+     class F implements B{ }
+
      **/
 }
