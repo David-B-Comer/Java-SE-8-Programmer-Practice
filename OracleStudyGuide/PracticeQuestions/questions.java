@@ -57,5 +57,24 @@ public class questions {
      interface F extends D{ }
 
 
+
+
+     5. Given the following:
+1.  class Ex1{
+2.      public static void main(String[] args) {
+3.      int a[] =  { 1,2,3,4};
+4.      System.out.print(a instanceof Object);
+5.     }
+6.   }
+
+     What is the result?
+
+     NOTE: The keyword "instanceof" is use to check whether an object is of a particular type.
+     Length of this array is 3.
+     Will produce output as false.
+     Compilation fails due to error at line 4.
+     Will produce output as true.
+     Compilation fails due to error at line 3.
+
      **/
 }
