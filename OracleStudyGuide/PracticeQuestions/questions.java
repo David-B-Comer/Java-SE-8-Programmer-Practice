@@ -5,6 +5,13 @@ public class questions {
     /**
 
      1. Given the following:
+1.  int []a = {1,2,3,4,5,6};
+2. int i = a.length -1;
+3.
+4.  while(i>=0){
+5.      System.out.print(a[i]);
+6.      i--;
+7.  }
 
      What is the result?
      65432
@@ -17,6 +24,17 @@ public class questions {
 
 
      2. Given the following:
+1.  class Ex6{
+2.      public static void main(String[] args){
+3.      int x = 0, y=10;
+4.          try{
+5.              y /=x;
+6.              }
+7.      System.out.print("/ by 0");
+8.          catch(Exception e){
+9.      System.out.print("error");
+10.     }
+11. }  }
 
      What is the result?
      0
@@ -96,5 +114,27 @@ public class questions {
      true false
      true true
      false false
+
+
+
+
+     7. Given the following:
+1.  class Ex1{
+2.      public static void main(String[] args) {
+3.      int a[][] =  new int[3][0];
+4.      a[1] = new int[]{1,2,3};
+5.      a[2] = new int[]{4,5};
+6.      System.out.print(a[1][1];
+7.     }
+8.   }
+
+     What is the output?
+     Compilation fails due to line 3.
+     5
+     3
+     2
+     Compilation fails due to line 4.
+     An exception will be thrown in runtime.
+
      **/
 }
