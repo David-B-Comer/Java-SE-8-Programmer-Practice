@@ -41,5 +41,21 @@ public class questions {
      class F extends A,E{ }
      class F implements B{ }
 
+
+
+
+     4. Given the following:
+
+     A and E are classes
+     B and D are interfaces
+
+     Which statements are true? (Choose two)
+     interface F implements B,D{ }
+     interface F implements D{ }
+     interface F extends E{ }
+     interface F extends B,D{ }
+     interface F extends D{ }
+
+
      **/
 }
