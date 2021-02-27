@@ -76,5 +76,25 @@ public class questions {
      Will produce output as true.
      Compilation fails due to error at line 3.
 
+
+
+
+     6. Given the following:
+1.  class Ex1{
+2.      public static void main(String[] args) {
+3.      int a[] =  { 1,2,053,4};
+4.      int b[][] = { {1,2,4}, {2,2,1}, {0,43,2}};
+5.      System.out.print(a[3]==b[0][2] );
+6.      System.out.print("" + (a[2]==b[2][1]));
+7.     }
+8.   }
+
+
+     What is the result?
+     false true
+     Compilation fails.
+     true false
+     true true
+     false false
      **/
 }
