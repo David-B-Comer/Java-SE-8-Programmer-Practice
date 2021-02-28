@@ -136,5 +136,16 @@ public class questions {
      Compilation fails due to line 4.
      An exception will be thrown in runtime.
 
+
+
+
+     8. Which of the following are legal identifiers? (Choose three)
+
+     getSize
+     _4_
+     1stName
+     @name
+     $
+
      **/
 }
