@@ -166,5 +166,25 @@ public class questions {
      Output is unpredictable.
      18
      10
+
+
+
+     10. Given the following:
+1.   class Ex1{
+2.     static int x = 10;
+3.     public static void main(String[] args) {
+4.      for(int x=0;x<5;x++){
+5.    }
+6.        System.out.print(x);
+7.      }
+8.    }
+
+
+     What is the result?
+     A runtime exception will be thrown.
+     Compilation fails.
+     10
+     5
+     4
      **/
 }
