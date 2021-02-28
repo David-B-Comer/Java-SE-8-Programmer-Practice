@@ -186,5 +186,41 @@ public class questions {
      10
      5
      4
+
+
+     11. Given the following:
+1.   class Person{
+2.   Person(String s,int i ){
+3.        ++pid;
+4         name=s;
+5.        age=i;
+6.        }
+7.      static int pid;
+8.      int age;
+9.      String name;
+10.       }
+11.   class Test{
+12.       public static void main(String args[]){
+13.       Person p1 = new Person("John" , 22);
+14.       Test te = new Test();
+15.       Person p2 = te.change(p1);
+16.       System.out.println(p2.pid +" "+ps.name+ " "+p2.age);
+17        System.out.print(p1.pid +" " p1.name+" "+ p1.age);
+18.    }
+19.    private Person change(Object o){
+20.       Person p2 = (Person)o;
+21.       p2.age = 25;
+22.       return p2;
+23.       }
+24.       }
+
+
+     What is the result?
+     1 John 22 1 John 22
+     ClassCastException is thrown at runtime.
+     Compilation fails.
+     1 John 25 1 John 22
+     1 John 25 1 John 25
+
      **/
 }
