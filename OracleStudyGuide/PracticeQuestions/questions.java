@@ -147,5 +147,24 @@ public class questions {
      @name
      $
 
+
+     9. Given the following:
+1.   class Ex1{
+2.     int a=10;
+3.       public static void main(String[] args) {
+4.      new Ex1().print();
+5.   }
+6.   public void print(){
+7.        int a = 8;
+8.        System.out.print(a + " ");
+9.        }
+10.  }
+
+     What is the result?
+     Compilation fails.}
+     8
+     Output is unpredictable.
+     18
+     10
      **/
 }
