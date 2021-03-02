@@ -99,7 +99,7 @@ ANSWER:       interface F extends B,D{ }
      Will produce output as true.
      Compilation fails due to error at line 3.
 
-
+ANSWER: Will produce output as true
 
 
      6. Given the following:
