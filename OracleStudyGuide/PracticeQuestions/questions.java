@@ -59,6 +59,9 @@ ANSWER: Compilation fails
      class F extends A,E{ }
      class F implements B{ }
 
+ANSWER:      class F implements B,D{ }
+             class F extends E{ }
+             class F implements B{ }
 
 
 
