@@ -43,6 +43,7 @@ ANSWER: 654321
      No output
      An uncaught exception is thrown at runtime.
 
+ANSWER: Compilation fails
 
 
      3. Given the following:
