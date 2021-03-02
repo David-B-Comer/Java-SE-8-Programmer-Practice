@@ -153,6 +153,7 @@ ANSWER: 2
      @name
      $
 
+ANSWER: getSize, _4_, $
 
      9. Given the following:
 1.   class Ex1{
