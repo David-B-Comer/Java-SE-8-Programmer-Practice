@@ -77,6 +77,8 @@ ANSWER:      class F implements B,D{ }
      interface F extends B,D{ }
      interface F extends D{ }
 
+ANSWER:       interface F extends B,D{ }
+              interface F extends D{ }
 
 
 
