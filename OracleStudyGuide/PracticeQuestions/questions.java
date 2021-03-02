@@ -222,5 +222,31 @@ public class questions {
      1 John 25 1 John 22
      1 John 25 1 John 25
 
+
+
+
+     12. Given the following:
+1.   class Ex1{
+2.   public static void main(Striung args[]){
+3.   int x = 10;
+4.   int y = new Ex1().change(x);
+5.        System.out.print(x+y);
+6.   }
+7.   int change(int x){
+8.   x=12;
+9.   return x;
+10.  }
+11.  }
+
+
+     What is the result?
+     Compilation fails.
+     An exception is thrown at runtime.
+     24
+     20
+     22
+
+
+
      **/
 }
