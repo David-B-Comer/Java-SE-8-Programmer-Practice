@@ -142,7 +142,7 @@ ANSWER: true true
      Compilation fails due to line 4.
      An exception will be thrown in runtime.
 
-
+ANSWER: 2
 
 
      8. Which of the following are legal identifiers? (Choose three)
