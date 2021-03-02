@@ -248,5 +248,23 @@ public class questions {
 
 
 
+
+     13. Given the following:
+1.   class S{
+2.   public static void main(String [] args){
+3.   String s = "Java";
+4.   s.conccat(" SE 6");
+5.   s.replace('6','7');
+6.   System.out.print(s);
+7.   }
+8.   }
+
+
+     What is the result?
+     Java SE
+     Java SE 7
+     Java
+     Java SE 6
+     Compilation fails.
      **/
 }
