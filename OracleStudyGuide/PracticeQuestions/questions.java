@@ -288,5 +288,34 @@ public class questions {
      1
      4
      2
+
+
+
+
+     15. Given the following:
+1.   class Ex1{
+2.      public static void main(String[] args) {
+3.     new Ex1().pass();
+4.     }
+5.
+6.   public void pass(){
+7.     int a =10 , b=20;
+8.     print(a) ;
+9.     }
+10.
+11.  public void print(int a){
+12.    int c = b/a;
+13.    System.out.print(c);
+14.    }
+15.  }
+
+
+     What is the result?
+     Compilation fails due to an error on line 8.
+     Compilation fails due to an error on line 12.
+     2
+     Compilation fails due to an error on line 7.
+     0
+
      **/
 }
