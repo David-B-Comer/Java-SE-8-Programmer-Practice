@@ -21,7 +21,7 @@ public class questions {
      654321
      123456
 
-
+ANSWER: 654321
 
      2. Given the following:
 1.  class Ex6{
@@ -42,7 +42,6 @@ public class questions {
      Error
      No output
      An uncaught exception is thrown at runtime.
-
 
 
 
