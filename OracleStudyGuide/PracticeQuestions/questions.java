@@ -297,7 +297,7 @@ ANSWER: Java
      4
      2
 
-
+ANSWER: 4
 
 
      15. Given the following:
