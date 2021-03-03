@@ -275,13 +275,13 @@ ANSWER: 22
      Java SE 6
      Compilation fails.
 
-
+ANSWER: Java
 
      14. Given the following:
 1.   class S{
 2.   public static void main(String [] args){
 3.   String s = "Java";
-4.   s.conccat(" SE 6");
+4.   s.concat(" SE 6");
 5.   s.toLowerCase();
 6.   System.out.print(s);
 7.   //how many?
