@@ -230,7 +230,7 @@ ANSWER: 10
      1 John 25 1 John 22
      1 John 25 1 John 25
 
-
+ANSWER: 1 John 25 1 John 25
 
 
      12. Given the following:
