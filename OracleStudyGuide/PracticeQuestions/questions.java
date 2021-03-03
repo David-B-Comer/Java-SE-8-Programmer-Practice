@@ -174,7 +174,7 @@ ANSWER: getSize, _4_, $
      18
      10
 
-
+ANSWER: 8
 
      10. Given the following:
 1.   class Ex1{
