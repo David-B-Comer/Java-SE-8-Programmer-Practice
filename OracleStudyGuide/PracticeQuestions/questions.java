@@ -194,6 +194,7 @@ ANSWER: 8
      5
      4
 
+ANSWER: 10
 
      11. Given the following:
 1.   class Person{
