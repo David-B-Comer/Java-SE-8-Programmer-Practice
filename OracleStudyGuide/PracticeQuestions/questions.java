@@ -254,7 +254,7 @@ ANSWER: 1 John 25 1 John 25
      20
      22
 
-
+ANSWER: 22
 
 
      13. Given the following:
