@@ -11,11 +11,13 @@ public class SampleQuestions {
 
 
 
+
      02. Of the following four modifiers, choose the one that is not implicitly applied to all interface variables.
      a) final
      b) abstract
      c) static
      d) public
+
 
 
      03. Which three are advantages of the Java exception mechanism?
@@ -24,6 +26,15 @@ public class SampleQuestions {
      c) Improves the program structure because the programmer can choose where to handle exceptions
      d) Improves the program structure because exceptions must be handled in the method in which they occurred
      e) Allows the creation of new exceptions that are tailored to the particular program being created
+
+
+
+     04. Restricting access to only the public methods of a class is related to which one of these concepts in Java?
+     a) Platform independence
+     b) Object orientation
+     c) Encapsulation
+     d) Inheritance
+
 
 
 
