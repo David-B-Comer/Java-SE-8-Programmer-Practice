@@ -38,5 +38,15 @@ public class SampleQuestions {
 
 
 
+     05. "You have a list orders of PurchaseOrder objects, each with a date, a Customer and a state. You want filter list in various ways"
+     Which of the following in built functional interface you are going to use for above?
+     a) UnaryOperator<T>
+     b) Consumer<T>
+     c) Supplier<T>
+     d) Predicate<T>
+
+
+
+
      **/
 }
