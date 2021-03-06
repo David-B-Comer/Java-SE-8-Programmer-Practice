@@ -28,6 +28,7 @@ public class SampleQuestions {
      d) Improves the program structure because exceptions must be handled in the method in which they occurred
      e) Allows the creation of new exceptions that are tailored to the particular program being created
 
+     ANSWER:  A, C, E
 
 
      04. Restricting access to only the public methods of a class is related to which one of these concepts in Java?
