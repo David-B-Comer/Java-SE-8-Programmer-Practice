@@ -47,6 +47,15 @@ public class SampleQuestions {
 
 
 
+     06. What is the value of that Number after the execution of the following code snippet?
+     long thatNumber = 5 >= 5 ? 1+2 : 1*1;
+     if(++thatNumber < 4)
+     thatNumber += 1;
+     a) 3
+     b) 4
+     c) 5
+     d) The answer cannot be determined until runtime.
+
 
      **/
 }
