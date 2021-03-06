@@ -57,5 +57,14 @@ public class SampleQuestions {
      d) The answer cannot be determined until runtime.
 
 
+
+
+     07. Which usage represents a valid way of compiling java source file with the name "Main"?
+     a) javac Main.java
+     b) java Main.class
+     c) java Main.java
+     d) javac Main
+     e) java Main
+
      **/
 }
