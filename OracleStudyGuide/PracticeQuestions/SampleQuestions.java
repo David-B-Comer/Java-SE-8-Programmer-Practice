@@ -83,5 +83,14 @@ public class SampleQuestions {
      d) return;
 
 
+
+
+     10. Which statement best describes encapsulation?
+     a) Encapsulation ensures that classes can be designed so that if a method has an argument MyType x, any subclass of MyType can be passed to that method.
+     b) Encapsulation ensures that classes can be designed so that only certain fields and methods of an object are accessible from other objects.
+     c) Encapsulation ensures that classes can be designed so that their methods are inheritable.
+     d) Encapsulation ensures that classes can be designed with some fields and methods declared as abstract.
+
+
      **/
 }
