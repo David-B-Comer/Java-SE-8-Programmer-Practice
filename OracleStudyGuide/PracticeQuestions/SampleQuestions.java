@@ -75,5 +75,13 @@ public class SampleQuestions {
      d) A try statement cannot be declared with these two catch block types because they are incompatible.
 
 
+
+     09. You are writing a method that is declared not to return a value. Which two are permitted in the method body?
+     a) omission of the return statement
+     b) return null;
+     c) return void;
+     d) return;
+
+
      **/
 }
