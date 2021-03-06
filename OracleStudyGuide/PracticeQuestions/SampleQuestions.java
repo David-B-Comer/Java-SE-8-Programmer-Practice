@@ -66,5 +66,14 @@ public class SampleQuestions {
      d) javac Main
      e) java Main
 
+
+
+     08. If a try statement has catch blocks for both Exception and IOException, then which of the following statements is correct?
+     a) The catch block for Exception must appear before the catch block for IOException.
+     b) The catch block for IOException must appear before the catch block for Exception.
+     c) The catch blocks for these two exception types can be declared in any order.
+     d) A try statement cannot be declared with these two catch block types because they are incompatible.
+
+
      **/
 }
