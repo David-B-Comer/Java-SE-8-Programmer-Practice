@@ -48,6 +48,7 @@ public class SampleQuestions {
      c) Supplier<T>
      d) Predicate<T>
 
+     ANSWER:  D
 
 
      06. What is the value of that Number after the execution of the following code snippet?
