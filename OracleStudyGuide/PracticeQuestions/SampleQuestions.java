@@ -9,7 +9,7 @@ public class SampleQuestions {
      c) public void setRange(int range)
      d) public String addTarget(String target)
 
-
+    ANSWER:  C
 
 
      02. Of the following four modifiers, choose the one that is not implicitly applied to all interface variables.
