@@ -18,6 +18,7 @@ public class SampleQuestions {
      c) static
      d) public
 
+     ANSWER:  B
 
 
      03. Which three are advantages of the Java exception mechanism?
