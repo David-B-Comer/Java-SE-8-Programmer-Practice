@@ -37,6 +37,7 @@ public class SampleQuestions {
      c) Encapsulation
      d) Inheritance
 
+     ANSWER:  C
 
 
 
