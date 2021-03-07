@@ -98,6 +98,7 @@ public class SampleQuestions {
      c) Encapsulation ensures that classes can be designed so that their methods are inheritable.
      d) Encapsulation ensures that classes can be designed with some fields and methods declared as abstract.
 
+     ANSWER:  B
 
      **/
 }
