@@ -80,6 +80,7 @@ public class SampleQuestions {
      c) The catch blocks for these two exception types can be declared in any order.
      d) A try statement cannot be declared with these two catch block types because they are incompatible.
 
+     ANSWER:  B
 
 
      09. You are writing a method that is declared not to return a value. Which two are permitted in the method body?
