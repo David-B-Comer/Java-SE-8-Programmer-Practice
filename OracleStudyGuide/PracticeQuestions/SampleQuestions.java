@@ -71,6 +71,7 @@ public class SampleQuestions {
      d) javac Main
      e) java Main
 
+     ANSWER: A
 
 
      08. If a try statement has catch blocks for both Exception and IOException, then which of the following statements is correct?
