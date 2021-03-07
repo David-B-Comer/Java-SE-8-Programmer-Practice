@@ -89,7 +89,7 @@ public class SampleQuestions {
      c) return void;
      d) return;
 
-
+     ANSWER:  A, D
 
 
      10. Which statement best describes encapsulation?
