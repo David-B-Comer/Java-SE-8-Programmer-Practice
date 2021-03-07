@@ -60,6 +60,7 @@ public class SampleQuestions {
      c) 5
      d) The answer cannot be determined until runtime.
 
+     ANSWER:  B
 
 
 
