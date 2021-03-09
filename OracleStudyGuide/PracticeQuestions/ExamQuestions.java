@@ -116,5 +116,9 @@ public class ExamQuestions {
      D. Instantiation
      E. Polymorphism
 
+
+     ANSWER: A
+
+
      **/
 }
