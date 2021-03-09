@@ -120,5 +120,32 @@ public class ExamQuestions {
      ANSWER: A
 
 
+
+     Question # 6
+     Given the code fragment:
+
+     abstract class Planet {
+        protected void revolve() {              //line n1
+        }
+
+        abstract void rotate():                 //line n2
+     }
+
+     class Earth extends P;anet {               //line n3
+        void revolve() {
+        }
+
+        protected void rotate() {               //line n4
+        }
+     }
+
+     Which two modifications, made independently, enable the code to compile?
+     A. Make the method at line n1 public.
+     B. Make the method at line n2 public.
+     C. Make the method at line n3 public.
+     D. Make the method at line n3 protected.
+     E. Make the method at line n4 public.
+
+
      **/
 }
