@@ -33,5 +33,8 @@ public class ExamQuestions {
      C. 400.0 : 100.0
      D. Compilation fails.
 
+
+     ANSWER: C
+
      **/
 }
