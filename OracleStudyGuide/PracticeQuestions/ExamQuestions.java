@@ -36,5 +36,24 @@ public class ExamQuestions {
 
      ANSWER: C
 
+
+
+
+
+     Question # 2
+     Given the code fragment:
+
+     if (aVar++ < 10) {
+        System.out.println(aVar + " Hello World!");
+     } else {
+        System.out.println(aVar + " Hello Universe!");
+     }
+
+     What is the result if the integer aVar is 9?
+     A. 10 Hello World!
+     B. Hello Universe!
+     C. Hello World!
+     D. Compilation fails.
+
      **/
 }
