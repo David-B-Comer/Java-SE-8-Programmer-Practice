@@ -55,5 +55,8 @@ public class ExamQuestions {
      C. Hello World!
      D. Compilation fails.
 
+
+     ANSWER: A
+
      **/
 }
