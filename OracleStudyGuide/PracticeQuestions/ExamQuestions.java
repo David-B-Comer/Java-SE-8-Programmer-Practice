@@ -131,8 +131,8 @@ public class ExamQuestions {
         abstract void rotate():                 //line n2
      }
 
-     class Earth extends P;anet {               //line n3
-        void revolve() {
+     class Earth extends Planet {
+        void revolve() {                        //line n3
         }
 
         protected void rotate() {               //line n4
@@ -146,6 +146,9 @@ public class ExamQuestions {
      D. Make the method at line n3 protected.
      E. Make the method at line n4 public.
 
+
+
+     ANSWER: C, D
 
      **/
 }
