@@ -198,5 +198,45 @@ public class ExamQuestions {
      ANSWER: E
 
 
+
+
+     Question #8
+     Given the code fragment:
+
+1.   class X {
+2.      public void printFileContent() {
+3.          // code goes here
+4.          throw new IOException();
+5.      }
+6.   }
+7.   public class Test {
+8.      public static void main(String[] args) {
+9.          X xobj = new X();
+10.         xobj.printFileContent();
+11.     }
+12.  }
+
+
+
+     Which two modifications should you make so that the code compiles successfully?
+
+     A) Replace line 8 with public static void main(String[] args) throws IOException {
+     B) Replace line 10 with:
+        try {
+            xobj.printFileContent();
+        }
+        catch (Exception e) { }
+        catch (IOException e) { }
+     C) Replace line 2 with public void printFileContent() throws IOException {
+     D) Replace line 4 with throw IOException("Exception Raised");
+     E) At line 11, insert throw new IOException();
+
+
+     A. Option A
+     B. Option B
+     C. Option C
+     D. Option D
+     E. Option E
+
      **/
 }
