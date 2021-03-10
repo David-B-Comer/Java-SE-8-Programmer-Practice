@@ -193,5 +193,10 @@ public class ExamQuestions {
      D. Compilation fails only at line n2
      E. Compilation fails at both line n1 and line n2
 
+
+
+     ANSWER: E
+
+
      **/
 }
