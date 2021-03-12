@@ -444,6 +444,8 @@ public class ExamQuestions {
 
 
 
+
+
      Question #14
      Given the code fragment:
 
@@ -458,6 +460,8 @@ public class ExamQuestions {
      C. int e = 1; e < = 5; e + = 1
      D. int e = 1; e < 5; e+ =2
 
+
+     ANSWER: B
 
      **/
 }
