@@ -383,7 +383,7 @@ public class ExamQuestions {
         ta = ta.concat("B ");
         String tb = "C ";
         ta = ta.concat(tb);
-        ta.replace('C'. 'D');
+        ta.replace('C', 'D');
         ta = ta.concat(tb);
         System.out.println(ta);
      }
@@ -394,6 +394,11 @@ public class ExamQuestions {
      C. A B C C
      D. A B D
      E. A B D C
+
+
+
+     ANSWER: C
+
 
      **/
 }
