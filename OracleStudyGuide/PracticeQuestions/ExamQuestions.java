@@ -466,6 +466,7 @@ public class ExamQuestions {
 
 
 
+
      Question #15
      Which statement best describes encapsulation?
 
@@ -474,6 +475,8 @@ public class ExamQuestions {
      C. Encapsulation ensures that classes can be designed with some fields and methods declared as abstract.
      D. Encapsulation ensures that classes can be designed so that if a method has an argument MyType x, any subclass of MyType can be passed to that method.
 
+
+     ANSWER: A
 
      **/
 }
