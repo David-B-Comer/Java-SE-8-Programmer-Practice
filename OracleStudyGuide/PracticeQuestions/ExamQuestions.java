@@ -478,5 +478,50 @@ public class ExamQuestions {
 
      ANSWER: A
 
+
+
+
+
+
+     Question #16
+     Given the code fragment from three files:
+
+     SalesMan.java:
+
+     package sales;
+     public class SalesMan { }
+
+     Product.java:
+
+     package sales.products;
+     public class Product { }
+
+     Market.java:
+
+     1. package market;
+     2. // insert code here
+     3. public class USMarket {
+     4.     SalesMan sm;
+     5.     Product p;
+     6. }
+
+     Which code fragment, when inserted at line 2, enables the code to compile?
+
+     A) import sales.*;
+     B) import java.sales.products.*;
+     C) import sales;
+        import sales.products;
+     D) import sales.*;
+        import products.*;
+     E) import sales.*;
+        import sales.products.*;
+
+     A. Option A
+     B. Option B
+     C. Option C
+     D. Option D
+     E. Option E
+
+
      **/
 }
