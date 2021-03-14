@@ -527,5 +527,36 @@ public class ExamQuestions {
 
      ANSWER: E
 
+
+
+
+     Question #17
+     Given the following class:
+
+     public class CheckingAccount {
+        public int amount;
+        public CheckingAccount(int amount) {
+            this.amount = amount;
+        }
+        public int getAmount() {
+            return amount;
+        }
+        public void changeAmount(int x) {
+            amount += x;
+        }
+     }
+
+     And given the following main method, located in another class:
+
+     Which three lines, when inserted independently at line n1, cause the program to print a 0 balance?
+     A. this.amount = 0;
+     B. amount = 0;
+     C. acct (0) ;
+     D. acct.amount = 0;
+     E. acct. getAmount () = 0;
+     F. acct.changeAmount(0);
+     G. acct.changeAmount(-acct.amount);
+     H. acct.changeAmount(-acct.getAmount());
+
      **/
 }
