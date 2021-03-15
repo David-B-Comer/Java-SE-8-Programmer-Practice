@@ -645,5 +645,8 @@ public class ExamQuestions {
      E. Compilation fails at both line n2 and line n3.
 
 
+     ANSWER: D
+
+
      **/
 }
