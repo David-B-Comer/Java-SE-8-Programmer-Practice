@@ -790,5 +790,7 @@ public class ExamQuestions {
      E. An ArraylndexOutOfBoundsException is thrown at runtime.
 
 
+     ANSWER: A
+
      **/
 }
