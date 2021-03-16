@@ -703,5 +703,7 @@ public class ExamQuestions {
      D. Remove the default section.
 
 
+     ANSWER: A
+
      **/
 }
