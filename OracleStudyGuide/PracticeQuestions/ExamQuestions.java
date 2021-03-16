@@ -679,5 +679,29 @@ public class ExamQuestions {
      ANSWER: B
 
 
+
+
+     Question #21
+     Given the code fragment:
+
+     4.  public static void main(String[] args) {
+     5.     boolean opt = true;
+     6.     switch(opt) {
+     7.         case true:
+     8.             System.out.print("True");
+     9.             break;
+     10.        default:
+     11.            System.out.print("***");
+     12.    }
+     13.    System.out.println("Done");
+     14. }
+
+     Which modification enables the code fragment to print TrueDone?
+     A. Replace line 5 With String opt = "true"; Replace line 7 with case "true":
+     B. Replace line 5 with boolean opt = l; Replace line 7 with case 1=
+     C. At line 9, remove the break statement.
+     D. Remove the default section.
+
+
      **/
 }
