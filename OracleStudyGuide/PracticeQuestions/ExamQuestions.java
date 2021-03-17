@@ -947,5 +947,27 @@ public class ExamQuestions {
      ANSWER: C
 
 
+
+
+
+     Question #29
+     Given the code fragment:
+
+     1. public class Test {
+     2.     public static void main(String[] args) {
+     3.         // insert code here
+     4.         array[0] = 10;
+     5.         array[1] = 20;
+     6.         System.out.print(array[0] + ":" + array[1]);
+     7.     }
+     8. }
+
+     Which code fragment, when inserted at line 3, enables the code to print 10:20?
+     A. int[] array n= new int[2];
+     B. int[] array; array = int[2];
+     C. int array = new int[2];
+     D. int array [2] ;
+
+
      **/
 }
