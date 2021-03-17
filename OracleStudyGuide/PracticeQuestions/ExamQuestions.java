@@ -1183,5 +1183,9 @@ public class ExamQuestions {
      C. String str2 = sb1. toString ();
      D. String str2 = "Duke";
 
+
+     ANSWER: A
+
+
      **/
 }
