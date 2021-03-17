@@ -1036,7 +1036,7 @@ public class ExamQuestions {
         java Greeting Duke
      B) javac Greeting.java Duke
         java Greeting
-     C) java Greeting.java
+     C) javac Greeting.java
         java Greeting Duke
      D) javac Greeting.java
         java Greeting.class Duke
@@ -1045,5 +1045,9 @@ public class ExamQuestions {
      B. Option B
      C. Option C
      D. Option D
+
+
+     ANSWER: C
+
      **/
 }
