@@ -1014,5 +1014,8 @@ public class ExamQuestions {
      D. Improves the program structure because exceptions must be handled in the method in which they occurred
      E. Allows the creation of new exceptions that are tailored to the particular program being created
 
+
+     ANSWER: A, C, E
+
      **/
 }
