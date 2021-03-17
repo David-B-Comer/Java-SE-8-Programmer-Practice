@@ -1218,5 +1218,9 @@ public class ExamQuestions {
      C. 5 : 10
      D. Compilation fails
 
+
+     ANSWER: A
+
+
      **/
 }
