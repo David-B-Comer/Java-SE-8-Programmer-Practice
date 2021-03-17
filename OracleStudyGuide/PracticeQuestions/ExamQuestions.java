@@ -969,5 +969,7 @@ public class ExamQuestions {
      D. int array [2] ;
 
 
+     ANSWER: B
+
      **/
 }
