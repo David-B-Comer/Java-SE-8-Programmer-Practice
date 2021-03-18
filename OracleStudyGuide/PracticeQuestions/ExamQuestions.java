@@ -1415,6 +1415,9 @@ public class ExamQuestions {
      C. Both r and s are accessible by obj.
      D. p, r, and s are accessible by obj.
 
+
+     ANSWER: B
+
      **/
 }
 
