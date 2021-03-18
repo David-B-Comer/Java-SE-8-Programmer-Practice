@@ -1312,5 +1312,9 @@ public class ExamQuestions {
      E. Object is the root class of all other objects.
      F. A main method must be declared in every class.
 
+
+     ANSWER: B, C, E
+
+
      **/
 }
