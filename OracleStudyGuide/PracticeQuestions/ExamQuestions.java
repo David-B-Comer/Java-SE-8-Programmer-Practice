@@ -1483,6 +1483,9 @@ public class ExamQuestions {
                 myList.add("My String");
             }
         }
+        catch (RuntimeException re) {
+            System.out.println("Caught a RuntimeException");
+        }
         catch (Exception e) {
             System.out.println("Caught an Exception");
         }
@@ -1496,6 +1499,8 @@ public class ExamQuestions {
      D. Execution completes normally, and Ready to use is printed to the console.
      E. The code fails to compile because a throws keyword is required.
 
+
+     ANSWER: C
 
      **/
 }
