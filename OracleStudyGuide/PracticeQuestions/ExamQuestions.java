@@ -1464,6 +1464,9 @@ public class ExamQuestions {
      D. DerivedB DerivedA
      E. A classcast Exception is thrown at runtime.
 
+
+     ANSWER: C
+
      **/
 }
 
