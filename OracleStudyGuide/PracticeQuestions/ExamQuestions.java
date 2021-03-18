@@ -1585,6 +1585,9 @@ public class ExamQuestions {
      C. checkAge (iList, p -> p.getAge ( ) > 40);
      D. checkAge(iList, (Person p) -> { p.getAge() > 40; });
 
+
+     ANSWER: C
+
      **/
 }
 
