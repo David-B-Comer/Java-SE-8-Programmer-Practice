@@ -1294,5 +1294,7 @@ public class ExamQuestions {
      D. An exception is thrown at runtime
 
 
+     ANSWER: B
+
      **/
 }
