@@ -1316,5 +1316,27 @@ public class ExamQuestions {
      ANSWER: B, C, E
 
 
+
+
+
+     Question #41
+     Given the following code:
+
+     public static void main(String[] args) {
+        String[] planets = {"Mercury", "Venus", "Earth", "Mars"};
+
+        System.out.println(planets.length);
+        System.out.println(planets[1].length()):
+     }
+
+     What is the output?
+     A. 4
+     B. 3
+     C. 4
+     D. 5
+     E. 4
+     F. 4
+
+
      **/
 }
