@@ -1326,7 +1326,7 @@ public class ExamQuestions {
         String[] planets = {"Mercury", "Venus", "Earth", "Mars"};
 
         System.out.println(planets.length);
-        System.out.println(planets[1].length()):
+        System.out.println(planets[1].length());
      }
 
      What is the output?
@@ -1338,5 +1338,9 @@ public class ExamQuestions {
      F. 4
 
 
+     ANSWER: C, D
+
      **/
 }
+
+
