@@ -1638,6 +1638,9 @@ public class ExamQuestions {
      C. false false
      D. false true
 
+
+     ANSWER: C
+
      **/
 }
 
