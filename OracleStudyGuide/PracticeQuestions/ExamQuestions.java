@@ -2338,10 +2338,14 @@ public class ExamQuestions {
      }
 
      How many MarkList instances are created in memory at runtime?
+
      A. 1
      B. 2
      C. 3
      D. 4
+
+
+     ANSWER: A
 
      **/
 }
