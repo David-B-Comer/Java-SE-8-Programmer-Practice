@@ -2435,6 +2435,8 @@ public class ExamQuestions {
      D. A NullPointerException is thrown at runtime
 
 
+     ANSWER: A
+
      **/
 }
 
