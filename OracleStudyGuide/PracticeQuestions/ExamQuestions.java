@@ -1846,6 +1846,32 @@ public class ExamQuestions {
 
      ANSWER: C
 
+
+
+
+
+     Question #55
+     Given the code fragment:
+
+     3.  public static void main(String[] args) {
+     4.     int iVar = 100;
+     5.     float fVar = 100.100f;
+     6.     double dVar = 123;
+     7.     iVar = fVar;
+     8.     fVar = iVar;
+     9.     dVar = fVar;
+     10.    fVar = dVar;
+     11.    dVar = iVar;
+     12.    iVar = dVar;
+     13. }
+
+     Which three lines fail to compile?
+     A. Line 7
+     B. Line 8
+     C. Line 9
+     D. Line 10
+     E. Line 11
+     F. Line 12
      **/
 }
 
