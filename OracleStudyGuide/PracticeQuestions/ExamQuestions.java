@@ -1872,6 +1872,10 @@ public class ExamQuestions {
      D. Line 10
      E. Line 11
      F. Line 12
+
+
+     ANSWER: A, D, F
+
      **/
 }
 
