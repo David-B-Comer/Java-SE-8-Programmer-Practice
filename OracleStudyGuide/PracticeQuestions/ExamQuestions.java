@@ -1911,6 +1911,9 @@ public class ExamQuestions {
      D. Compilation fails
      E. An exception is thrown at runtime
 
+
+     ANSWER: C
+
      **/
 }
 
