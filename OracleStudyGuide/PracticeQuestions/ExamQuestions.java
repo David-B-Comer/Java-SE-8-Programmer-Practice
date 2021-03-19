@@ -2205,6 +2205,10 @@ public class ExamQuestions {
      E. The B.java and C.java files compile successfully.
      F. The A.Java and C.java files compile successfully.
 
+
+     ANSWER: A
+
+
      **/
 }
 
