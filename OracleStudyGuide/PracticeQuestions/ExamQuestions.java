@@ -2118,6 +2118,9 @@ public class ExamQuestions {
      D. 15, 30, 90, 60, 90
      E. 15, 4, 45, 60, 90
 
+
+     ANSWER: C
+
      **/
 }
 
