@@ -2231,6 +2231,8 @@ public class ExamQuestions {
      E. Requirement 3 CANNOT be implemented by using either the enhanced for loop or the standard for loop.
 
 
+     ANSWER: B, D
+
      **/
 }
 
