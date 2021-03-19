@@ -2406,6 +2406,9 @@ public class ExamQuestions {
      F. Integer x = new Integer ("1");
 
 
+     ANSWER: A, B, F
+
+
      **/
 }
 
