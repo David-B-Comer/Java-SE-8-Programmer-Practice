@@ -2512,6 +2512,10 @@ public class ExamQuestions {
      C. myStr: 7007, myNum: 9009
      D. Compilation fails
 
+
+     ANSWER: C
+
+
      **/
 }
 
