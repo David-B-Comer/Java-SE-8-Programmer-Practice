@@ -2555,6 +2555,8 @@ public class ExamQuestions {
      D. An ArrayoutofBoundsException is thrown at runtime.
 
 
+     ANSWER: A
+
      **/
 }
 
