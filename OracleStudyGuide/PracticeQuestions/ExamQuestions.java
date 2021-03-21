@@ -2530,6 +2530,7 @@ public class ExamQuestions {
      E. Code that is protected from extension by other classes
 
 
+     ANSWER: C, D
      **/
 }
 
