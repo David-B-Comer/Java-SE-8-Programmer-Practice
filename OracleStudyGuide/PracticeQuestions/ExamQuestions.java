@@ -2631,6 +2631,9 @@ public class ExamQuestions {
      E. manager.stockOption = 500;
      F. director.stockOptions = 1_000;
 
+
+     ANSWER: C, E
+
      **/
 }
 
