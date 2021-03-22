@@ -2557,6 +2557,40 @@ public class ExamQuestions {
 
      ANSWER: A
 
+
+
+
+
+
+
+     Question #76
+     Given:
+
+     public class Product {
+        int id;
+        String name;
+        public Product(int id, String name) {
+            this.is = id;
+            this.name = name;
+        }
+     }
+
+     And given the code fragment:
+
+     4. Product p1 = new Product(101, "Pen");
+     5. Product p2 = new Product(101, "Pen");
+     6. Product p3 = p1;
+     7. boolean ans1 = p1 == p2;
+     8. boolean ans2 = p1.name.equals(p2.name);
+     9.System.out.print(ans1 + ":" + ans2);
+
+     What is the result?
+
+     A. true:true
+     B. true:false
+     C. false:true
+     D. false:false
+
      **/
 }
 
