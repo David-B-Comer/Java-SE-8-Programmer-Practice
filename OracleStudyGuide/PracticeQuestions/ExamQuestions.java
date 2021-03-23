@@ -2737,6 +2737,9 @@ public class ExamQuestions {
      C. Initialized Started
      D. Compilation fails.
 
+
+     ANSWER: D
+
      **/
 }
 
