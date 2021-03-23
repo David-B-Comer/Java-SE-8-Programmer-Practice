@@ -2634,6 +2634,48 @@ public class ExamQuestions {
 
      ANSWER: C, E
 
+
+
+
+
+
+     Question #78
+     Which one of the following code examples uses valid Java syntax?
+
+     A.
+     public class Boat {
+
+        public static main (String [] args) {
+            System.out.println("I float.");
+        }
+     }
+
+     B.
+     public class Cake {
+        public static void main(String[]) {
+            System.out.println("Chocolate");
+        }
+     }
+
+     C.
+     public class Dog {
+        public void main (String [] args) {
+            System.out.println("Squirrel.");
+        }
+     }
+
+     D.
+     public class Bank {
+        public static void main(String() args) {
+            System.out.println("Earn interest.");
+        }
+     }
+
+     A. Option A
+     B. Option B
+     C. Option C
+     D. Option D
+
      **/
 }
 
