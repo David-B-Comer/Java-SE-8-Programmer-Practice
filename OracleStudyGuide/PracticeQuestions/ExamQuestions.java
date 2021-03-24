@@ -2919,6 +2919,9 @@ public class ExamQuestions {
      D. true true
      E. A ClassCastException is thrown at runtime.
 
+
+     ANSWER: B
+
      **/
 }
 
