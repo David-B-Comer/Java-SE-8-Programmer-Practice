@@ -2867,6 +2867,29 @@ public class ExamQuestions {
 
      ANSWER: C
 
+
+
+
+
+
+     Question #85
+     Given:
+
+     public class MyClass {
+        public static void main(String[] args) {
+            String s = "Java Duke";
+            int len = s.trim().length();
+            System.out.print(len);
+        }
+     }
+
+     What is the result?
+     A. Compilation fails.
+     B. 11
+     C. 8
+     D. 9
+     E. 10
+
      **/
 }
 
