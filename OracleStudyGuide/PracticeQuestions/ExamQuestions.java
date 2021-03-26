@@ -3065,6 +3065,9 @@ public class ExamQuestions {
      C. Its case label literals can be changed at runtime.
      D. Its expression must evaluate to a single value.
 
+
+     ANSWER: D
+
      **/
 }
 
