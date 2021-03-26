@@ -3048,6 +3048,10 @@ public class ExamQuestions {
      C. int f = ps.indexOf (new Patient "Mike") );
      D. Patient p = new Patient ("Mike");
 
+
+
+     ANSWER: A
+
      **/
 }
 
