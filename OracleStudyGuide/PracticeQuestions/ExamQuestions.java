@@ -3007,6 +3007,9 @@ public class ExamQuestions {
      C. res = stuff.equals ("TV") ? stuff.equals ("Movie")? "Walter" : "White" : "No Result";
      D. res = stuff.equals ("TV")? "Walter" : stuff.equals ("Movie")? "White" : "No Result";
 
+
+     ANSWER: D
+
      **/
 }
 
