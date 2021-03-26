@@ -2964,6 +2964,8 @@ public class ExamQuestions {
      D. Replace line n1 with: import p1.*; Replace line n2 with:
 
 
+     ANSWER: A
+
      **/
 }
 
