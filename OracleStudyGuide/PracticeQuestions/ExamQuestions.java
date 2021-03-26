@@ -2978,6 +2978,9 @@ public class ExamQuestions {
      C. sb. delete (0, sb. length () );
      D. sb. removeAll ();
 
+
+     ANSWER: C
+
      **/
 }
 
