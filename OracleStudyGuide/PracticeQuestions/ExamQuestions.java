@@ -3135,7 +3135,7 @@ public class ExamQuestions {
 
      public static void main(String[] args) {
         String names[] = ("Thomas", "Peter", "Joseph");
-        String pws[] = new String[3];
+        String pwd[] = new String[3];
         int idx = 0;
 
         try {
@@ -3157,6 +3157,9 @@ public class ExamQuestions {
      B. Invalid Name omas
      C. Invalid Name omas null null
      D. omas ter
+
+
+     ANSWER: B
 
      **/
 }
