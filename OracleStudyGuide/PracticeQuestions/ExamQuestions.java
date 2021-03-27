@@ -3123,6 +3123,9 @@ public class ExamQuestions {
      D. Replace line n1 with: this ("Canine", 60); this.bounds = bounds
      E. Replace line n2 with: super (type, maxSpeed); this.bounds = bounds;
 
+
+     ANSWER: A, E
+
      **/
 }
 
