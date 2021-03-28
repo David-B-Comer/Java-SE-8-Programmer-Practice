@@ -3212,6 +3212,9 @@ public class ExamQuestions {
      D. Compilation fails in the Test class.
      E. Both the Employee class and the test class fail to compile.
 
+
+     ANSWER: E
+
      **/
 }
 
