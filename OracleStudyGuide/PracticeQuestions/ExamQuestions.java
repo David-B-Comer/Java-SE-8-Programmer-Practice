@@ -3255,6 +3255,9 @@ public class ExamQuestions {
      C. Replace line n1 with: import p1. A; Replace line n2 with: import p1. A; import p1. p2.B ;
      D. Replace line n1 with: import p1; Replace line n2 with: import p1;
 
+
+     ANSWER: C
+
      **/
 }
 
