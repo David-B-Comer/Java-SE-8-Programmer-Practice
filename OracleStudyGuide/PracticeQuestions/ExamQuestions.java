@@ -3258,6 +3258,48 @@ public class ExamQuestions {
 
      ANSWER: C
 
+
+
+
+
+
+     Question #96
+     Given:
+
+     class A {
+        public void test() {
+            System.out.println("A");
+        }
+     }
+     class B extends A {
+        public void test() {
+            System.out.println("C");
+        }
+     }
+     public class C extends A {
+        public void test() {
+            System.out.println("C");
+        }
+        public static void main(String[] args){
+            A b1 = new A();
+            A b2 = new C();
+            b1 = (A) b2;
+            A b3 = (B) b2;      // line n1
+            A b3 = (B) b2;      // line n2
+            b1.test();
+            b3.test();
+        }
+     }
+
+
+     What is the result?
+
+     A. A B
+     B. A C
+     C. C C
+     D. A ClassCastException is thrown only at line n1.
+     E. A ClassCastException is thrown only at line n2.
+
      **/
 }
 
