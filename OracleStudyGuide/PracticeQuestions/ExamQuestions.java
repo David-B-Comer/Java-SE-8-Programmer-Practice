@@ -3300,6 +3300,10 @@ public class ExamQuestions {
      D. A ClassCastException is thrown only at line n1.
      E. A ClassCastException is thrown only at line n2.
 
+
+
+     ANSWER: E
+
      **/
 }
 
