@@ -3415,6 +3415,19 @@ public class ExamQuestions {
 
      ANSWER: C
 
+
+
+
+     Question #100
+     Which three statements are true about the structure of a Java class?
+
+     A. A public class must have a main method.
+     B. A class can have only one private constructor.
+     C. A method can have the same name as a field.
+     D. A class can have overloaded static methods.
+     E. The methods are mandatory components of a class.
+     F. The fields need not be initialized before use.
+
      **/
 }
 
