@@ -3428,6 +3428,9 @@ public class ExamQuestions {
      E. The methods are mandatory components of a class.
      F. The fields need not be initialized before use.
 
+
+     ANSWER: C, D, F
+
      **/
 }
 
