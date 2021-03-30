@@ -3339,6 +3339,9 @@ public class ExamQuestions {
      C. integer sum is 30 double sum is 30.0
      D. integer sum is 30
 
+
+     ANSWER: B
+
      **/
 }
 
