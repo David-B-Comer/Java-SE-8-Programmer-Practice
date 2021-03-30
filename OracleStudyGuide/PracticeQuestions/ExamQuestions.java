@@ -3412,6 +3412,9 @@ public class ExamQuestions {
      C. static int findMax (int [] numbers)
      D. final int findMax (int [] )
 
+
+     ANSWER: C
+
      **/
 }
 
